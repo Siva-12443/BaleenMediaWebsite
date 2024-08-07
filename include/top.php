@@ -87,6 +87,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Color CSS -->
     <link href="assets/css/colors/color.css" rel="stylesheet">
+	<link href="assets/css/index.css" rel="stylesheet">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -247,9 +248,9 @@
     <!-- Navbar -->
 	<div class="container">
 		<div class="row" style="height:auto">
-			<div class="col-md-8">
+			<div class="col-md-8 ">
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 ">
 				<ul class="list-inline" style="text-align:center;padding-top:12px;font-size:15px;">
 					<li class="list-inline-item">
 						<a class="facebook social-icon" href="https://www.facebook.com/baleenmediaa/?ref=br_rs" title="Facebook" target="_blank"><i class=" fa-lg fa fa-facebook"></i></a>
@@ -277,8 +278,8 @@
 			</div>
 		</div>
 	</div>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container ">
             <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
             </button>
@@ -286,7 +287,7 @@
                 <ul id="menu-primary" class="navbar-nav ml-auto">
                     <!-- Dropdown -->
                     <li class="menu-item">
-                        <a class="nav-link" href="https://www.baleenmedia.com">Home</a>                        
+                        <a class="nav-link " href="https://www.baleenmedia.com">Home</a>                        
                     </li>
                     <li class="menu-item ">
                         <a href="about.php" class="nav-link">About Us</a>

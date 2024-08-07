@@ -68,32 +68,31 @@ include('include/top.php');
  <!--           </a>-->
  <!--       </div>-->
          <!-- </div> 
- <!--    </div> -->-->
+     </div> -->
  <!--   </section>  -->
     <!-- /.banner -->
  <!--   <div class="empty-space" style="height: 110px"></div>-->
     <!-- /.empty-soace -->
     <!-- about-section -->
-    <section class="about-section">
-        <div class="container">
+    <section class="about-section rounded-5 border p-5 ">
+        <div class="container ">
             <div class="row">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12 ">
                     <div class="about-border">
                     <img class="img-fluid" src="assets/images/AboutMain.jpg" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-sm-12">
-                    <div class="about-content">
-                        <div class="wpb_wrapper">
-                            <h1 style="font-size: 25px;"><B> Advertising Company in Chennai - About Baleen Media </B></h1>
-                            <p class="justify" style="font-size: 15px; margin-bottom: 25px; margin-top: -10px;">
-                            Baleen media is a well-known advertising agency in Chennai that provides services like News paper Advertising, Radio Advertising, Television Advertising, Bus/Auto Advertising, Mobile Van Advertising, No Parking Board Advertising, Lamp Post Advertising & Local Cable TV Advertising. Backed up by the team with 20+ years of experience in the advertising industry. Baleen Media is known for its quality & commitment through a systematic and professional approach.
-Baleen Media is one of the <strong> Best advertising Companies in Chennai </strong>. Client-Requirement understanding is its strength. Baleen media renders its services all over India for Above The Line (ATL) Activities. Similalry, for Below The Line (BTL) activities, it renders its services in Chennai & various cities & Towns of Tamilnadu.</p> 
+                    <div class="about-content ">
+                        <div class="wpb_wrapper p-4 border rounded-lg  bg-light  " style="box-shadow: ">
+                            <h1 class="text-uppercase " style="font-size: 23px;"><B> Best advertising agency in chennai </B></h1>
+                            <p class="justify" style="font-size: 15px; margin-bottom: 25px; margin-top: 10px;">
+                            Baleen Media, a leading advertising agency in Chennai, offers diverse services including newspaper, radio, television, bus/auto, mobile van, no parking board, lamp post, and local cable TV advertising. With over 20 years of industry experience, Baleen Media is renowned for its quality and professional approach. Serving clients nationwide for Above The Line (ATL) activities and providing Below The Line (BTL) services across Chennai and Tamil Nadu, Baleen Media is celebrated for its client-focused solutions.</p> 
                             <!-- Baleen Media is a Advertising Agency in Chennai that provides services like Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions. With more than 16 years of experience in the advertising industry, Baleen Media is known for creating bigger values and top-notch customer satisfaction through innovative ideas.  -->
 <!-- By providing its customers high quality services, Baleen Media is one of the best Ad Agencies in Chennai. Reaching the right audience, understanding customers’ needs and yielding high returns for every single penny paid, we provide services all over India.</p> -->
                                 <!-- Baleen Media is driven by 16+ years of valuable experience in Advertising Industry where the Focus being Top-class Customer Satisfaction & creating bigger values to them through Innovative ideas. Baleen Media began its Show on Jan'15 with an objective to provide High-quality Service with a great passion of Living the words what with committed to its Customers. Its Team possesses highly skilled professionals with a great Attitude on understanding Customer Needs and providing the best consulting service to reach their right target-audience. Baleen Media most values its Client's each single Money and promises the best to yield great returns for it.Baleen Media extends its Service across all India Locations.                             -->
                             <div class="ConsultYou-btn ">
-                                <a href="about.php" style="font-size: 20px;">Readmore</a>
+                                <a href="about.php" style="font-size: 20px; ">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +176,7 @@ Baleen Media is one of the <strong> Best advertising Companies in Chennai </stro
     <div class="empty-space" style="height: 50px"></div>
     <!-- /.empty-soace -->
     <!-- service -->
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="service-item">

@@ -246,7 +246,7 @@
         </div>
     </div>
     <!-- Navbar -->
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row" style="height:auto">
 			<div class="col-md-8 ">
 			</div>
@@ -254,12 +254,12 @@
 				<ul class="list-inline" style="text-align:center;padding-top:12px;font-size:15px;">
 					<li class="list-inline-item">
 						<a class="facebook social-icon" href="https://www.facebook.com/baleenmediaa/?ref=br_rs" title="Facebook" target="_blank"><i class=" fa-lg fa fa-facebook"></i></a>
-					</li>
+					</li> -->
 					<!-- <li class="list-inline-item">
 						<a class="twitter social-icon" href="https://twitter.com/" title="Twitter" target="_blank"><i class=" fa-lg fa fa-twitter"></i>
 						</a>
 					</li> -->
-					<li class="list-inline-item">
+					<!-- <li class="list-inline-item">
 						<a class="Youtube social-icon" href="https://www.youtube.com/channel/UCxlf0FlA1FvxPNaL08dCivA" title="Youtube" target="_blank"><i class=" fa-lg fa fa-youtube"></i>
 						</a>
 					</li> 
@@ -277,10 +277,10 @@
 				<h4 style="text-align:center;padding-top:12px;font-size:20px;"><i class=" fa fa-phone fa-spin-hover"></i> 95660 31113</h4>			
 			</div>
 		</div>
-	</div>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container ">
-            <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
+	</div> -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 ">
+	<div class="container ">
+    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
             </button>
             <div id="bs4navbar" class="collapse navbar-collapse">
@@ -318,5 +318,5 @@
                     </li>
                 </ul>
             </div>
-        </div>
+            </div>
     </nav>

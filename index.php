@@ -4,26 +4,29 @@ include('include/top.php');
 <style>
         .about-section_top  {
             background-image:url("assets/images/baleen-bg.jpg" );
-            background-repeat: no-repeat;
+            
             background-size:cover;
             box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.15);
             margin-bottom: 20px;
-            padding:250px 1px
+            padding:300px 0px
         }
         .about-section_top h1 {
-            font-size: 35px;
-            text-align:left;
+            font-family: 'BathYork';
+            font-size: 70px;
+            text-align:right;
+            border-bottom:1px solid gray;
         }
         .about-section_top p {
-            font-size: 18px;
+            font-size: 20px;
             text-align:left;
+            color:#f5f5a8;
         }
 
         .about-section {
             padding-top:20px;
             background-color: #f8f9fa;
-            background-image:url("assets/images/" );
-            background-repeat: no-repeat;
+            background-image:url("");
+            
             background-size:cover;
             background-position:bottom;
             box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.15);
@@ -131,15 +134,15 @@ include('include/top.php');
  <!--   <div class="empty-space" style="height: 110px"></div>-->
     <!-- /.empty-soace -->
     <!-- about-section -->
-    <section class="about-section_top" >
+    <section class="about-section_top img-fluid " >
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-sm-12 mx-auto"> 
                    <div class="about-content_top text-center">
                         <div class="wpb_wrapper_top">
-                            <h1>Massive Advertising At <strong>Minimal</strong> cost</h1>
+                            <h1>Massive Advertising At Minimal cost</h1>
                             <p>
-                                Finally, You have reached chennai's best advertis agency.
+                                Finally, You Have Reached Chennai's Best Advertising Agency.
                             </p>
                             <!-- <div class="ConsultYou-btn">
                                 <a href="about.php">Read More</a>
@@ -155,13 +158,14 @@ include('include/top.php');
 
 
 
-    <section class="about-section" >
-        <div class="container">
+    <section class="about-section " >
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 col-sm-12 mx-auto">
+                <div class="row-lg-8 row-sm-12 mx-auto ">
+                <img src="assets/images/winning.jpg" class="rounded mx-auto d-block float-left" alt="intro">
+                    <div class="about-content text-center ">
                     
-                    <div class="about-content text-center">
-                        <div class="wpb_wrapper">
+                        <div class="wpb_wrapper ">
                             <h1>Advertising Company in Chennai - About Baleen Media</h1>
                             <p>
                                 Baleen media is a well-known advertising agency in Chennai that provides services like News paper Advertising, Radio Advertising, Television Advertising, Bus/Auto Advertising, Mobile Van Advertising, No Parking Board Advertising, Lamp Post Advertising & Local Cable TV Advertising. Backed up by the team with 20+ years of experience in the advertising industry. Baleen Media is known for its quality & commitment through a systematic and professional approach. Baleen Media is one of the Best advertising Companies in Chennai. Client-Requirement understanding is its strength. Baleen media renders its services all over India for Above The Line (ATL) Activities. Similarly, for Below The Line (BTL) activities, it renders its services in Chennai & various cities & Towns of Tamilnadu.

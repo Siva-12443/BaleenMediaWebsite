@@ -217,6 +217,16 @@
 		.slick-arrow.slick-hidden {
 			display: none;
 		}
+		.baleen-logo h1 {
+			font-family: GlovinTribe;
+			font-size: 40px;
+			color: #e06099;
+		}
+		.baleen-logo span{
+			
+			font-size: 40px;
+			color: #0097d0;
+		}
 	</style>
 	<style>
 		.fa-spin-hover:hover {			   
@@ -228,6 +238,25 @@
 			text-align: justify;	
 		}		
 	</style>
+	<style>
+	@font-face {
+            font-family: 'GlovinTribe';
+            src: url('assets/fonts/GlovinTribe-BLqnG.otf') format('opentype'),
+                 url('assets/fonts/HollyGrooveThree-MAOmn.ttf') format('truetype'),
+				 url('assets/fonts/Boomamoritaregular-YqAW4.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+			
+        }
+		@font-face {
+			font-family: 'BathYork';
+			src: url('assets/fonts/BathYork-1j9qj.otf') format('opentype');
+			font-weight: normal;
+            font-style: normal;
+		}
+		
+</style>
 
 
 </head>
@@ -278,11 +307,14 @@
 			</div>
 		</div>
 	</div> -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 ">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 rounded-0">
 	<div class="container ">
-    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
+    <!-- <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
+			<div class="baleen-logo ">
+				<h1 style=" ">Baleen <span>Media</span></h1>
+			</div>
             <div id="bs4navbar" class="collapse navbar-collapse">
                 <ul id="menu-primary" class="navbar-nav ml-auto">
                     <!-- Dropdown -->

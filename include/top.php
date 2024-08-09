@@ -307,14 +307,14 @@
 			</div>
 		</div>
 	</div> -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 rounded-0">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 p-2  rounded-0 sticky-top ">
 	<div class="container ">
-    <!-- <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
+    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo white.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
-            </button> -->
-			<div class="baleen-logo ">
+            </button>
+			<!-- <div class="baleen-logo ">
 				<h1 style=" ">Baleen <span>Media</span></h1>
-			</div>
+			</div> -->
             <div id="bs4navbar" class="collapse navbar-collapse">
                 <ul id="menu-primary" class="navbar-nav ml-auto">
                     <!-- Dropdown -->
@@ -327,15 +327,15 @@
                     <!-- Dropdown -->
                     <li class="menu-item dropdown">                         
 						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu">
-                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item">Newspaper and Magazine Ad</a>
-							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item">Paper Insert</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item">Bus Back Ad</a>
-							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item">NoParking Board</a>							
-							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item">Television Ad</a>
-							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item">Radio Ad</a>							
-							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item">Theatre Ad</a>							
-							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item">Auto Back Ads</a>							
+                        <div class="dropdown-menu bg-secondary  ">
+                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Newspaper and Magazine Ad</a>
+							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Paper Insert</a>
+                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Bus Back Ad</a>
+							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item text-light">NoParking Board</a>							
+							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Television Ad</a>
+							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Radio Ad</a>							
+							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Theatre Ad</a>							
+							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Auto Back Ads</a>							
                         </div>
                     </li>
                     <!-- Dropdown -->

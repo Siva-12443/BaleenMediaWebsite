@@ -6,39 +6,41 @@ include('include/top.php');
         margin-right:0px;
         
     } */
-        .about-section_top{
+       .about-section_top{
             background-image:url("assets/images/baleen-bg.jpg" );
             background-position: top;
             background-attachment: fixed;
             background-size:cover;
             /* box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.15); */
             /* margin-bottom: 20px; */
-            padding:150px 0px;
-            display:flex;
-            justify-content:right;
-            border:10px black;
+            padding-top:200px;
+            border:0px;
+            text-align:center;
+           
         }
         .about-section_top h1 {
-            
+            font-family: serif;
             font-size: 40px;
-            text-align:right;
-            border-bottom:1px solid gray;
-            text-wrap:wrap;
-           
+            /* text-align:right; */
+            border-bottom:.2px solid black;
+            /* text-wrap:wrap; */
+            float:right;
         }
         .about-section_top p {
             font-size: 20px;
-            text-align:center;
+            /* text-align:left; */
             color:#ffff;
+            padding-bottom:200px;
+            float:right;
         }
 /* --------------------------- */
 
         @media only screen and (max-width: 450px){
             .about-section_top h1 {
-            
+                font-family: serif;
             font-size: 30px;
             text-align:right;
-            border-bottom:1px solid gray;
+            
         }
         .about-section_top p {
             font-size:13px;
@@ -47,18 +49,15 @@ include('include/top.php');
         }
         .about-section_about{
             /* background-image:url("assets/images/baleen-bg.jpg" ); */
-            position:relative;
-            background-attachment: fixed;
-            background-position: bottom;
-            background-size:cover;
+          
             padding:50px 0px;
-            box-shadow: 0px 0px 5px black;
+            /* box-shadow: 0px 0px 5px black; */
             
-            background-image: linear-gradient(#f6efdd,#869a9f,#85a8aa,#063b57);
+            background-image: linear-gradient(#fff,#f6efdd,#063b57); /*,#869a9f,#85a8aa*/
            
         }
         .about-section_about h1 {
-            
+            font-family: serif;
             font-size: 30px;
             text-align:left;
             border-bottom:1px solid gray;
@@ -67,38 +66,46 @@ include('include/top.php');
         
             font-size: 13px;
             text-align:left;
-            color:#fff;
+            color:gray;
         }
     }
 /* -------------------------------------------------------- */
         .about-section_about,.WhatWeDo {
-            /* background-image:url("assets/images/baleen-bg.jpg" ); */
-            position:relative;
-            background-attachment: fixed;
-            background-position: bottom;
-            background-size:cover;
+          
+           
+            /* background-attachment: fixed; */
+            
+           
             padding:50px 0px;
-            box-shadow: 0px 0px 15px #4d4c4c7a;
-            background-image: linear-gradient(#f6efdd,#869a9f,#85a8aa,#063b57);
+            /* box-shadow: 0px 0px 5px #4d4c4c7a; */
+            background-image: linear-gradient(  white, #f6efdd,#063b57);
+           
+        }
+        .wave{
+            /* rotate: y -180deg; */
+            
+        }
+        .wave2{
+            rotate: 180deg; 
            
         }
 
         .about-section_about h1 {
             
-          
+            font-family: serif;
             text-align:left;
             border-bottom:1px solid gray;
         }
         .about-section_about p {
         
-            
+            font-family: poppins;
             text-align:left;
-            color:#fff;
+            color:gray;
         }
 
         .about-section {
             padding-top:20px;
-            background-color: #f8f9fa;
+            
             background-image:url("");
             
             background-size:cover;
@@ -133,6 +140,18 @@ include('include/top.php');
             font-weight: 700;
             text-decoration: none;
         }
+        .service-item {
+            background-color:#F5F5F5;
+            /* background-image: linear-gradient(to top, #fff,#f6efdd,#063b57); */
+            border-radius:30px;
+            box-shadow:0px 0px 10px gray;
+        }
+        .service-item .service-icon a {
+            background-color: gray;
+            margin-bottom:10px;
+            box-shadow:0px 0px 3px gray;
+        } 
+        
      
     </style>
  <!--<section class="parallax-banner" data-parallax="" data-image-src="">-->
@@ -208,136 +227,65 @@ include('include/top.php');
  <!--   <div class="empty-space" style="height: 110px"></div>-->
     <!-- /.empty-soace -->
     <!-- about-section -->
-    <section class="about-section_top img-fluid " >
-        <div class="container">
-            <div class="row float-right">
-                <div class="col-lg-12 col-sm-12 mx-auto"> 
-                   <div class="about-content_top ">
-                        <div class="">
+    <section class="about-section_top  " >
+        <div class=" container">
+            <div class="row ">
+                <div class="col-md-12   col-sm-12 "> 
+                   <div class="about-content_top pb-5 ">
+                       
                             <h1>Massive Advertising At <strong>Minimal</strong> cost</h1>
                             <p>
                                 Finally, You Have Reached Chennai's Best Advertising Agency.
                             </p>
-                            <!-- <div class="ConsultYou-btn">
-                                <a href="about.php">Read More</a>
-                            </div> -->
-                        </div>
+                        
                     </div>
                 </div>
+                
             </div>
-        </div>  
+        </div> 
+        <img src="assets/images/wave1.png" class="img-fluid "> 
+
     </section>
     
-    <section class="about-section_about img-fluid " >
+    <section class="about-section_about py-0" >
+    
         <div class="container ">
             <div class="row">
-                <div class="col-lg-12 col-sm-12 mx-auto "> 
-                   <div class="about-content_top text-center float-left">
-                        <div class="wpb_wrapper_top">
+                <div class="col-md-6  col-sm-4  "> 
+                   <div class="about-content_about text-center ">
+                        <div class="wpb_wrapper_top pt-5">
                             <h1>Advertising Company in Chennai - About Baleen Media</h1>
                             <p>
                                 Baleen media is a well-known advertising agency in Chennai that provides services like News paper Advertising, Radio Advertising, Television Advertising, Bus/Auto Advertising, Mobile Van Advertising, No Parking Board Advertising, Lamp Post Advertising & Local Cable TV Advertising. Backed up by the team with 20+ years of experience in the advertising industry. Baleen Media is known for its quality & commitment through a systematic and professional approach. Baleen Media is one of the Best advertising Companies in Chennai. Client-Requirement understanding is its strength. Baleen media renders its services all over India for Above The Line (ATL) Activities. Similarly, for Below The Line (BTL) activities, it renders its services in Chennai & various cities & Towns of Tamilnadu.
                             </p>
-                            <div class="ConsultYou-btn">
+                            <div class="ConsultYou-btn pt-5 pb-5">
                                 <a href="about.php">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-sm-6 text-right  ">
+                            <img src="assets/images/home2.png" class="img-fluid ">
+                        </div>  
             </div>
         </div>
+        <img src="assets/images/wave1.png" class="img-fluid ">  
     </section>
 
 
+ 
 
-
-
-    <!-- <section class="about-section " >
-        <div class="container-fluid">
-            <div class="row">
-                <div class="row-lg-8 row-sm-12 mx-auto ">
-                <img src="assets/images/winning.jpg" class="rounded mx-auto d-block float-left" alt="intro">
-                    <div class="about-content text-center  ">
-                    
-                        <div class="wpb_wrapper ">
-                            <h1>Advertising Company in Chennai - About Baleen Media</h1>
-                            <p>
-                                Baleen media is a well-known advertising agency in Chennai that provides services like News paper Advertising, Radio Advertising, Television Advertising, Bus/Auto Advertising, Mobile Van Advertising, No Parking Board Advertising, Lamp Post Advertising & Local Cable TV Advertising. Backed up by the team with 20+ years of experience in the advertising industry. Baleen Media is known for its quality & commitment through a systematic and professional approach. Baleen Media is one of the Best advertising Companies in Chennai. Client-Requirement understanding is its strength. Baleen media renders its services all over India for Above The Line (ATL) Activities. Similarly, for Below The Line (BTL) activities, it renders its services in Chennai & various cities & Towns of Tamilnadu.
-                            </p>
-                            <div class="ConsultYou-btn">
-                                <a href="about.php">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /.about-section -->
-    <!--<div class="empty-space" style="height: 130px"></div>-->
-    <!-- /.empty-soace -->
-
-    <!-- <section>
-        <div class="container">
-            <div class="contact-info">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <ul class="contact-info-bg">
-                            <li class="contact-info-item">
-                                <div class="contact-info-icon">
-                                    <i class="fa fa-map-marker"></i>
-                                </div>
-                                <div class="contact-info-text">
-									<p><b>OFFICE ADDRESS</b></p>
-                                    <p>No.53 and 54, Ground Floor, Mosque Street,</p>
-                                    <p>West Saidapet, Chennai-15, India. </p>
-									<p>Mon - Sat</p>
-                                    <p>9.30am - 6.30pm</p>
-                                </div>
-                            </li>
-							<li class="contact-info-item"> 
-                                <div class="contact-info-icon">
-                                    <i class="fa fa-map-marker"></i>
-                                </div>
-                                <div class="contact-info-text">
-									<p><b>Branch Office</b></p>
-                                    <p>No: 5,Bharathi Street,</p>
-                                    <p>Radha Nagar,</p>
-                                    <p>Chromepet, Chennai-44</p>
-									<p>Mon - Sat</p>
-                                    <p>10.00am - 6.00pm</p>
-                                </div>
-                            </li>                          
-                            <li class="contact-info-item">
-                                <div class="contact-info-icon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <div class="contact-info-text">
-                                    <p>Call Us</p>
-                                    <p>
-                                        <a href="tel: 9566031113">
-                                           +91 95660  31113</a>
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->   
-    <!-- <div class="empty-space" style="height: 120px"></div> -->
 
  
-<!-- <div class="empty-space" style="height: 100px"></div> -->
     <!-- /.empty-soace -->
     <!-- section title starts -->
-     <section class="WhatWeDo ">
+     <section class="WhatWeDo py-0 ">
+      
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title">
-                    <div class="title ">
+                    <div class="title pt-5">
                         <h2 style="font-size: 40px;"><B>WHAT WE DO </B></h2>
                     </div>                    
                 </div>
@@ -352,7 +300,7 @@ include('include/top.php');
     <!-- service -->
     <div class="container  ">
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="newspaper-advertisement-agency-in-chennai.php">
@@ -362,18 +310,16 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="newspaper-advertisement-agency-in-chennai.php">
                         <h4>News Paper and Magazine Ads </h4>
-                        <p style="font-size: 15px;color:white;"> Print media is one of the powerful ways to reach an audience. </p>
+                        <p style="font-size: 15px;color:gray;"> Print media is one of the powerful ways to reach an audience. </p>
                         </a>
-                        <!-- <div class="ConsultYou-btn"> -->
-                                 <!-- <a class="border-btn" href="rfq.php">Call Back</a> 
-                             </div>-->  
+                        
                             <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
                         </a>                                                                       
                     </div>
 
                 </div>
             </div>
-             <div class="col-lg-3 col-sm-6">
+             <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="tv-advertisement-agency-in-chennai.php">
@@ -383,7 +329,7 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="tv-advertisement-agency-in-chennai.php">
                             <h4> Television Ads </h4>
-                            <p style="font-size: 13px;color:white;">Creates a remarkable impact within the audience with 
+                            <p style="font-size: 13.5px;color:gray; ">Creates a remarkable impact within the audience with 
                             the help of creative videos & Graphics. </p>
                         </a>
                         <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
@@ -391,7 +337,7 @@ include('include/top.php');
                      </div>                    
                 </div>
             </div>  
-              <div class="col-lg-3 col-sm-6">
+              <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="radio-advertisement-agency-in-chennai.php">
@@ -401,7 +347,7 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="radio-advertisement-agency-in-chennai.php">
                             <h4>Radio Ads </h4>
-                            <p style="font-size: 14px;color:white;">Attracts a good amount of reach through expressive 
+                            <p style="font-size: 14px;color:gray;">Attracts a good amount of reach through expressive 
                             voice – jingles at exact time.
                             
                             </p>
@@ -411,7 +357,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>           
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="paperinsert-advertisement-agency-in-chennai.php">
@@ -421,7 +367,7 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="paperinsert-advertisement-agency-in-chennai.php">
                         <h4>Paper Inserts</h4>
-                        <p style="font-size: 16px;color:white;">This action catches an instant 
+                        <p style="font-size: 16px;color:gray;">This action catches an instant 
                         attention of newspaper readers.
                         
                         </p>
@@ -431,7 +377,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="bus-advertisement-agency-in-chennai.php">
@@ -441,7 +387,7 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="bus-advertisement-agency-in-chennai.php">
                             <h4> Bus Back Panel Ads</h4>
-                            <p style="font-size: 15px;color:white;" >It is a dominating 
+                            <p style="font-size: 15px;color:gray;" >It is a dominating 
                             Media display.
                             
                             </p>
@@ -451,7 +397,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="auto-advertisement-agency-in-chennai.php">
@@ -461,7 +407,7 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="bus-advertisement-agency-in-chennai.php">
                             <h4> Auto Back Panel Ads</h4>
-                            <p style="font-size: 15px;color:white;" >It is a dominating 
+                            <p style="font-size: 15px;color:gray;" >It is a dominating 
                             Media display.
                             
                             </p>
@@ -471,7 +417,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>
-            <!-- <div class="col-lg-3 col-sm-6">
+            <!-- <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="lamppost.php">
@@ -486,7 +432,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div> -->
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="noparking-advertisement-agency-in-chennai.php">
@@ -496,14 +442,14 @@ include('include/top.php');
                     <div class="service-item-content  ">
                         <a href="noparking-advertisement-agency-in-chennai.php">
                         <h4>No Parking Board</h4>
-                        <p style="font-size: 15px;color:white;">An effective way to target the local audience & register.</p>
+                        <p style="font-size: 15px;color:gray;">An effective way to target the local audience & register.</p>
                         </a>  
                         <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
                         </a>                        
                     </div>                    
                 </div>
             </div>    
-            <!--  <div class="col-lg-3 col-sm-6">-->
+            <!--  <div class="col-md-3 mb-4">-->
             <!--    <div class="service-item">-->
             <!--        <div class="service-icon">-->
             <!--            <a href="digitalmarketing-advertisement-agency-in-chennai.php">-->
@@ -521,7 +467,7 @@ include('include/top.php');
             <!--    </div>-->
             <!--</div>                      -->
                  
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="theatre-advertisement-agency-in-chennai.php">
@@ -531,7 +477,7 @@ include('include/top.php');
                     <div class="service-item-content ">
                         <a href="theatre-advertisement-agency-in-chennai.php">
                             <h4>Cinema Theatres Ads </h4>
-                            <p style="font-size: 15px; color:white;">To play an impressive ad role through visual content.</p>
+                            <p style="font-size: 15px; color:gray;">To play an impressive ad role through visual content.</p>
                         </a>
                         <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
                         </a>                         
@@ -539,17 +485,18 @@ include('include/top.php');
                 </div>
             </div> 
             
-            <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
+            <div class="col-md-3 mb-4">
+                <div class="service-item ">
                     <div class="service-icon">
                         <a href="noparking-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-ban fa-spin-hover"></i>
+                        <i class="fa-solid fa-laptop-code fa-spin-hover"></i>
+                           
                         </a>
                     </div>
                     <div class="service-item-content  ">
                         <a href="noparking-advertisement-agency-in-chennai.php">
-                        <h4>No Parking Board</h4>
-                        <p style="font-size: 15px;color:white;">An effective way to target the local audience & register.</p>
+                        <h4>Software development</h4>
+                        <p style="font-size: 15px;color:gray;">Software development is crucial for businesses to  enhance customer experiences.</p>
                         </a>  
                         <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
                         </a>                        
@@ -557,17 +504,18 @@ include('include/top.php');
                 </div>
             </div>    
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
+            <div class="col-md-3 mb-4">
+                <div class="service-item ">
                     <div class="service-icon">
                         <a href="noparking-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-ban fa-spin-hover"></i>
+                        <!--  -->
+                        <i class="fa-solid fa-globe fa-spin-hover"></i>
                         </a>
                     </div>
                     <div class="service-item-content  ">
                         <a href="noparking-advertisement-agency-in-chennai.php">
-                        <h4>No Parking Board</h4>
-                        <p style="font-size: 15px;color:white;">An effective way to target the local audience & register.</p>
+                        <h4>Website development</h4>
+                        <p style="font-size: 15px;color:gray;">A professional website is key to building trust and attracting customers.</p>
                         </a>  
                         <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
                         </a>                        
@@ -578,22 +526,16 @@ include('include/top.php');
             
          </div>
     </div> 
+
+    <img src="assets/images/wave1.png" class="img-fluid "> 
     </section> 
-     <!-- <div class="empty-space" style="height: 120px"></div> -->
-        <!-- <div class="row justify-content-center">
-    <div class="col-lg-3">       
-     <div class="ConsultYou-btn">
-      <a href="rfq.php">Call Back</a>
-      </div> 
-       <input type="button"  value="Call Back"  window.href.location ="rfq.php" style="background-color:#4CAF50; font-size:20px" />
-  </div>
-</div> -->
-<section class="WhatWeDo ">
+     
+<section class="WhatWeDo py-0">
 	<div class="container">
        
 		<div class="row">            
             <div class="col-md-12">
-                <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
+               
                 <h2 style="font-size:40px;"><strong>FAQs</strong></h2><br>
             </div>
         </div>
@@ -636,15 +578,16 @@ include('include/top.php');
             </div>            
         </div>
     </div>
+    <img src="assets/images/wave1.png" class="img-fluid pt-5 "> 
     </section>
     
 
 <!-- section title starts -->
-<section class="WhatWeDo ">
+<section class="WhatWeDo py-0">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="section-title">
+                <div class="section-title pt-5">
                     <div class="title">
                     <h2 style="font-size: 30px;"><B> Few of Our Clients </B></h2>
                     </div>                    
@@ -690,6 +633,7 @@ include('include/top.php');
     </section>  
         </div>
     </section>
+    <img src="assets/images/wave1.png" class="img-fluid "> 
     </section>
     <!-- /.service -->
     <!-- .empty-soace -->

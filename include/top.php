@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- <-----fontAwesome----------->
+<script src="https://kit.fontawesome.com/61526c3cb9.js" crossorigin="anonymous"></script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>

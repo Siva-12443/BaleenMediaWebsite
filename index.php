@@ -147,7 +147,7 @@ include('include/top.php');
             box-shadow:0px 0px 10px gray;
         }
         .service-item .service-icon a {
-            background-color: gray;
+            background-color: #29556b;
             margin-bottom:10px;
             box-shadow:0px 0px 3px gray;
         } 

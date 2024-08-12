@@ -15,18 +15,29 @@ include('include/top.php');
             /* margin-bottom: 20px; */
             padding-top:200px;
             border:0px;
-            text-align:center;
+            /* zoom:150%; */
            
         }
+        .wave{
+            width: 100%;
+        }
         .about-section_top h1 {
-            font-family: serif;
+            font-family: "Montserrat", sans-serif;
+            /* font-family: "Cormorant Upright", serif; */
             font-size: 40px;
+            font-weight:300;
             /* text-align:right; */
             border-bottom:.2px solid black;
             /* text-wrap:wrap; */
             float:right;
         }
+        .about-section_top h1 span{
+            font-family: "Cormorant Upright", serif;
+                font-weight: 700;
+            font-style: italic;
+        }
         .about-section_top p {
+            font-family: "Nunito", sans-serif;
             font-size: 20px;
             /* text-align:left; */
             color:#ffff;
@@ -35,7 +46,7 @@ include('include/top.php');
         }
 /* --------------------------- */
 
-        @media only screen and (max-width: 450px){
+        /* @media only screen and (max-width: 450px){
             .about-section_top h1 {
                 font-family: serif;
             font-size: 30px;
@@ -46,29 +57,29 @@ include('include/top.php');
             font-size:13px;
             text-align:left;
             color:#ffff;
-        }
+        } */
         .about-section_about{
             /* background-image:url("assets/images/baleen-bg.jpg" ); */
           
-            padding:50px 0px;
+            /* padding:50px 0px; */
             /* box-shadow: 0px 0px 5px black; */
             
             background-image: linear-gradient(#fff,#f6efdd,#063b57); /*,#869a9f,#85a8aa*/
            
         }
-        .about-section_about h1 {
+        /* .about-section_about h1 {
             font-family: serif;
             font-size: 30px;
             text-align:left;
             border-bottom:1px solid gray;
-        }
-        .about-section_about p {
+        } */
+        /* .about-section_about p {
         
             font-size: 13px;
             text-align:left;
             color:gray;
-        }
-    }
+        } */
+    /* } */
 /* -------------------------------------------------------- */
         .about-section_about,.WhatWeDo {
           
@@ -91,16 +102,17 @@ include('include/top.php');
         }
 
         .about-section_about h1 {
-            
-            font-family: serif;
+            font-family: "Montserrat";
+           font-weight:400;
             text-align:left;
             border-bottom:1px solid gray;
         }
         .about-section_about p {
-        
-            font-family: poppins;
+            font-size:13px;
+            
+            font-family: "Nunito", sans-serif;
             text-align:left;
-            color:gray;
+            color:#3d3d3d;
         }
 
         .about-section {
@@ -144,13 +156,55 @@ include('include/top.php');
             background-color:#F5F5F5;
             /* background-image: linear-gradient(to top, #fff,#f6efdd,#063b57); */
             border-radius:30px;
-            box-shadow:0px 0px 10px gray;
+            box-shadow:0px 0px 5px gray;
         }
         .service-item .service-icon a {
             background-color: #29556b;
             margin-bottom:10px;
             box-shadow:0px 0px 3px gray;
         } 
+        /* faq-------- */
+        .faq-bg{
+            background-image: linear-gradient(  white, #f8f9fa);
+            padding:50px 0px;
+        }
+/* FAQ carousel------------------- */
+.carousel-item {
+            text-align: center;
+        }
+        .card {
+            border: none;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            margin: 0 10px;
+        }
+        .card-body {
+            padding: 2rem;
+        }
+        .quote {
+            font-size: 1.5rem;
+            color: #555;
+            font-style: italic;
+        }
+        .client-info {
+            margin-top: 1rem;
+        }
+        .client-info img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .client-info h5 {
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+        .client-info small {
+            color: #888;
+        }
+        .carousel-inner {
+            display: flex;
+            justify-content: center;
+        }
         
      
     </style>
@@ -230,10 +284,10 @@ include('include/top.php');
     <section class="about-section_top  " >
         <div class=" container">
             <div class="row ">
-                <div class="col-md-12   col-sm-12 "> 
+                <div class="col-lg-12  col-md-12 col-sm-12 "> 
                    <div class="about-content_top pb-5 ">
                        
-                            <h1>Massive Advertising At <strong>Minimal</strong> cost</h1>
+                            <h1>Massive Advertising At <span>Minimal</span> cost</h1>
                             <p>
                                 Finally, You Have Reached Chennai's Best Advertising Agency.
                             </p>
@@ -243,19 +297,20 @@ include('include/top.php');
                 
             </div>
         </div> 
-        <img src="assets/images/wave1.png" class="img-fluid "> 
-
+      
+        <img src="assets/images/wave1.png" class="wave "> 
+        
     </section>
     
     <section class="about-section_about py-0" >
     
         <div class="container ">
             <div class="row">
-                <div class="col-md-6  col-sm-4  "> 
+                <div class="col-md-6  col-sm-6  "> 
                    <div class="about-content_about text-center ">
                         <div class="wpb_wrapper_top pt-5">
-                            <h1>Advertising Company in Chennai - About Baleen Media</h1>
-                            <p>
+                            <h1>Advertising Agency in Chennai - About Baleen Media</h1>
+                            <p >
                                 Baleen media is a well-known advertising agency in Chennai that provides services like News paper Advertising, Radio Advertising, Television Advertising, Bus/Auto Advertising, Mobile Van Advertising, No Parking Board Advertising, Lamp Post Advertising & Local Cable TV Advertising. Backed up by the team with 20+ years of experience in the advertising industry. Baleen Media is known for its quality & commitment through a systematic and professional approach. Baleen Media is one of the Best advertising Companies in Chennai. Client-Requirement understanding is its strength. Baleen media renders its services all over India for Above The Line (ATL) Activities. Similarly, for Below The Line (BTL) activities, it renders its services in Chennai & various cities & Towns of Tamilnadu.
                             </p>
                             <div class="ConsultYou-btn pt-5 pb-5">
@@ -269,7 +324,7 @@ include('include/top.php');
                         </div>  
             </div>
         </div>
-        <img src="assets/images/wave1.png" class="img-fluid ">  
+        <img src="assets/images/wave1.png" class="wave">  
     </section>
 
 
@@ -279,7 +334,7 @@ include('include/top.php');
  
     <!-- /.empty-soace -->
     <!-- section title starts -->
-     <section class="WhatWeDo py-0 ">
+     <section class=" py-0 ">
       
     <div class="container">
         <div class="row justify-content-center">
@@ -341,7 +396,7 @@ include('include/top.php');
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="radio-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-microphone fa-spin-hover"></i>
+                        <i class="fa-solid fa-radio fa-spin-hover"></i>
                         </a>
                     </div>
                     <div class="service-item-content  ">
@@ -522,15 +577,53 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>    
+            <div class="col-md-3 mb-4">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <a href="auto-advertisement-agency-in-chennai.php">
+                        <i class="fa-brands fa-searchengin fa-spin-hover"></i>
+                        </a>
+                    </div>
+                    <div class="service-item-content  ">
+                        <a href="bus-advertisement-agency-in-chennai.php">
+                            <h4> SEO</h4>
+                            <p style="font-size: 15px;color:gray;" >
+                             SEO can drive more organic traffic to your site, increasing both the quantity and quality of visitors.
+                            </p>
+                        </a>   
+                        <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
+                        </a>                       
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <a href="auto-advertisement-agency-in-chennai.php">
+                        <i class="fa-regular fa-comment fa-spin-hover"></i>
+                        </a>
+                    </div>
+                    <div class="service-item-content  ">
+                        <a href="bus-advertisement-agency-in-chennai.php">
+                            <h4>WhatsApp & SMS Campaigns</h4>
+                            <p style="font-size: 15px;color:gray;" >
+                            SMS campaigns are relatively inexpensive compared to other marketing channels.
+                            </p>
+                        </a>   
+                        <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen
+                        </a>                       
+                    </div>                    
+                </div>
+            </div>
 
             
          </div>
     </div> 
 
-    <img src="assets/images/wave1.png" class="img-fluid "> 
+    <!-- <img src="assets/images/wave1.png" class="wave ">  -->
     </section> 
      
-<section class="WhatWeDo py-0">
+<section class="faq-bg ">
 	<div class="container">
        
 		<div class="row">            
@@ -578,12 +671,94 @@ include('include/top.php');
             </div>            
         </div>
     </div>
-    <img src="assets/images/wave1.png" class="img-fluid pt-5 "> 
-    </section>
+    <!-- <div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            What is the purpose of a Content Delivery Network (CDN)?
+        </div>
+        <div class="card-body">
+            <p><strong>Answer 1:</strong> A CDN improves the loading speed of websites by distributing content to servers closer to users, thus reducing latency.</p>
+            <p><strong>Answer 2:</strong> It also enhances security by providing DDoS protection and other security features.</p>
+            <p><strong>Answer 3:</strong> CDNs help to manage traffic spikes efficiently, ensuring that the website remains accessible during high-traffic periods.</p>
+        </div>
+        <div class="card-footer text-muted">
+            Source: Web Development Basics
+        </div>
+    </div> -->
+</div>
+
+    <!-- <img src="assets/images/wave1.png" class="img-fluid pt-5 ">  -->
     
+    </section>
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <div class="card border">
+                <div class="card-body">
+                    <h3>Why should I choose Baleenmedia over other advertising companies in Chennai? </h3>
+                    <p class="quote">
+                        "Baleenmedia stands out for its innovative approach, dedicated client service, and proven track record of delivering impactful advertising agency in Chennai. With a team of experienced professionals and a commitment to excellence, they strive to exceed client expectations and achieve measurable results in advertising effectiveness."
+                    </p>
+                    <!-- <div class="client-info d-flex justify-content-center align-items-center">
+                        <img src="https://via.placeholder.com/50" alt="Client 1">
+                        <div class="ml-3">
+                            <h5>Zehra Türksoy</h5>
+                            <small>SEO & ASO Team Lead at SEM</small>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-body">
+                    <p class="quote">
+                        "I'd recommend MobileAction to any gaming studio or app developer. Their suite of tools, data accuracy, and customer support have been instrumental in our success."
+                    </p>
+                    <div class="client-info d-flex justify-content-center align-items-center">
+                        <img src="https://via.placeholder.com/50" alt="Client 2">
+                        <div class="ml-3">
+                            <h5>Melih Yurduseven</h5>
+                            <small>Growth Manager at Leke Games</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-body">
+                    <p class="quote">
+                        "MobileAction has been pivotal in our journey. Their tools and team have empowered us to achieve a 45% jump in app downloads and redefine our marketing strategy."
+                    </p>
+                    <div class="client-info d-flex justify-content-center align-items-center">
+                        <img src="https://via.placeholder.com/50" alt="Client 3">
+                        <div class="ml-3">
+                            <h5>Mengjie Gao</h5>
+                            <small>Director of ASO Strategy at LinkDesks</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 <!-- section title starts -->
-<section class="WhatWeDo py-0">
+<section class="bg-light py-0">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -633,7 +808,7 @@ include('include/top.php');
     </section>  
         </div>
     </section>
-    <img src="assets/images/wave1.png" class="img-fluid "> 
+    <!-- <img src="assets/images/wave1.png" class="img-fluid ">  -->
     </section>
     <!-- /.service -->
     <!-- .empty-soace -->

@@ -1,4 +1,17 @@
-
+<style>
+	.quotation {
+		background-color:#f8f9fa;
+		text-align:center;
+		padding:50px 0px;
+		
+	}
+	.quotation h1 {
+		
+	}
+	.footer-widget{
+		
+	}
+</style>
    <!--  <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -23,37 +36,39 @@
 		</div>
     </section> -->
 	
-	    <div class="empty-space" style="height: 90px"></div>
+	    <!-- <div class="empty-space" style="height: 90px"></div> -->
 
- <section class="cta" data-parallax="scroll" data-image-src="assets/images/hover.jpg" alt="Advertising Agency in chennai ">
-        <div class="cta-overlay">
+ <section class="quotation " data-parallax="scroll"  alt="Advertising Agency in chennai ">
+        <div class="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-12 align-self-center">
-                        <h2 style="font-size: 35px;"> One Click to Get Quotation today!</h2>
+                        <h1 style="font-size: 35px; font-weight:600; margin-bottom:20px;"> One Click to Get Quotation today!</h1>
                     </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="ConsultYou-btn">
-                            <a class="border-btn" href="rfq.php" style="font-size: 25px;" >Click Here</a>
+                    <div class="col-lg-4 col-md-12 ">
+                        <div class="ConsultYou-btn  ">
+                            <a class="border-btn " href="rfq.php" style="font-size: 25px;" >Click Here</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>        
     </section>   
-    <footer id="colophon" class="site-footer">        
+    <footer id="colophon" class="site-footer"> 
+	<img src="assets/images/wave2.png" class="wave ">        
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_recent_comments">
+                    <div class="col-lg-12 col-sm-12 footer-widget widget_recent_comments">
                         <h5 class="widget-title">About Us</h5>
                         <p class="justify"style="font-size: 15px;">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>                        
                     </div>
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_nav_menu">
+                    <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
                         <h6 class="widget-title">Services</h6>
                         <div>
                             <ul class="menu">
-								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper & Magazine Ads</a></li>
+								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper Ads</a></li>
+								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Magazine Ads</a></li>
                                 <li><a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;">Paper Inserts</a></li>
 								<li><a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;">Bus Back Ads</a></li>
 								<li><a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;">NoParking Board</a></li>
@@ -65,7 +80,7 @@
                         </div>
                     </div>
                    
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_nav_menu">
+                    <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 						<h6 class="widget-title">Get Connected</h6>
 						<div>
 							<ul class="list-inline">
@@ -86,6 +101,8 @@
 								</li>
 							</ul>
 						</div>
+				    </div>
+					<div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 						<h6 class="widget-title">Let's Meet Up</h6>
                         <div>
                             <ul class="menu">
@@ -97,9 +114,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_nav_menu">
+                    <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 					<h6 class="widget-title">Where We are</h6>
-					<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.961649994882!2d80.2194407!3d13.0203566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50d624131e47e020!2sBaleen%20Media%20-%20Advertising%20Agency%20in%20Chennai!5e0!3m2!1sen!2sin!4v1613470472212!5m2!1sen!2sin" width="250" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+					<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.961649994882!2d80.2194407!3d13.0203566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50d624131e47e020!2sBaleen%20Media%20-%20Advertising%20Agency%20in%20Chennai!5e0!3m2!1sen!2sin!4v1613470472212!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
 				</div>
 				</div>
             </div>			

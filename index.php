@@ -153,10 +153,10 @@ include('include/top.php');
             text-decoration: none;
         }
         .service-item {
-            background-color:#F5F5F5;
+            background-color:#f6efdd;
             /* background-image: linear-gradient(to top, #fff,#f6efdd,#063b57); */
             border-radius:30px;
-            box-shadow:0px 0px 5px gray;
+            /* box-shadow:0px 0px 5px gray; */
         }
         .service-item .service-icon a {
             background-color: #29556b;

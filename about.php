@@ -1,75 +1,124 @@
 <?php
-include('include/top_about.php');
+include('include/top.php');
 ?>
+<style>
+.about-section_about {
+          
+           
+          /* background-attachment: fixed; */
+          
+         padding-top:50px;
+         
+          /* box-shadow: 0px 0px 5px #4d4c4c7a; */
+          background-image: linear-gradient(  white, #f6efdd,#063b57); 
+      }
+      .about-section_about h1 {
+        font-family: "Montserrat", sans-serif;
+            /* font-family: "Cormorant Upright", serif; */
+            font-size: 40px;
+            font-weight:300;
+            /* text-align:right; */
+            border-bottom:2px solid black;
+            /* text-wrap:wrap; */
+          
+      }
+      .about-section_about p {
+            font-family: "Nunito", sans-serif;
+            font-size: 15.5px;
+            /* text-align:left; */   
+        }
+        .about-section_about span{
+            font-family: "Cormorant Upright", serif;
+                font-weight: 700;
+            font-style: italic;
+            font-size: 17.5px;
+        }
+      .wave{
+            width: 100%;
+        }
+    .vmt p {
+        font-size:14px;
+        text-align:center;                                                    
+        }
+</style>
     <!-- breadcrumb -->
-    <section class="breadcrumb-banner breadcrumb-bnr-shadow">
+    <section class="about-section_about">
+        
+
+      
+        
+        <section class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="breadcrumb-title">
-                        <h1>About Us</h1>
-                        <div class="breadcrumbs">
-                            <div id="crumbs">
-                                <a href="https://www.baleenmedia.com">Home</a> <i>»</i> <span class="active">About Us</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /.breadcrumb -->
-
-
-    <!-- .empty-soace -->
-    <div class="empty-space" style="height: 100px"></div>
-    <!-- /.empty-soace -->
-    <!-- about-section -->
-    <section class="about-section">
-        <div class="container">
-            <div class="row">
+                
                 <div class="col-lg-6 ">
-                    <img src="assets/images/AboutMain.jpg" alt="img" width="575" height="500">
-                    <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <h2><strong>About Us</strong></h2><br>
+                    <h1><strong>ABOUT US</strong></h1><br>
                     <p class="justify">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>
 
                     <p class="justify"> Baleen Media is a Advertising Agency in Chennai that provides services like Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions. With more than 16 years of experience in the advertising industry, Baleen Media is known for creating bigger values and top-notch customer satisfaction through innovative ideas. 
 By providing its customers high quality services, Baleen Media is one of the best Ad Agencies in Chennai. Reaching the right audience, understanding customers’ needs and yielding high returns for every single penny paid, we provide services all over India.</p>
                         <!-- Baleen Media is driven by 16+ years of valuable experience in Advertising Industry where the Focus being Top-class Customer Satisfaction & creating bigger values to them through Innovative ideas. Baleen Media began its Show on Jan'15 with an objective to provide High-quality Service with a great passion of Living the words what with committed to its Customers. Its Team possesses highly skilled professionals with a great Attitude on understanding Customer Needs and providing the best consulting service to reach their right target-audience. Baleen Media most values its Client's each single Money and promises the best to yield great returns for it. -->
 
-                    Baleen Media extends its Service across all India Locations.</p><br>
+                   <span> Baleen Media extends its Service across all India Locations.</span><br>
+                </div><br>
+
+                <div class="col-lg-6  ">
+                    <img src="assets/images/network.png"style="width:100%; float:right;"  alt="img" >
+                    <div class="empty-space d-xl-none d-lg-none" style=""></div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /.about-section -->
-	<div class="container">
+    <img src="assets/images/wave1.png" class="wave ">
+    </section>
+
+    <div class="empty-space" style="height:100px;"></div>
+	
+   <div class="vmt bg-light"> 
+    <div class="container">
         <div class="row">            
-            <div class="col-md-12">
+            <div class="col-md-12 ">
                 <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
                 <h2><strong>Vision</strong></h2><br>
-               <center> <p>To Keep Every Advertiser Happy and Satisfied through Dedication, Commitment and Quality.</p> </center>
+                <p>To Keep Every Advertiser Happy and Satisfied through Dedication, Commitment and Quality.</p>
             </div>
         </div>
 		<div class="row">            
             <div class="col-md-12">
                 <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
                 <h2><strong>Mission</strong></h2><br>
-              <center>  <p>To Create "Trustworthy System" which reciprocates Customer Satisfaction, Publication Comfort & Employee Recognition.</p> </center>
+                <p>To Create "Trustworthy System" which reciprocates Customer Satisfaction, Publication Comfort & Employee Recognition.</p> 
             </div>
         </div>
 		<div class="row">            
             <div class="col-md-12">
                 <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
                 <h2><strong>Team Baleen Media</strong></h2><br>
-              <center>  <p>Each Project is well executed by our promising multi-functional team which comprises of Business Development, Client Servicing & Quality Assurance Group.</p> </center>
+                <p>Each Project is well executed by our promising multi-functional team which comprises of Business Development, Client Servicing & Quality Assurance Group.</p> 
             </div>
         </div>
     </div>
-	
+	</div>
+
+    <!-- vmt cards -->
+     <div class="container">
+        <div class="row">
+            
+        </div>
+     </div>
+
+    <div class="empty-space" style="height:100px;"></div>
+
+    <!-- groups -->
+    <div class="container">
+       
+		<div class="row">            
+            <div class="col-md-12">
+               
+                <h2 style="font-size: 40px; font-family:Montserrat;">Groups</h2><br>
+            </div>
+        </div>
+    </div>
 	<div class="container">
         <div class="row">
             <div class="col-md-12 ">

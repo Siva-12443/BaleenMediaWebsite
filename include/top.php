@@ -312,7 +312,7 @@
 			</div>
 		</div>
 	</div> -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 p-2  rounded-0 sticky-top ">
+	<nav class="navbar navbar-expand-lg navbar-light  bg-light mb-0 p-2  rounded-0 sticky-top " style="background-color: white;">
 	<div class="container ">
     <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo white.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>

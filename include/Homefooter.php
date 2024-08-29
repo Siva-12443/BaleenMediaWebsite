@@ -8,9 +8,16 @@
 	.quotation h1 {
 		
 	}
-	.footer-widget{
+	
+	.terms{
+		font-size:16px;
 		
+	
 	}
+	.terms a {
+color:white;
+	}
+	
 </style>
    <!--  <div class="container">
         <div class="row justify-content-center">
@@ -39,30 +46,42 @@
 	    <!-- <div class="empty-space" style="height: 90px"></div> -->
 
  <section class="quotation " data-parallax="scroll"  alt="Advertising Agency in chennai ">
-        <div class="">
-            <div class="container">
+        
+            <div class="container ">
                 <div class="row">
-                    <div class="col-lg-8 col-md-12 align-self-center">
-                        <h1 style="font-size: 35px; font-weight:600; margin-bottom:20px;"> One Click to Get Quotation today!</h1>
-                    </div>
-                    <div class="col-lg-4 col-md-12 ">
-                        <div class="ConsultYou-btn  ">
-                            <a class="border-btn " href="rfq.php" style="font-size: 25px;" >Click Here</a>
-                        </div>
-                    </div>
+                    <div class=" col-lg-12   ">
+                        <h1 style="font-size: 30px; font-family:Montserrat; "> One Click to Get Quotation today!</h1>
+						
+						
+						<a href="rfq.php" >
+                          <button class="btn1"> Click Me</button>
+                        </a>
                 </div>
-            </div>
-        </div>        
+				
+            </div>   
+		
     </section>   
-    <footer id="colophon" class="site-footer"> 
+	
+	
+					 
+
+ <footer id="colophon" class="site-footer"> 
 	<img src="assets/images/wave2.png" class="wave ">        
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-sm-12 footer-widget widget_recent_comments">
+                    <div class="col-lg-6 col-sm-6 footer-widget widget_recent_comments">
                         <h5 class="widget-title">About Us</h5>
-                        <p class="justify"style="font-size: 15px;">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>                        
+                       <p class="justify"style="font-size: 15px;">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p> 
+						
+					 
+					   <div class="terms"> 
+						<a href="https://merchant.razorpay.com/policy/Okdh3pvyyIYa1z/privacy" target="blank" >privacy policy</a><br>
+						<a href="https://merchant.razorpay.com/policy/Okdh3pvyyIYa1z/refund"target="blank">refund & cancellation</a><br>
+						<a href="https://merchant.razorpay.com/policy/Okdh3pvyyIYa1z/terms"target="blank">terms & conditions</a><br>
+					</div>                       
                     </div>
+					
                     <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
                         <h6 class="widget-title">Services</h6>
                         <div>
@@ -79,7 +98,8 @@
                             </ul>
                         </div>
                     </div>
-                   
+                   <!-- . privacy policy, refund & cancellation ,terms & conditions  -->
+
                     <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 						<h6 class="widget-title">Get Connected</h6>
 						<div>

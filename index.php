@@ -6,6 +6,12 @@ include('include/top.php');
         margin-right:0px;
         
     } */
+    @media only screen and (min-width: 2560px){
+        body{
+            zoom:130%;
+        } 
+
+    }
        .about-section_top{
             background-image:url("assets/images/baleen-bg.jpg" );
             background-position: top;
@@ -35,6 +41,8 @@ include('include/top.php');
             font-family: "Cormorant Upright", serif;
                 font-weight: 700;
             font-style: italic;
+            /* animation-name:spanclr;
+            animation-duration: 60s; */
         }
         .about-section_top p {
             font-family: "Nunito", sans-serif;
@@ -44,6 +52,13 @@ include('include/top.php');
             padding-bottom:200px;
             float:right;
         }
+        @keyframes spanclr {
+  0%   {border:.2px solid;}
+  50% {border:.2px solid gray;}
+  100%{border:.2px solid white;}
+}
+
+       
 /* --------------------------- */
 
         /* @media only screen and (max-width: 450px){
@@ -64,7 +79,7 @@ include('include/top.php');
             /* padding:50px 0px; */
             /* box-shadow: 0px 0px 5px black; */
             
-            background-image: linear-gradient(#fff,#f6efdd,#063b57); /*,#869a9f,#85a8aa*/
+            /* background-image: linear-gradient(#fff,#f6efdd,#063b57); ,#869a9f,#85a8aa */
            
         }
         /* .about-section_about h1 {
@@ -81,16 +96,20 @@ include('include/top.php');
         } */
     /* } */
 /* -------------------------------------------------------- */
-        .about-section_about,.WhatWeDo {
+        .about-section_about {
           
            
             /* background-attachment: fixed; */
             
            
-            padding:50px 0px;
+            
             /* box-shadow: 0px 0px 5px #4d4c4c7a; */
-            background-image: linear-gradient(  white, #f6efdd,#063b57);
-           
+            /* background-image: linear-gradient( white, #f6efdd); */
+            background-color:white;
+        }
+        .WhatWeDo{
+            /* background-image: linear-gradient( #f6efdd, white); */
+            background-color:#fff7dbd1;
         }
         .wave{
             /* rotate: y -180deg; */
@@ -109,11 +128,14 @@ include('include/top.php');
         }
         .about-section_about p {
             font-size:13px;
-            
+            margin-bottom:50px;
             font-family: "Nunito", sans-serif;
             text-align:left;
             color:#3d3d3d;
         }
+
+
+    
 
         .about-section {
             padding-top:20px;
@@ -154,140 +176,277 @@ include('include/top.php');
         }
         .service-item {
             background-color:#f6efdd;
-            /* background-image: linear-gradient(to top, #fff,#f6efdd,#063b57); */
-            border-radius:30px;
+            /* background-image: linear-gradient( white,#fbe6b0); */
+            border-radius: 0px;
+            box-shadow:10px 12px 0px black;
+            border:3px solid black;
             /* box-shadow:0px 0px 5px gray; */
+            animation-name:example;
+            animation-duration: 40s;
         }
+        @keyframes example {
+  0%   {border:solid black;}
+  
+  100% {border:solid gold;}
+}
+
+        .service-item-content a:hover{
+            color:#06a806;
+        }
+
         .service-item .service-icon a {
             background-color: #29556b;
             margin-bottom:10px;
             box-shadow:0px 0px 3px gray;
+            
         } 
-        /* faq-------- */
+/* ---------------------------------------------------------------------------------------------testimonials  */
+.testimonials { 
+    background-color:white;
+    padding:20px 0px;
+    text-align:center;
+}
+.testimonials img{
+    width: 150px;
+  
+}
+.testimonials h4 {
+    font-size:25px;
+    font-family: "Montserrat";
+    font-weight:600;
+}
+.testimonials p{
+    font-size:12px;
+    font-family:'Nunito'
+}
+.card {
+   
+    border-radius:1px 20px 20px 20px;
+    
+    margin:5px 0px;
+    background-color:white;
+
+}
+.card-body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+/* @media screen and (min-width:576px) {
+    .carousel-inner{
+        display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    }
+    .carousel-item{
+        display:grid;
+       
+    }
+    .card{
+        margin:10px;
+      
+    }
+} */
+@media screen and (min-width:576px) {
+    .carousel-item{
+        width:30%;
+        margin-left:650px;
+    }
+    .card{
+        
+        
+    }
+}
+.carousel-control-prev{
+    background-color:inherit;
+    border:0px;
+}
+.carousel-control-next{
+    background-color:inherit;
+    border:0px;
+
+}
+/* -- --------------------------------------------------------------------------new card book -- */
+ /* From Uiverse.io by eslam-hany */ 
+.book {
+  position: relative;
+  border-radius: 10px;
+  /* width: 220px;
+  height: 300px; */
+  
+  height: 300px;
+  background-color: white;
+  background-image: linear-gradient(  whitesmoke, #f6efdd);
+  /* 
+  box-shadow: 1px 1px 12px #000; */
+ 
+  transform: preserve-3d;
+  
+  perspective: 2000px;
+ 
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+ 
+  justify-content: center;
+  
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: white;
+  width:100%;
+  height: 300px;
+  border-radius: 10px;
+  
+  cursor: pointer;
+  
+  transition: all 0.5s;
+ 
+  transform-origin:-10px;
+  
+  /* box-shadow: 0px 0px 12px #000; */
+ 
+  display: flex;
+  
+  align-items: center;
+ 
+  justify-content: center;
+  flex-direction:column;
+}
+.cover img{
+    width:250px;
+    height: 300px;
+    
+}
+
+.book:hover .cover {
+
+  transition: all 0.5s;
+  
+  transform: rotatey(-90deg);
+}
+
+.book p {
+    padding: 20px;
+    padding-bottom:10px;
+    font-family:'Nunito';
+  font-size: 18px;
+  font-weight: 400;
+  color:black;
+}
+.cover h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size:20px;
+    font-weight:500;
+    padding:20px ;
+}
+/* .book a:hover{
+color:blue;
+} */
+.readbtn{
+    width: 150px;
+    padding:10px;
+    border-radius:10px;
+    border:inherit;
+    background-color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size:20px;
+    font-weight:400;
+    margin-bottom:20px;
+}
+.readbtn:hover {
+    box-shadow:0px 0px 8px  #c5c5c594;
+    color:purple;
+    animation-name:textclr;
+    animation-duration: 1s;
+}
+@keyframes textclr {
+  0%   {color: black;}
+  
+  50% {color: violet;}
+  100%{color: purple;}
+}
+
+/*---------------------------------------------------------------------------------- faq-------- */
         .faq-bg{
-            background-image: linear-gradient(  white, #f8f9fa);
-            padding:50px 0px;
+            background-color: #eeee;
+            /* background-image: linear-gradient(  white, #f8f9fa); */
+            padding:20px 0px;
+        }
+        .foc_bg{
+            background-image: linear-gradient(  #eeee, #f8f9fa);
         }
 /* FAQ carousel------------------- */
-.carousel-item {
-            text-align: center;
-        }
-        .card {
-            border: none;
-            background-color: #f9f9f9;
-            border-radius: 10px;
-            margin: 0 10px;
-        }
-        .card-body {
-            padding: 2rem;
-        }
-        .quote {
-            font-size: 1.5rem;
-            color: #555;
-            font-style: italic;
-        }
-        .client-info {
-            margin-top: 1rem;
-        }
-        .client-info img {
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-        }
-        .client-info h5 {
-            margin-bottom: 0;
-            font-weight: bold;
-        }
-        .client-info small {
-            color: #888;
-        }
-        .carousel-inner {
-            display: flex;
-            justify-content: center;
-        }
+
         
+        /* ---------------------buttton */
+       /* From Uiverse.io by cssbuttons-io */ 
+.btn1 {
+ position: relative;
+ font-size: 17px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 1em 2.5em;
+ display: inline-block;
+ border-radius: 6em;
+ transition: all .2s;
+ border: none;
+ font-family: inherit;
+ font-weight: 500;
+ color: whitesmoke;
+ background-color: #426776;
+}
+
+.btn1:hover {
+ transform: translateY(-3px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:active {
+ transform: translateY(-1px);
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn1::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: -1;
+ transition: all .4s;
+}
+
+.btn1::after {
+ background-color: gray;
+}
+
+.btn1:hover::after {
+ transform: scaleX(1.4) scaleY(1.6);
+ opacity: 0;
+}
      
     </style>
- <!--<section class="parallax-banner" data-parallax="" data-image-src="">-->
+
+<script>
+      
+
+</script>
  
-        <!-- <div class="parallax-banner-overlay"> -->
-            <!-- <div class="parallax-banner-content"> -->
- <!--       <div id="myCarousel" class="carousel slide" data-ride="carousel">        -->
- <!--           <div class="carousel-inner">-->
- <!--               <div class="item active">-->
- <!--                   <img src="https://www.baleenmedia.com/assets/images/FirstSlide.png" alt="Los Angeles" style="width:100%;">-->
-                    
- <!--                   <div class="carousel-caption">-->
-                    
- <!--                       <H1 style = " position: absolute;Bottom: 650px;">-->
- <!--                           Best Advertising Agency in Chennai to upgrade your Enterprise.</H1>-->
- <!--                           <p class="justify" style = "position: absolute;Bottom: 250px;"> Meet the wondrous Advertising Agency in Chennai Baleen Media rising as a prominent Advertising Agency focused on creative and excellent Newspaper Advertisement, Television/ Radio Advertisement, Bus/ Auto Advertisement, Internet-->
- <!--                               & Social Media Promotions in Chennai. With other basic services, that helps your brands win through the competitors in the industry. There are not enough words to describe our work all in one for which you need to know-->
- <!--                               us more by connecting our experts waiting to guide you and bring your brand on top or go through our website tour. <br> Know more about our best services for you and experience wholesome brand growth.</p>-->
- <!--                               <div class="ConsultYou-btn">-->
- <!--                              <a class="border-btn" href="contact.php" style="font-size: 20px;Bottom: 150px;" >Contact Us</a> -->
- <!--                              <a class="border-btn" href="rfq.php"style="font-size: 20px;Bottom: 150px;" >Call Back</a>-->
- <!--                           </div> -->
- <!--                           </div>-->
-                            
- <!--               </div>-->
-
- <!--               <div class="item">-->
- <!--                   <img src="https://www.baleenmedia.com/assets/images/SecondSlide.png" alt="Los Angeles" style="width:100%;">-->
- <!--                   <div class="carousel-caption">-->
- <!--                       <H1 style = " position: absolute;Bottom: 650px;">-->
- <!--                           <B>Creative, Passionate & Winning freakish content creating Advertising Company in Chennai.</H1></B>-->
- <!--                           <p class="justify" style = "position: absolute;Bottom: 250px;"> Meet the wondrous Advertising Agency in Chennai Baleen Media rising as a prominent Advertising Agency focused on creative and excellent Newspaper Advertisement, Television/ Radio Advertisement, Bus/ Auto Advertisement, Internet-->
- <!--                               & Social Media Promotions in Chennai. With other basic services, that helps your brands win through the competitors in the industry. There are not enough words to describe our work all in one for which you need to know-->
- <!--                               us more by connecting our experts waiting to guide you and bring your brand on top or go through our website tour. <br> Know more about our best services for you and experience wholesome brand growth.</p>-->
-                    
- <!--                               <div class="ConsultYou-btn">-->
- <!--                              <a class="border-btn" href="contact.php" style="font-size: 20px;Bottom: 150px;" >Contact Us</a> -->
- <!--                              <a class="border-btn" href="rfq.php"style="font-size: 20px;Bottom: 150px;" >Call Back</a>-->
- <!--                           </div> -->
- <!--                               </div>-->
- <!--               </div>-->
-
- <!--               <div class="item">-->
- <!--                   <img src="https://www.baleenmedia.com/assets/images/ThirdSlide.png" alt="Los Angeles" style="width:100%;">-->
- <!--                   <div class="carousel-caption">-->
- <!--                       <H1 style = " position: absolute;Bottom: 650px;">-->
- <!--                           <B> Warm Welcome from the Artistic Team to the topmost leading Ad Agency in Chennai.</H1></B>-->
- <!--                           <p class="justify" style = " position: absolute;Bottom: 250px;"> Meet the wondrous Advertising Agency in Chennai Baleen Media rising as a prominent Advertising Agency focused on creative and excellent Newspaper Advertisement, Television/ Radio Advertisement, Bus/ Auto Advertisement, Internet-->
- <!--                               & Social Media Promotions in Chennai. With other basic services, that helps your brands win through the competitors in the industry. There are not enough words to describe our work all in one for which you need to know-->
- <!--                               us more by connecting our experts waiting to guide you and bring your brand on top or go through our website tour. <br> Know more about our best services for you and experience wholesome brand growth.</p>-->
- <!--                               <div class="ConsultYou-btn">-->
- <!--                              <a class="border-btn" href="contact.php" style="font-size: 20px;Bottom: 150px;" >Contact Us</a> -->
- <!--                              <a class="border-btn" href="rfq.php"style="font-size: 20px;Bottom: 150px;" >Call Back</a>-->
- <!--                           </div> -->
- <!--                           </div>-->
- <!--               </div>-->
-
- <!--           </div>-->
-
- <!--           <a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
- <!--               <span class="glyphicon glyphicon-chevron-left"></span>-->
- <!--               <span class="sr-only">Previous</span>-->
- <!--           </a>-->
- <!--           <a class="right carousel-control" href="#myCarousel" data-slide="next">-->
- <!--               <span class="glyphicon glyphicon-chevron-right"></span>-->
- <!--               <span class="sr-only">Next</span>-->
- <!--           </a>-->
- <!--       </div>-->
-         <!-- </div> 
-     </div> -->
- <!--   </section>  -->
-    <!-- /.banner -->
- <!--   <div class="empty-space" style="height: 110px"></div>-->
-    <!-- /.empty-soace -->
-    <!-- about-section -->
     <section class="about-section_top  " >
         <div class=" container">
             <div class="row ">
                 <div class="col-lg-12  col-md-12 col-sm-12 "> 
                    <div class="about-content_top pb-5 ">
                        
-                            <h1>Massive Advertising At <span>Minimal</span> cost</h1>
+                            <h1>Massive Advertising At <span>Minimal cost</span></h1>
                             <p>
                                 Finally, You Have Reached Chennai's Best Advertising Agency.
                             </p>
@@ -313,9 +472,15 @@ include('include/top.php');
                             <p >
                                 Baleen media is a well-known advertising agency in Chennai that provides services like News paper Advertising, Radio Advertising, Television Advertising, Bus/Auto Advertising, Mobile Van Advertising, No Parking Board Advertising, Lamp Post Advertising & Local Cable TV Advertising. Backed up by the team with 20+ years of experience in the advertising industry. Baleen Media is known for its quality & commitment through a systematic and professional approach. Baleen Media is one of the Best advertising Companies in Chennai. Client-Requirement understanding is its strength. Baleen media renders its services all over India for Above The Line (ATL) Activities. Similarly, for Below The Line (BTL) activities, it renders its services in Chennai & various cities & Towns of Tamilnadu.
                             </p>
-                            <div class="ConsultYou-btn pt-5 pb-5">
-                                <a href="about.php">Read More</a>
-                            </div>
+                            <div class="btn container">
+
+<a href="about.php" >
+<button class="btn1"> Read more
+</button>
+</a>
+
+</div>
+                           
                         </div>
                     </div>
                 </div>
@@ -324,7 +489,7 @@ include('include/top.php');
                         </div>  
             </div>
         </div>
-        <img src="assets/images/wave1.png" class="wave">  
+        <!-- <img src="assets/images/wave1.png" class="wave">   -->
     </section>
 
 
@@ -334,14 +499,14 @@ include('include/top.php');
  
     <!-- /.empty-soace -->
     <!-- section title starts -->
-     <section class=" py-0 ">
+     <section class="WhatWeDo py-0 ">
       
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="section-title">
+                <div class="section-titl">
                     <div class="title pt-5">
-                        <h2 style="font-size: 40px;"><B>WHAT WE DO </B></h2>
+                        <h2 style="font-size: 40px; font-family:Montserrat; ">WHAT WE DO </h2>
                     </div>                    
                 </div>
                 <!-- section_title starts -->
@@ -353,9 +518,288 @@ include('include/top.php');
     <div class="empty-space" style="height: 50px"></div>
     <!-- /.empty-soace -->
     <!-- service -->
-    <div class="container  ">
+    <div class="container justify-content-center ">
         <div class="row">
-            <div class="col-md-3 mb-4">
+
+<!-- --------------------------------------------------------------------------new card book -->
+<div class="col-md-3  mb-5">
+
+        <div class="book">
+    <p>Print media is one of the powerful ways to reach an audience.</p>
+    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+  <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                        
+    <div class="cover text-center">
+        <img src="assets/images/newspaper ads.png"  alt="">
+        <h4>News Paper and Magazine Ads </h4>
+    </div>
+   </div> 
+   </div>
+<!-- ---------------------------------------------------card-2 -->
+<div class="col-md-3  mb-5">
+    
+        <div class="book">
+    <p>Creates a remarkable impact within the audience with 
+    the help of creative videos & Graphics.</p>
+    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+  <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                        
+    <div class="cover text-center">
+        <img src="assets/images/tv.png"  alt="">
+        <h4>Television Ads </h4>
+    </div>
+   </div> 
+   </div>
+ <!-- ---------------------------------------------------card-3 -->
+ <div class="col-md-3  mb-5">
+    
+        <div class="book">
+    <p>Attracts a good amount of reach through expressive 
+    voice – jingles at exact time.</p>
+    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+  <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                        
+    <div class="cover text-center">
+        <img src="assets/images/radio logo.png"  alt="">
+        <h4>Radio Ads </h4>
+    </div>
+   </div> 
+   </div>
+  <!-- ---------------------------------------------------card-4 -->
+  <div class="col-md-3  mb-5">
+    
+        <div class="book">
+    <p>This action catches an instant 
+    attention of newspaper readers.</p>
+    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+  <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                        
+    <div class="cover text-center">
+        <img src="assets/images/newspaper logo.png"  alt="">
+        <h4>Paper Inserts </h4>
+    </div>
+   </div> 
+   </div>
+   <!-- ---------------------------------------------------card-5 -->
+   <div class="col-md-3  mb-5">
+    
+        <div class="book">
+    <p>It is a dominating 
+    Media display.</p>
+    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+  <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                        
+    <div class="cover text-center">
+        <img src="assets/images/bus.png"  alt="">
+        <h4>Bus Back Panel Ads</h4>
+    </div>
+   </div> 
+   </div>
+    <!-- ---------------------------------------------------card-6 -->
+    <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p>It is a dominating 
+Media display.</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/auto.png"  alt="">
+    <h4>Auto Back Panel Ads</h4>
+</div>
+</div> 
+</div>
+     <!-- ---------------------------------------------------card-7 -->
+     <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p>An effective way to target the local audience & register.</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/no parking.png"  alt="">
+    <h4>No Parking Board</h4>
+</div>
+</div> 
+</div>
+      <!-- ---------------------------------------------------card-8 -->
+      <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p>Software development is crucial for businesses to  enhance customer experiences.</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/software.png"  alt="">
+    <h4>Software development</h4>
+</div>
+</div> 
+</div>
+       <!-- ---------------------------------------------------card-9 -->
+       <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p>A professional website is key to building trust and attracting customers.</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/web.png"  alt="">
+    <h4>Website development</h4>
+</div>
+</div> 
+</div>
+        <!-- ---------------------------------------------------card-10 -->
+        <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p>SEO can drive more organic traffic to your site, increasing both the quantity and quality of visitors.
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/seo.png"  alt="">
+    <h4>SEO</h4>
+</div>
+</div> 
+</div>
+         <!-- ---------------------------------------------------card-11 -->
+         <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> SMS campaigns are relatively inexpensive compared to other marketing channels.
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/sms.png"  alt="">
+    <h4>WhatsApp & SMS Campaigns</h4>
+</div>
+</div> 
+</div>
+          <!-- ---------------------------------------------------card-12 -->
+          <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> Hoardings allow companies to reach a huge variety of customers with a single advertising tactic.
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/hoarding.png"  alt="">
+    <h4>Hoardings</h4>
+</div>
+</div> 
+</div>
+           <!-- ---------------------------------------------------card-13 -->
+           <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> Bus shelter advertising provides high visibility ad space that occurs at eye level along busy streets.
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/busstop.png"  alt="">
+    <h4>Bus Shelter Ads</h4>
+</div>
+</div> 
+</div>
+ <!--- ---------------------------------------------------card-14 -->
+            <div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> One of the most important advantages of digital marketing is increased engagement.
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/apartment.png"  alt="">
+    <h4>Apartment Screen Brandings </h4>
+</div>
+</div> 
+</div>
+
+<!-- ------------------------------------------------------------card 15 -->
+<div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> Lamp-post Advertising provides high visibility of the advertisements all day and night, rapidly increasing brand awareness 
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/lamppost.png"  alt="">
+    <h4>Lamp Post Ads </h4>
+</div>
+</div> 
+</div>
+
+<!-- ------------------------------------------------card 16 -->
+<div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p>  Traffic campaigns when you want to educate your audience and get them interested in your business.
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/traffic.png"  alt="">
+    <h4>Traffic Alerts </h4>
+</div>
+</div> 
+</div>
+
+<!-- -----------------------------------------------------card 17 -->
+<div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> one of the most effective and versatile marketing tools used to inform customers of their services or products. 
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/pamphlets.png"  alt="">
+    <h4> Pamphlets</h4>
+</div>
+</div> 
+</div>
+
+<!-- ---------------------------------------------------card 18 -->
+<div class="col-md-3  mb-5">
+    
+    <div class="book">
+<p> SMS campaigns are relatively inexpensive compared to other marketing channels.tt
+</p>
+<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
+                    
+<div class="cover text-center">
+    <img src="assets/images/sms.png"  alt="">
+    <h4>Mobile Van Branding </h4>
+</div>
+</div> 
+</div>
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------------old cards -->
+
+            <!-- <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
                         <a href="newspaper-advertisement-agency-in-chennai.php">
@@ -472,21 +916,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>
-            <!-- <div class="col-md-3 mb-4">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="lamppost.php">
-                            <i class="fa fa-fw fa-shower fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content  text-white  text-white">
-                        <a href="lamppost.php">
-                        <h4>Lamp Post Banner</h4>
-                        <p>This Road-side marketing tool is effective for pulling</p>
-                        </a>
-                    </div>                    
-                </div>
-            </div> -->
+            
             <div class="col-md-3 mb-4">
                 <div class="service-item">
                     <div class="service-icon">
@@ -504,23 +934,7 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>    
-            <!--  <div class="col-md-3 mb-4">-->
-            <!--    <div class="service-item">-->
-            <!--        <div class="service-icon">-->
-            <!--            <a href="digitalmarketing-advertisement-agency-in-chennai.php">-->
-            <!--                <i class="fa fa-fw fa-facebook-official fa-spin-hover"> </i>-->
-            <!--            </a>-->
-            <!--        </div>-->
-            <!--        <div class="service-item-content  text-white  text-white">-->
-            <!--            <a href="digitalmarketing-advertisement-agency-in-chennai.php">-->
-            <!--                <h4>Digital Marketing</h4>-->
-            <!--                <p style="font-size: 15px;">To build your business effectively through social media platform.</p>-->
-            <!--            </a>     -->
-            <!--            <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen-->
-            <!--            </a>                       -->
-            <!--        </div>                    -->
-            <!--    </div>-->
-            <!--</div>                      -->
+           
                  
             <div class="col-md-3 mb-4">
                 <div class="service-item">
@@ -563,8 +977,8 @@ include('include/top.php');
                 <div class="service-item ">
                     <div class="service-icon">
                         <a href="noparking-advertisement-agency-in-chennai.php">
-                        <!--  -->
-                        <i class="fa-solid fa-globe fa-spin-hover"></i>
+                        -->
+                        <!-- <i class="fa-solid fa-globe fa-spin-hover"></i>
                         </a>
                     </div>
                     <div class="service-item-content  ">
@@ -615,21 +1029,140 @@ include('include/top.php');
                     </div>                    
                 </div>
             </div>
+            
 
             
          </div>
-    </div> 
+    </div>  --> 
 
     <!-- <img src="assets/images/wave1.png" class="wave ">  -->
     </section> 
+
+    <!-- ----------------------------------------------------testimonials--------------------------------- -->
      
+
+<!-------------------------------------------------------------------------------------------------- testi-demo -->
+<h1 style="font-size: 40px; font-family:Montserrat;" class="text-center">TESTIMONIALS</h1>
+<section class="testimonials">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    
+    <div class="card rounded-lg " >
+  <div class="card-body">
+  <h4 class="card-title">Reno</h4>
+    <h5></h5>
+    <p class="card-text">Very professional and delivered high class work.</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div>
+
+ </div>
+    </div>
+    <div class="carousel-item">
+    
+    <div class="card rounded-lg " >
+  <div class="card-body">
+  <h4 class="card-title">Ramakrishnan S</h4>
+    <p class="card-text">Professionally managed company. I would recommend 100% to the customers.</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div>
+  </div>
+
+    </div>
+
+    <div class="carousel-item">
+    
+    <div class="card rounded-lg " >
+  <div class="card-body">
+  <h4 class="card-title">Saravanan Kiruba</h4>
+    <p class="card-text">Smooth process during execution and got Positive response.</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div>
+  </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+    <div class="card rounded-lg " >
+  <div class="card-body">
+  <h4 class="card-title">aravind don</h4>
+    <p class="card-text">In five years of advertising experience , I suggest everyone to travel with Baleen media.Their service was litteraly good 🙂 thanks to Baleen media 🙏</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div>
+  </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+    <div class="card rounded-lg " >
+  <div class="card-body">
+    <h4 class="card-title">vinay syal</h4>
+    <p class="card-text">Excellent and prompt service by BALEEN Media for putting my advt in Hindu Property Plus at very affordable rates.
+    Thanks to BALEEN Media</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div>
+  </div>
+
+    </div>
+
+
+    <div class="carousel-item">
+
+    <div class="card rounded-lg " >
+  <div class="card-body">
+  <h4 class="card-title">Asif Sharfuddin</h4>
+    <p class="card-text">The experience was good and Leenah grace mam was very helpful in guiding and got the work done on time. Thanks to baleen media.</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div>
+  </div>
+    </div>
+
+    <div class="carousel-item">
+    
+
+    <div class="card" >
+  <div class="card-body">
+  <h4 class="card-title">Mano Desilva</h4>
+    <p class="card-text">I had an excellent experience with Baleen Media for service I had with them... staff's are very humble and helpful.. got all the info in a very clean professional manner.. Keep it up guys looks great!!! 👍</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div> 
+  </div>
+ </div>
+
+ <div class="carousel-item">
+    <div class="card" >
+  <div class="card-body">
+  <h4 class="card-title">Arafath M</h4>
+    <p class="card-text">I had an excellent experience with Baleen Media for brand promotion. Monisha was incredibly helpful and provided continuous follow-up until the task was completed. Their  team dedication and attention to detail made the entire process smooth and efficient. Highly recommend!</p>
+    <img src="assets/images/pngwing.com (1).png" alt="">
+</div> 
+  </div>
+ </div>
+
+</div>
+  
+
+ <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+    <span class="carousel-control-next-icon  " aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+
+</section>
+     <!----------------------------------------------------------------------------------------------FAQ  -->
 <section class="faq-bg ">
 	<div class="container">
        
 		<div class="row">            
             <div class="col-md-12">
                
-                <h2 style="font-size:40px;"><strong>FAQs</strong></h2><br>
+                <h2 style="font-size: 40px; font-family:Montserrat;">FAQs</h2><br>
             </div>
         </div>
     </div>
@@ -638,7 +1171,7 @@ include('include/top.php');
         <div class="row">
             <div class="col-md-12 ">
                             <!--<div class="col-md-12 offset-md-1">-->
-
+                            
                 <div id="accordion-1" class="accordion">
                     <div class="card">
                         <div class="card-header" id="heading-1-1">
@@ -671,100 +1204,22 @@ include('include/top.php');
             </div>            
         </div>
     </div>
-    <!-- <div class="container mt-5">
-    <div class="card">
-        <div class="card-header bg-primary text-white">
-            What is the purpose of a Content Delivery Network (CDN)?
-        </div>
-        <div class="card-body">
-            <p><strong>Answer 1:</strong> A CDN improves the loading speed of websites by distributing content to servers closer to users, thus reducing latency.</p>
-            <p><strong>Answer 2:</strong> It also enhances security by providing DDoS protection and other security features.</p>
-            <p><strong>Answer 3:</strong> CDNs help to manage traffic spikes efficiently, ensuring that the website remains accessible during high-traffic periods.</p>
-        </div>
-        <div class="card-footer text-muted">
-            Source: Web Development Basics
-        </div>
-    </div> -->
+    
 </div>
 
     <!-- <img src="assets/images/wave1.png" class="img-fluid pt-5 ">  -->
     
     </section>
-    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-
-        <div class="carousel-item active">
-            <div class="card border">
-                <div class="card-body">
-                    <h3>Why should I choose Baleenmedia over other advertising companies in Chennai? </h3>
-                    <p class="quote">
-                        "Baleenmedia stands out for its innovative approach, dedicated client service, and proven track record of delivering impactful advertising agency in Chennai. With a team of experienced professionals and a commitment to excellence, they strive to exceed client expectations and achieve measurable results in advertising effectiveness."
-                    </p>
-                    <!-- <div class="client-info d-flex justify-content-center align-items-center">
-                        <img src="https://via.placeholder.com/50" alt="Client 1">
-                        <div class="ml-3">
-                            <h5>Zehra Türksoy</h5>
-                            <small>SEO & ASO Team Lead at SEM</small>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-
-        <div class="carousel-item">
-            <div class="card">
-                <div class="card-body">
-                    <p class="quote">
-                        "I'd recommend MobileAction to any gaming studio or app developer. Their suite of tools, data accuracy, and customer support have been instrumental in our success."
-                    </p>
-                    <div class="client-info d-flex justify-content-center align-items-center">
-                        <img src="https://via.placeholder.com/50" alt="Client 2">
-                        <div class="ml-3">
-                            <h5>Melih Yurduseven</h5>
-                            <small>Growth Manager at Leke Games</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="carousel-item">
-            <div class="card">
-                <div class="card-body">
-                    <p class="quote">
-                        "MobileAction has been pivotal in our journey. Their tools and team have empowered us to achieve a 45% jump in app downloads and redefine our marketing strategy."
-                    </p>
-                    <div class="client-info d-flex justify-content-center align-items-center">
-                        <img src="https://via.placeholder.com/50" alt="Client 3">
-                        <div class="ml-3">
-                            <h5>Mengjie Gao</h5>
-                            <small>Director of ASO Strategy at LinkDesks</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+    
 
 <!-- section title starts -->
-<section class="bg-light py-0">
+<section class="foc_bg py-0">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="section-title pt-5">
+                <div class="section-titl ">
                     <div class="title">
-                    <h2 style="font-size: 30px;"><B> Few of Our Clients </B></h2>
+                    <h2 style="font-size: 30px; font-family:Montserrat; "> Few of Our Clients </h2>
                     </div>                    
                 </div>
                 <!-- section_title starts -->

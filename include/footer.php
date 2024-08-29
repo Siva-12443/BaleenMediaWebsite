@@ -25,47 +25,33 @@
 	
 	    <div class="empty-space" style="height: 120px"></div>
 
- <section class="cta" data-parallax="scroll" data-image-src="assets/images/hover.jpg">
-        <div class="cta-overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12 align-self-center">
-                        <h2 class="">One Click to Get Quotation today!</h2>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="ConsultYou-btn">
-                            <a class="border-btn" href="rfq.php">Click Here</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </section>   
-    <footer id="colophon" class="site-footer">        
+		<footer id="colophon" class="site-footer"> 
+	<img src="assets/images/wave2.png" class="wave ">        
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_recent_comments">
-                        <h6 class="widget-title">About Us</h6>
-                        <p class="justify">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>                        
+                    <div class="col-lg-12 col-sm-12 footer-widget widget_recent_comments">
+                        <h5 class="widget-title">About Us</h5>
+                        <p class="justify"style="font-size: 15px;">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>                        
                     </div>
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_nav_menu">
+                    <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
                         <h6 class="widget-title">Services</h6>
                         <div>
                             <ul class="menu">
-								<li><a href="newspaper-advertisement-agency-in-chennai.php">Newspaper & Magazine Ads</a></li>
-                                <li><a href="paperinsert-advertisement-agency-in-chennai.php">Paper Inserts</a></li>
-								<li><a href="bus-advertisement-agency-in-chennai.php">Bus Back Ads</a></li>
-								<li><a href="noparking-advertisement-agency-in-chennai.php">NoParking Board</a></li>
-								<li><a href="tv-advertisement-agency-in-chennai.php">Television Ads</a></li>
-                                <li><a href="radio-advertisement-agency-in-chennai.php">Radio Advertisement</a></li>
-                                <li><a href="theatre-advertisement-agency-in-chennai.php">Theatre Ads</a></li>
-                                <li><a href="auto-advertisement-agency-in-chennai.php">auto Back Ads</a></li>
+								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper Ads</a></li>
+								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Magazine Ads</a></li>
+                                <li><a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;">Paper Inserts</a></li>
+								<li><a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;">Bus Back Ads</a></li>
+								<li><a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;">NoParking Board</a></li>
+								<li><a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Television Ads</a></li>
+                                <li><a href="radio-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Radio Advertisement</a></li>
+                                <li><a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Theatre Ads</a></li>
+                                <li><a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Auto Back Ads</a></li>
                             </ul>
                         </div>
                     </div>
                    
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_nav_menu">
+                    <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 						<h6 class="widget-title">Get Connected</h6>
 						<div>
 							<ul class="list-inline">
@@ -86,20 +72,22 @@
 								</li>
 							</ul>
 						</div>
+				    </div>
+					<div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 						<h6 class="widget-title">Let's Meet Up</h6>
                         <div>
                             <ul class="menu">
-                                <li><i class=" fa fa-building"></i> <a href="#">Baleen Media.</a></li>
+                                <li><i class=" fa fa-building"></i> <a href="#" style="font-size: 15px;" >Baleen Media.</a></li>
 								<li><a href="#"><b>OFFICE ADDRESS</b></a></li>
-                                <li><i class=" fa fa-home"></i> <a href="https://g.page/baleenmedia?share">No.32, Kasthuribai Nagar,<br> 3rd cross street,<br> Adyar, Chennai - 600020.<br>(Nalli Silks Opposite)</a></li>									
+								<li><i class=" fa fa-home"></i> <a href="https://g.page/baleenmedia?share">No.32, Kasthuribai Nagar,<br> 3rd cross street, <br>Adyar, Chennai - 600020.<br>(Nalli Silks Opposite)</a></li>						
                                 <li><i class=" fa fa-envelope"></i> <a href="#">leenah.grace@baleenmedia.com</a></li>
                                 <li><i class=" fa fa-phone"></i> <a href="#">+91 95660 31113</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 footer-widget widget_nav_menu">
+                    <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 					<h6 class="widget-title">Where We are</h6>
-					<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.961649994882!2d80.2194407!3d13.0203566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50d624131e47e020!2sBaleen%20Media%20-%20Advertising%20Agency%20in%20Chennai!5e0!3m2!1sen!2sin!4v1613470472212!5m2!1sen!2sin" width="250" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+					<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.961649994882!2d80.2194407!3d13.0203566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50d624131e47e020!2sBaleen%20Media%20-%20Advertising%20Agency%20in%20Chennai!5e0!3m2!1sen!2sin!4v1613470472212!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
 				</div>
 				</div>
             </div>			
@@ -107,18 +95,17 @@
 		
 		<div class="container">
 		<div class="text-center">
-		<h6 class="widget-title">  SERVICES </h6>
+		<h2 class="widget-title">  SERVICES </h2>
 		</div>
-		<marquee> <a href="newspaper-advertisement-agency-in-chennai.php"> Newspaper & Magazine Ads, </a> 
-		<a href="radio-advertisement-agency-in-chennai.php"> Radio Advertisement, </a>
-		<a href="tv-advertisement-agency-in-chennai.php"> Television Ads, </a>
-		<a href="bus-advertisement-agency-in-chennai.php"> Bus Back Ads, </a>
-		<a href="digitalmarketing-advertisement-agency-in-chennai.php"> Digital Marketing, </a>
-		<a href="noparking-advertisement-agency-in-chennai.php"> NoParking Board, </a>
-		<a href="paperinsert-advertisement-agency-in-chennai.php"> Paper Inserts, </a> 
-		<a href="theatre-advertisement-agency-in-chennai.php"> Theatre Ads, </a>
-		<a href="auto-advertisement-agency-in-chennai.php"> auto Back Ads, </a>
-
+		<marquee> <a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Newspaper & Magazine Ads, </a> 
+		<a href="radio-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Radio Advertisement, </a>
+		<a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Television Ads, </a>
+		<a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Bus Back Ads, </a>
+		<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Digital Marketing, </a>
+		<a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;"> NoParking Board, </a>
+		<a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Paper Inserts, </a> 
+		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Theatre Ads, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Auto Back Ads, </a>
 	  </marquee>
 	  </div>
 		   
@@ -133,6 +120,7 @@
 
     <!--======= Back to Top =======-->
     <div id="backtotop"><i class="fa fa-lg fa-arrow-up"></i></div>
+
 
     <!-- /.backtotop -->
 

@@ -252,7 +252,7 @@ include('include/top.php');
 @media screen and (min-width:576px) {
     .carousel-item{
         width:30%;
-        margin-left:650px;
+        margin-left:450px;
     }
     .card{
         
@@ -370,6 +370,61 @@ color:blue;
   50% {color: violet;}
   100%{color: purple;}
 }
+/* ----------------------------------------------------------------------testi */
+.testi{
+    background-color:whitesmoke;
+}
+.testicard {
+   background-color:white;
+   padding:20px;
+   margin: 10px 0px;
+   box-shadow: 0 20px 30px -30px rgba(5, 5, 5, 0.24);
+
+}
+.testitop{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    
+}
+.avatar{
+   background-color:#a6d8f9e3;
+   padding:15px;
+   border-radius:50%;
+   box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24);
+}
+.testibody{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+}
+.testibody p {
+    font-size:16px;
+    font-family:'Nunito';
+    font-weight:normal;
+    line-height:1.4;
+}
+.testitop h2{
+    font-size:22px;
+    font-family: "Poppins";
+    font-style:Sans-serif;
+    font-weight:bold;
+    padding:0px;
+    margin:0px;
+}
+.testitop .name{
+    display:flex;
+    justify-content:center;
+   
+    flex-direction:column;
+    margin-left:10px;
+}
+.rating{
+    margin:0px;
+    
+}
+
 
 /*---------------------------------------------------------------------------------- faq-------- */
         .faq-bg{
@@ -433,10 +488,9 @@ color:blue;
  opacity: 0;
 }
      
-    </style>
+</style>
 
 <script>
-      
 
 </script>
  
@@ -1039,10 +1093,129 @@ Media display.</p>
     </section> 
 
     <!-- ----------------------------------------------------testimonials--------------------------------- -->
-     
+     <section class="testi">
+     <h1 style="font-size: 35px; font-family:Montserrat; font-weight:400; padding:20px 0px;" class="text-center">TESTIMONIALS</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="testicard">
+                     <div class="testitop">
+                        <div class="avatar">
+                           <i class="testiava fa-solid fa-user fa-2xl"></i>
+                        </div>
+                        <div class="name">
+                        <h2>Prassana</h2>
+                        <div class="rating">
+                       
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
+                            </div>
+                            
+                        </div>
+                        
+                     </div>
+                        <div class="testibody">
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- -----------------------------------tesicard 2 -->
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="testicard">
+                     <div class="testitop">
+                        <div class="avatar">
+                           <i class="testiava fa-solid fa-user fa-2xl"></i>
+                        </div>
+                        <div class="name">
+                        <h2>Prassana</h2>
+                        <div class="rating">
+                       
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
+                            </div>
+                            
+                        </div>
+                        
+                     </div>
+                        <div class="testibody">
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- -----------------------------------------------------testicard 3 -->
+                <div class="col-md-3 col-sm-3">
+                    <div class="testicard">
+                     <div class="testitop">
+                        <div class="avatar">
+                           <i class="testiava fa-solid fa-user fa-2xl"></i>
+                        </div>
+                        <div class="name">
+                        <h2>Prassana</h2>
+                        <div class="rating">
+                       
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
+                            </div>
+                            
+                        </div>
+                        
+                     </div>
+                        <div class="testibody">
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!---------------------------------------------------------testicard 4  -->
+                <div class="col-md-3 col-sm-3">
+                    <div class="testicard">
+                     <div class="testitop">
+                        <div class="avatar">
+                           <i class="testiava fa-solid fa-user fa-2xl"></i>
+                        </div>
+                        <div class="name">
+                        <h2>Prassana</h2>
+                        <div class="rating">
+                       
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
+                            </div>
+                            
+                        </div>
+                        
+                     </div>
+                        <div class="testibody">
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+     </section>
 
 <!-------------------------------------------------------------------------------------------------- testi-demo -->
-<h1 style="font-size: 40px; font-family:Montserrat;" class="text-center">TESTIMONIALS</h1>
+<!-- <h1 style="font-size: 40px; font-family:Montserrat;" class="text-center">TESTIMONIALS</h1>
 <section class="testimonials">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -1055,7 +1228,6 @@ Media display.</p>
     <p class="card-text">Very professional and delivered high class work.</p>
     <img src="assets/images/pngwing.com (1).png" alt="">
 </div>
-
  </div>
     </div>
     <div class="carousel-item">
@@ -1154,28 +1326,88 @@ Media display.</p>
   </button>
 </div>
 
-</section>
+</section> -->
      <!----------------------------------------------------------------------------------------------FAQ  -->
 <section class="faq-bg ">
-	<div class="container">
-       
-		<div class="row">            
-            <div class="col-md-12">
-               
-                <h2 style="font-size: 40px; font-family:Montserrat;">FAQs</h2><br>
-            </div>
+ <h2 style="font-size: 40px; font-family:Montserrat;">FAQs</h2><br>
+ <div class="container ">
+	<div class="row">  
+ <!-- ------------------------------------- 1st -->
+            <div class="col-md-12  mb-4 ">
+          <div class="faqbtn">      
+        <button class="btn btn-primary text-wrap" type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+         Why should I choose Baleenmedia over other advertising companies in Chennai?
+         </button>
+         </div>
+        
+ <div >
+  <div class="collapse width" id="collapseWidthExample">
+    <div class="card card-body" >
+    Baleenmedia stands out for its innovative approach, dedicated client service, and proven track record of delivering impactful advertising agency in Chennai. With a team of experienced professionals and a commitment to excellence, they strive to exceed client expectations and achieve measurable results in advertising effectiveness.
+    </div>
+  </div>
+</div>   
+</div>
+<!-- ------------------------------------------------2nd -->
+<div class="col-md-6 col-sm-6 mb-4 ">
+                
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+  What services does Baleenmedia offer as an advertising agency in Chennai?
+  </button>
+
+<div >
+  <div class="collapse width" id="collapseWidthExample2">
+    <div class="card card-body" >
+    Baleenmedia specializes in a wide range of advertising services including digital marketing, branding, social media management, creative content development, and media planning. They tailor strategies to meet diverse client needs, aiming to enhance brand visibility and engagement effectively.
+    </div>
+  </div>
+</div>   
+</div>
+<!-- ----------------------------------------------------3rd -->
+<div class="col-md-6 col-sm-6 mb-4 ">
+                <p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+  What services does Baleenmedia offer as an advertising agency in Chennai?
+  </button>
+</p>
+<div >
+  <div class="collapse width" id="collapseWidthExample3">
+    <div class="card card-body" >
+    Baleenmedia specializes in a wide range of advertising services including digital marketing, branding, social media management, creative content development, and media planning. They tailor strategies to meet diverse client needs, aiming to enhance brand visibility and engagement effectively.
+    </div>
+  </div>
+</div>   
+</div>
+<!-- -------------------------------------------------4th -->
+<div class="col-md-6 col-sm-6 mb-4 ">
+                <p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample">
+  What services does Baleenmedia offer as an advertising agency in Chennai?
+  </button>
+</p>
+<div >
+  <div class="collapse width" id="collapseWidthExample4">
+    <div class="card card-body" >
+    Baleenmedia specializes in a wide range of advertising services including digital marketing, branding, social media management, creative content development, and media planning. They tailor strategies to meet diverse client needs, aiming to enhance brand visibility and engagement effectively.
+    </div>
+  </div>
+</div>   
+</div>
+<!--  -->
         </div>
     </div>
-	
+	<!-- --------------------------------xxx-------------------------------------- -->
 	<div class="container">
         <div class="row">
             <div class="col-md-12 ">
+
+            
                             <!--<div class="col-md-12 offset-md-1">-->
                             
                 <div id="accordion-1" class="accordion">
                     <div class="card">
                         <div class="card-header" id="heading-1-1">
-                            <h5 style="font-size:20px;" data-toggle="collapse" data-target="#collapse-1-1" aria-controls="collapse-1-1" aria-expanded="true">Why should I choose Baleenmedia over other advertising companies in Chennai?<span class="fa fa-chevron-down"></span>
+                            <h5 style="font-size:20px;" data-toggle="collapse" data-target="#collapse-1-1" aria-controls="collapse-1-1" aria-expanded="false">Why should I choose Baleenmedia over other advertising companies in Chennai?<span class="fa fa-chevron-down"></span>
                             </h5>
                         </div>
                         <div id="collapse-1-1" class="collapse show" aria-labelledby="heading-1-1" data-parent="#accordion-1">
@@ -1210,6 +1442,9 @@ Media display.</p>
     <!-- <img src="assets/images/wave1.png" class="img-fluid pt-5 ">  -->
     
     </section>
+    <!-- ---------------------------------------------------FAQ demo -->
+    
+     <!-- -------------------------xxxx----------------- -->
     
 
 <!-- section title starts -->

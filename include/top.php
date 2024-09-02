@@ -81,6 +81,9 @@
     <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <link rel="icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloria+Hallelujah&family=Raleway:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -102,6 +105,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<style>
+		
 		h2{
 		  text-align:center;
 		  padding: 20px;
@@ -279,42 +283,10 @@
             </div>
         </div>
     </div>
-    <!-- Navbar -->
-	<!-- <div class="container">
-		<div class="row" style="height:auto">
-			<div class="col-md-8 ">
-			</div>
-			<div class="col-md-2 ">
-				<ul class="list-inline" style="text-align:center;padding-top:12px;font-size:15px;">
-					<li class="list-inline-item">
-						<a class="facebook social-icon" href="https://www.facebook.com/baleenmediaa/?ref=br_rs" title="Facebook" target="_blank"><i class=" fa-lg fa fa-facebook"></i></a>
-					</li> -->
-					<!-- <li class="list-inline-item">
-						<a class="twitter social-icon" href="https://twitter.com/" title="Twitter" target="_blank"><i class=" fa-lg fa fa-twitter"></i>
-						</a>
-					</li> -->
-					<!-- <li class="list-inline-item">
-						<a class="Youtube social-icon" href="https://www.youtube.com/channel/UCxlf0FlA1FvxPNaL08dCivA" title="Youtube" target="_blank"><i class=" fa-lg fa fa-youtube"></i>
-						</a>
-					</li> 
-					<li class="list-inline-item">
-						<a class="instagram social-icon" href="https://www.instagram.com/baleenmediaofficial/" title="Instagram" target="_blank"><i class=" fa-lg fa fa-instagram"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"><i class=" fa-lg fa fa-whatsapp"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-2" >			
-				<h4 style="text-align:center;padding-top:12px;font-size:20px;"><i class=" fa fa-phone fa-spin-hover"></i> 95660 31113</h4>			
-			</div>
-		</div>
-	</div> -->
-	<nav class="navbar navbar-expand-lg navbar-light  bg-light mb-0 p-2  rounded-0 sticky-top " style="background-color: white;">
+   
+	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;">
 	<div class="container ">
-    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo white.png" alt="ConsultYou"></a>
+    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
             </button>
 			<!-- <div class="baleen-logo ">

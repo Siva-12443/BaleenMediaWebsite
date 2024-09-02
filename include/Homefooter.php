@@ -17,6 +17,18 @@
 	.terms a {
 color:white;
 	}
+	.site-footer a:hover {
+color:#F1aAFF;
+	}
+	marquee a:hover{
+		color:#F1aAFF;
+		}
+	.menu li a:hover{
+		color:#F1aAFF;
+	}
+	.list-inline li a:hover{
+		color:#F1aAFF;
+	}	
 	
 </style>
    <!--  <div class="container">
@@ -150,18 +162,28 @@ color:white;
 		<a href="radio-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Radio Advertisement, </a>
 		<a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Television Ads, </a>
 		<a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Bus Back Ads, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Bus Shelter Ads, </a>
 		<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Digital Marketing, </a>
 		<a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;"> NoParking Board, </a>
 		<a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Paper Inserts, </a> 
-		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Theatre Ads, </a>
+		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Hoardings, </a>
 		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Auto Back Ads, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Mobile Van Branding, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Software Development, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Website development, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> SEO, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Apartment Screen Branding , </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;">Lamppost Ads, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Traffic Alert, </a>
+		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Pamphlets. </a>
+
 	  </marquee>
 	  </div>
 		   
-        <div class="copyright-bar">
+        <div class="copyright-bar ">
             <div class="container">
-                <div class="text-center">
-                    <p>Copyright © 2019 Baleen Meda All Rights Reserved. </p>
+                <div class="text-center ">
+                    <p class="text-white">Copyright © 2019 Baleen Meda All Rights Reserved. </p>
                 </div>
             </div>
         </div>

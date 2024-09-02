@@ -2,57 +2,177 @@
 include('include/top.php');
 ?>
 <style>
+    @media screen and (min-width:1204px) {
+       body .about-section_about h1 {
+        font-family: "poppins", sans-serif;
+         
+            text-align:left;
+            font-size: 60px;
+            font-weight:400;
+            /* text-align:right; */
+            border-bottom:2px solid black;
+            /* text-wrap:wrap; */  
+      }
+      body .about-section_about p {
+        font-weight:500;
+        font-size: 18.5px;
+            
+        }
+       body  .about-section_about span{
+            font-family: "Gloria Hallelujah", cursive;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 35.5px;
+            text-wrap:nowrap;   
+        }
+        body .about-section_about .about-img{
+            margin-top:70px;
+            margin-left:50px;
+        }
+        body .vmt{
+            margin-top:80px;
+        }
+        
+}
 .about-section_about {
-          
-           
           /* background-attachment: fixed; */
           
          padding-top:50px;
-         
           /* box-shadow: 0px 0px 5px #4d4c4c7a; */
-          background-image: linear-gradient(  white, #f6efdd,#063b57); 
+          background-color:#F1EAFF;
       }
       .about-section_about h1 {
-        font-family: "Montserrat", sans-serif;
+        font-family: "poppins", sans-serif;
             /* font-family: "Cormorant Upright", serif; */
-            font-size: 40px;
-            font-weight:300;
+            text-align:center;
+            font-size: 50px;
+            font-weight:500;
             /* text-align:right; */
-            border-bottom:2px solid black;
+            border-bottom:1px solid black;
             /* text-wrap:wrap; */
           
       }
       .about-section_about p {
-            font-family: "Nunito", sans-serif;
-            font-size: 15.5px;
-            /* text-align:left; */   
+        font-family:"poppins";
+            font-size: 12.5px;
+              
         }
         .about-section_about span{
-            font-family: "Cormorant Upright", serif;
-                font-weight: 700;
+            font-family: "Gloria Hallelujah", cursive;
+            font-weight: 700;
             font-style: italic;
-            font-size: 17.5px;
+            font-size: 18.5px;  
+        }
+        .about-section_about .about-img{
+            margin-top:40px;
         }
       .wave{
             width: 100%;
         }
-    .vmt p {
-        font-size:14px;
-        text-align:center;                                                    
+        .vmt{
+            margin-top:50px;
         }
+        
+    .vmt-card{
+        background-color:#a783ed;
+        padding:20px;
+        border-radius:20px;
+      
+    }
+    .vmt-card h1{
+        font-family:"poppins";
+        font-weight:800;
+        font-size:30px;
+        margin:10px;
+        text-align:center;
+    }
+    .vmt-card p{
+        color:whitesmoke;
+        font-size:16px;
+    font-family:'Nunito';
+    font-weight:bold;
+    line-height:1.4;
+    }
+    /*---------------------------------------------------------------------------------- groups-------- */
+
+.faq-container button{
+    border:0px  solid black;
+    
+    background-color:whitesmoke;
+    font-size:20px;
+    
+}
+.faqbtn-div{
+    padding:20px;
+    margin-bottom:10px;
+    background-color:whitesmoke;
+    border-bottom:5px  solid #B99470;
+    border-radius:15px;
+    
+}
+.faqcard-div{
+    
+    font-size:16px;
+    text-wrap:wrap;
+    margin:0px 20px;
+    margin-bottom:10px;
+}
+.faqbtn-div button{
+    font-size:20px;
+    border:0px;
+    background-color:whitesmoke;
+ }
+.faqbtn-div:hover{
+   
+    
+}
+.faq-card{
+    padding:20px;
+    border-radius:1px 20px 20px 20px;
+    border-bottom:5px  solid #B99470;
+    /* background-color:#874430; */
+    background-color:#F7EFE5;
+    color:black;
+}
+@media screen and (min-width:1025px){
+body{
+ .faqbtn-div{
+    padding:20px;
+    margin-bottom:10px;
+    background-color:whitesmoke;
+    border-bottom:5px  solid #B99470;
+    border-radius:15px;
+    
+ }
+ .faqbtn-div button{
+    font-size:30px;
+    border:0px;
+    background-color:whitesmoke;
+ }
+ .faqbtn-div:hover{
+    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 1);
+    
+ }
+ .faqcard-div{
+   
+    font-size:30px;
+    text-wrap:wrap;
+    margin:0px 20px;
+    margin-bottom:10px;
+ }
+
+
+}
+}
+    
 </style>
     <!-- breadcrumb -->
     <section class="about-section_about">
-        
-
-      
-        
-        <section class="about-section">
         <div class="container">
             <div class="row">
                 
-                <div class="col-lg-6 ">
-                    <h1><strong>ABOUT US</strong></h1><br>
+                <div class="col-md-6 col-sm-12 ">
+                    <h1>About Us</h1><br>
                     <p class="justify">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>
 
                     <p class="justify"> Baleen Media is a Advertising Agency in Chennai that provides services like Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions. With more than 16 years of experience in the advertising industry, Baleen Media is known for creating bigger values and top-notch customer satisfaction through innovative ideas. 
@@ -62,100 +182,109 @@ By providing its customers high quality services, Baleen Media is one of the bes
                    <span> Baleen Media extends its Service across all India Locations.</span><br>
                 </div><br>
 
-                <div class="col-lg-6  ">
-                    <img src="assets/images/network.png"style="width:100%; float:right;"  alt="img" >
-                    <div class="empty-space d-xl-none d-lg-none" style=""></div>
+                <div class="col-md-6 col-sm-12 ">
+                    <img class="about-img" src="assets/images/teamwork-concept-landing-page.png" style="width:100%;"  alt="img" >
+                    
                 </div>
             </div>
         </div>
-    </section>
+        <div class="empty-space" style="height:80px;"></div>
     <img src="assets/images/wave1.png" class="wave ">
     </section>
 
-    <div class="empty-space" style="height:100px;"></div>
+    <!-- --------------------------------------------------------------vmt -->
 	
-   <div class="vmt bg-light"> 
-    <div class="container">
-        <div class="row">            
-            <div class="col-md-12 ">
-                <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
-                <h2><strong>Vision</strong></h2><br>
-                <p>To Keep Every Advertiser Happy and Satisfied through Dedication, Commitment and Quality.</p>
+   <div class="vmt"> 
+   <div class="container">
+        <div class="row">
+            <!-- -------------------------------card1 -->
+            <div class="col-md-4 mb-4">
+                <div class="vmt-card">
+                    <h1>Vision</h1>
+                    <img src="assets/images/vision.png" alt="" class="img-fluid">
+                    <p>To Keep Every Advertiser Happy and Satisfied through Dedication, Commitment and Quality.</p>
+                </div>
             </div>
-        </div>
-		<div class="row">            
-            <div class="col-md-12">
-                <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
-                <h2><strong>Mission</strong></h2><br>
-                <p>To Create "Trustworthy System" which reciprocates Customer Satisfaction, Publication Comfort & Employee Recognition.</p> 
+            <!-- --------------------------------card2 -->
+            <div class="col-md-4 mb-4">
+                <div class="vmt-card">
+                    <h1>Mission</h1>
+                    <img src="assets/images/mission.png" alt="" class="img-fluid mb-4">
+                    <p>To Create "Trustworthy System" which reciprocates Customer Satisfaction, Publication Comfort & Employee Recognition.</p>
+                </div>
             </div>
-        </div>
-		<div class="row">            
-            <div class="col-md-12">
-                <div class="empty-space d-xl-none d-lg-none" style="height: 50px"></div>
-                <h2><strong>Team Baleen Media</strong></h2><br>
-                <p>Each Project is well executed by our promising multi-functional team which comprises of Business Development, Client Servicing & Quality Assurance Group.</p> 
+            <!-- ----------------------------card3 -->
+            <div class="col-md-4 mb-4">
+                <div class="vmt-card">
+                    <h1>Team Baleen Media</h1>
+                    <img src="assets/images/teambaleen.png" alt="" class="img-fluid mb-4">
+                    <p>Each Project is well executed by our promising multi-functional team which comprises of Business Development, Client Servicing & Quality Assurance Group.</p>
+                </div>
             </div>
+            <!-- ---------xxxx------------- -->
         </div>
-    </div>
+     </div>
 	</div>
 
     <!-- vmt cards -->
-     <div class="container">
-        <div class="row">
-            
-        </div>
-     </div>
+    
 
-    <div class="empty-space" style="height:100px;"></div>
+    
 
-    <!-- groups -->
-    <div class="container">
-       
-		<div class="row">            
-            <div class="col-md-12">
-               
-                <h2 style="font-size: 40px; font-family:Montserrat;">Groups</h2><br>
-            </div>
-        </div>
+    <section class="faq-bg ">
+ <h2 style="font-size: 50px; font-family:Montserrat;">GROUPS</h2><br>
+ <div class="container ">
+	 
+ <!-- ------------------------------------- 1st -->
+            <div class="col-md-4">
+           <div class="faqbtn-div">   
+        <button class="faqbtn " type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Business Development Group
+         </button>
+         </div>
+        
+ <div class="faqcard-div">
+  <div class="collapse " id="collapseWidthExample">
+    <div class="faq-card" >
+    Provides On-door service for explaining the offered services & schemes provided by various publications.
     </div>
-	<div class="container">
-        <div class="row">
-            <div class="col-md-12 ">
-                            <!--<div class="col-md-12 offset-md-1">-->
+  </div>
+</div>   
+</div>
+<!-- ------------------------------------------------2nd -->
+<div class="col-md-4">
+<div class="faqbtn-div">              
+  <button class="faqbtn" type="button" data-toggle="collapse" data-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
+  Client Servicing Group
+  </button>
+</div>
 
-                <div id="accordion-1" class="accordion">
-                    <div class="card">
-                        <div class="card-header" id="heading-1-1">
-                            <h5 data-toggle="collapse" data-target="#collapse-1-1" aria-controls="collapse-1-1" aria-expanded="true">Business Development Group<span class="fa fa-chevron-down"></span>
-                            </h5>
-                        </div>
-                        <div id="collapse-1-1" class="collapse show" aria-labelledby="heading-1-1" data-parent="#accordion-1">
-                            <div class="card-body">Provides On-door service for explaining the offered services & schemes provided by various publications.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="heading-1-2">
-                            <h5 data-toggle="collapse" data-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">Client Servicing Group<span class="fa fa-chevron-right"></span>
-                            </h5>
-                        </div>
-                        <div id="collapse-1-2" class="collapse" aria-labelledby="heading-1-2" data-parent="#accordion-1">
-                            <div class="card-body">Coordinates between Client & Publications for Media Planning & Execution.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="heading-1-3">
-                            <h5 data-toggle="collapse" data-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">Quality Assurance Group<span class="fa fa-chevron-right"></span>
-                            </h5>
-                        </div>
-                        <div id="collapse-1-3" class="collapse" aria-labelledby="heading-1-3" data-parent="#accordion-1">
-                            <div class="card-body">Seeks for Customer and publications feedback & Satisfactory level.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>            
-        </div>
+<div class="faqcard-div" >
+  <div class="collapse " id="collapseWidthExample2">
+    <div class="faq-card" >
+    Coordinates between Client & Publications for Media Planning & Execution.
     </div>
+  </div>
+</div>   
+</div>
+<!-- ----------------------------------------------------3rd -->
+<div class="col-md-4">
+<div class="faqbtn-div">              
+  <button class="faqbtn" type="button" data-toggle="collapse" data-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+  Quality Assurance Group
+  </button>
+</div>
+
+<div class="faqcard-div">
+  <div class="collapse " id="collapseWidthExample3">
+    <div class="faq-card" >
+    Seeks for Customer and publications feedback & Satisfactory level.
+    </div>
+  </div>
+</div>   
+</div>
+</div>
+   
     <!-- .empty-soace -->
     <div class="empty-space" style="height: 125px"></div>
     <!-- /.empty-soace -->

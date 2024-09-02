@@ -10,52 +10,80 @@ include('include/top.php');
         body{
             zoom:130%;
         } 
+        
 
     }
+    @media only screen and (min-width:375px){
+        .about-section_top p {
+            font-family: "Barlow", sans-serif;
+            font-size: 16px;
+            text-align:left;
+            color:gray;
+            
+            
+            
+        }
+    }
        .about-section_top{
-            background-image:url("assets/images/baleen-bg.jpg" );
+        
+        background-color:#F1EAFF;
+            /* background-image:url("assets/images/baleen-bg.jpg" );
             background-position: top;
             background-attachment: fixed;
-            background-size:cover;
+            background-size:cover; */
             /* box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.15); */
             /* margin-bottom: 20px; */
-            padding-top:200px;
+            padding-top:50px;
             border:0px;
             /* zoom:150%; */
            
+        }
+        .about-content_top{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+
         }
         .wave{
             width: 100%;
         }
         .about-section_top h1 {
-            font-family: "Montserrat", sans-serif;
+            font-family: "SUSE", sans-serif;
             /* font-family: "Cormorant Upright", serif; */
             font-size: 40px;
-            font-weight:300;
-            /* text-align:right; */
-            border-bottom:.2px solid black;
-            /* text-wrap:wrap; */
-            float:right;
+            font-weight:200;
+            
+            animation-name:bannerani;
+            animation-duration: 3s;
+            
+            
         }
         .about-section_top h1 span{
-            font-family: "Cormorant Upright", serif;
-                font-weight: 700;
-            font-style: italic;
-            /* animation-name:spanclr;
-            animation-duration: 60s; */
+            font-family: "Gloria Hallelujah", cursive;
+                font-weight: 800;
+                
+            /* font-style: italic; */
+            animation-name:spanclr;
+            animation-duration: 4s;
         }
         .about-section_top p {
-            font-family: "Nunito", sans-serif;
+            font-family: "Barlow", sans-serif;
             font-size: 20px;
-            /* text-align:left; */
-            color:#ffff;
-            padding-bottom:200px;
-            float:right;
+            text-align:left;
+            color:gray;
+            padding-bottom:100px;
+            
+            
         }
         @keyframes spanclr {
-  0%   {border:.2px solid;}
-  50% {border:.2px solid gray;}
-  100%{border:.2px solid white;}
+  0%{color:white;}
+  50%{color:gray;}
+  100%{color:black;}
+}
+@keyframes bannerani {
+  0%   {padding-top:500px;}
+  100%{padding-top:0px;}
 }
 
        
@@ -109,7 +137,7 @@ include('include/top.php');
         }
         .WhatWeDo{
             /* background-image: linear-gradient( #f6efdd, white); */
-            background-color:#fff7dbd1;
+            background-color:#F1EAFF;
         }
         .wave{
             /* rotate: y -180deg; */
@@ -202,7 +230,7 @@ include('include/top.php');
         } 
 /* ---------------------------------------------------------------------------------------------testimonials  */
 .testimonials { 
-    background-color:white;
+    background-color:whitesmoke;
     padding:20px 0px;
     text-align:center;
 }
@@ -249,25 +277,7 @@ include('include/top.php');
       
     }
 } */
-@media screen and (min-width:576px) {
-    .carousel-item{
-        width:30%;
-        margin-left:450px;
-    }
-    .card{
-        
-        
-    }
-}
-.carousel-control-prev{
-    background-color:inherit;
-    border:0px;
-}
-.carousel-control-next{
-    background-color:inherit;
-    border:0px;
 
-}
 /* -- --------------------------------------------------------------------------new card book -- */
  /* From Uiverse.io by eslam-hany */ 
 .book {
@@ -292,6 +302,13 @@ include('include/top.php');
  
   justify-content: center;
   
+}
+.book .Whatsapp:hover {
+    color:#06a806;
+    text-decoration: underline
+}
+.book a{
+    color:black;
 }
 
 .cover {
@@ -372,7 +389,9 @@ color:blue;
 }
 /* ----------------------------------------------------------------------testi */
 .testi{
-    background-color:whitesmoke;
+    background-color:#F7EFE5;
+    padding-bottom:35px;
+    
 }
 .testicard {
    background-color:white;
@@ -388,7 +407,7 @@ color:blue;
     
 }
 .avatar{
-   background-color:#a6d8f9e3;
+   background-color:#F1EAFF;
    padding:15px;
    border-radius:50%;
    box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24);
@@ -427,13 +446,80 @@ color:blue;
 
 
 /*---------------------------------------------------------------------------------- faq-------- */
+.faq-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.faq-container button{
+    border:0px  solid black;
+    
+    background-color:whitesmoke;
+    font-size:20px;
+    
+}
+.faqbtn-div{
+    padding:20px;
+    margin-bottom:10px;
+    background-color:whitesmoke;
+    border-bottom:5px  solid #B99470;
+    border-radius:15px;
+    width:90%;
+}
+.faqcard-div{
+    width:90%;
+    font-size:16px;
+    text-wrap:wrap;
+    margin:0px 20px;
+    margin-bottom:10px;
+}
+.faqbtn-div:hover{
+    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 1);
+    width:91%;
+}
+.faq-card{
+    padding:20px;
+    border-radius:1px 20px 20px 20px;
+    border-bottom:5px  solid #B99470;
+    /* background-color:#874430; */
+    background-color:#F7EFE5;
+    color:black;
+}
+@media screen and (min-width:1025px){
+    .faqbtn-div{
+    padding:20px;
+    margin-bottom:10px;
+    background-color:whitesmoke;
+    border-bottom:5px  solid #B99470;
+    border-radius:15px;
+    width:70%;
+}
+.faqbtn-div:hover{
+    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 1);
+    width:71%;
+}
+.faqcard-div{
+    width:70%;
+    font-size:16px;
+    text-wrap:wrap;
+    margin:0px 20px;
+    margin-bottom:10px;
+}
+
+
+}
         .faq-bg{
-            background-color: #eeee;
+            /* background-color: #ffe1a9eb; */
+            background-color:#F1EAFF;
             /* background-image: linear-gradient(  white, #f8f9fa); */
             padding:20px 0px;
         }
         .foc_bg{
-            background-image: linear-gradient(  #eeee, #f8f9fa);
+            /* background-image: linear-gradient(  #eeee, #f8f9fa); */
+            background-color: #FFFBF5;
         }
 /* FAQ carousel------------------- */
 
@@ -453,7 +539,7 @@ color:blue;
  font-family: inherit;
  font-weight: 500;
  color: whitesmoke;
- background-color: #426776;
+ background-color: #9376E0;
 }
 
 .btn1:hover {
@@ -497,17 +583,20 @@ color:blue;
     <section class="about-section_top  " >
         <div class=" container">
             <div class="row ">
-                <div class="col-lg-12  col-md-12 col-sm-12 "> 
-                   <div class="about-content_top pb-5 ">
+
+                <div class="  col-md-12  "> 
+                   <div class="about-content_top  ">
                        
                             <h1>Massive Advertising At <span>Minimal cost</span></h1>
                             <p>
                                 Finally, You Have Reached Chennai's Best Advertising Agency.
                             </p>
-                        
+                            
                     </div>
                 </div>
-                
+                <!-- <div class="col-md-6 ">
+                <img src="assets/images/ad banner.png" alt="" class="img-fluid">
+                </div> -->
             </div>
         </div> 
       
@@ -595,7 +684,7 @@ color:blue;
         <div class="book">
     <p>Creates a remarkable impact within the audience with 
     the help of creative videos & Graphics.</p>
-    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+    <a href="tv-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
   <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                         
     <div class="cover text-center">
@@ -610,7 +699,7 @@ color:blue;
         <div class="book">
     <p>Attracts a good amount of reach through expressive 
     voice – jingles at exact time.</p>
-    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+    <a href="radio-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
   <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                         
     <div class="cover text-center">
@@ -625,7 +714,7 @@ color:blue;
         <div class="book">
     <p>This action catches an instant 
     attention of newspaper readers.</p>
-    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+    <a href="paperinsert-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
   <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                         
     <div class="cover text-center">
@@ -640,7 +729,7 @@ color:blue;
         <div class="book">
     <p>It is a dominating 
     Media display.</p>
-    <a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+    <a href="bus-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
   <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                         
     <div class="cover text-center">
@@ -655,7 +744,7 @@ color:blue;
     <div class="book">
 <p>It is a dominating 
 Media display.</p>
-<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a href="auto-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
 <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                     
 <div class="cover text-center">
@@ -669,7 +758,7 @@ Media display.</p>
     
     <div class="book">
 <p>An effective way to target the local audience & register.</p>
-<a href="newspaper-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
+<a href="noparking-advertisement-agency-in-chennai.php"> <button class="readbtn">Read More</button></a>
 <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                     
 <div class="cover text-center">
@@ -1104,7 +1193,7 @@ Media display.</p>
                            <i class="testiava fa-solid fa-user fa-2xl"></i>
                         </div>
                         <div class="name">
-                        <h2>Prassana</h2>
+                        <h2>Arafath M</h2>
                         <div class="rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -1118,7 +1207,7 @@ Media display.</p>
                         
                      </div>
                         <div class="testibody">
-                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> I had an excellent experience with Baleen Media for brand promotion. Their team dedication and attention to detail made the entire process smooth and efficient.Highly recommend!<i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
                             
                         </div>
                         
@@ -1133,7 +1222,7 @@ Media display.</p>
                            <i class="testiava fa-solid fa-user fa-2xl"></i>
                         </div>
                         <div class="name">
-                        <h2>Prassana</h2>
+                        <h2> Sundar M</h2>
                         <div class="rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -1147,7 +1236,7 @@ Media display.</p>
                         
                      </div>
                         <div class="testibody">
-                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> I had an exceptional experience working with you. My sincere gratitude goes to the Baleen Media team. A special thank you to Usha ma'am and Monisha ma'am for their outstanding support and dedication. <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
                             
                         </div>
                         
@@ -1161,7 +1250,7 @@ Media display.</p>
                            <i class="testiava fa-solid fa-user fa-2xl"></i>
                         </div>
                         <div class="name">
-                        <h2>Prassana</h2>
+                        <h2> Mano Desilva</h2>
                         <div class="rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -1175,7 +1264,7 @@ Media display.</p>
                         
                      </div>
                         <div class="testibody">
-                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> I had an excellent experience with Baleen Media for service I had with them... staff's are very humble and helpful.. got all the info in a very clean professional manner.. Keep it up guys looks great!!! 👍 <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
                             
                         </div>
                         
@@ -1189,7 +1278,7 @@ Media display.</p>
                            <i class="testiava fa-solid fa-user fa-2xl"></i>
                         </div>
                         <div class="name">
-                        <h2>Prassana</h2>
+                        <h2>Aravind don</h2>
                         <div class="rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -1203,7 +1292,7 @@ Media display.</p>
                         
                      </div>
                         <div class="testibody">
-                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptatum obcaecati unde, exercitationem enim dolor beatae. Dolorem nam aliquid illum perspiciatis maiores? Repudiandae consequuntur adipisci exercitationsm <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
+                            <p><i class="fa-solid fa-quote-left fa-2xl " style="color: #d6d6d6;"></i> In five years of advertising experience , I suggest everyone to travel with Baleen media.Their service was litteraly good 🙂 thanks to Baleen media <i class="fa-solid fa-quote-left fa-2xl fa-rotate-180" style="color: #d6d6d6; "></i></p>
                             
                         </div>
                         
@@ -1330,87 +1419,78 @@ Media display.</p>
      <!----------------------------------------------------------------------------------------------FAQ  -->
 <section class="faq-bg ">
  <h2 style="font-size: 40px; font-family:Montserrat;">FAQs</h2><br>
- <div class="container ">
-	<div class="row">  
+ <div class="faq-container ">
+	 
  <!-- ------------------------------------- 1st -->
-            <div class="col-md-12  mb-4 ">
-          <div class="faqbtn">      
-        <button class="btn btn-primary text-wrap" type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            
+           <div class="faqbtn-div">   
+        <button class="faqbtn " type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
          Why should I choose Baleenmedia over other advertising companies in Chennai?
          </button>
          </div>
         
- <div >
-  <div class="collapse width" id="collapseWidthExample">
-    <div class="card card-body" >
+ <div class="faqcard-div">
+  <div class="collapse " id="collapseWidthExample">
+    <div class="faq-card" >
     Baleenmedia stands out for its innovative approach, dedicated client service, and proven track record of delivering impactful advertising agency in Chennai. With a team of experienced professionals and a commitment to excellence, they strive to exceed client expectations and achieve measurable results in advertising effectiveness.
     </div>
   </div>
 </div>   
-</div>
+
 <!-- ------------------------------------------------2nd -->
-<div class="col-md-6 col-sm-6 mb-4 ">
-                
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+
+<div class="faqbtn-div">              
+  <button class="faqbtn" type="button" data-toggle="collapse" data-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
   What services does Baleenmedia offer as an advertising agency in Chennai?
   </button>
+</div>
 
-<div >
-  <div class="collapse width" id="collapseWidthExample2">
-    <div class="card card-body" >
+<div class="faqcard-div" >
+  <div class="collapse " id="collapseWidthExample2">
+    <div class="faq-card" >
     Baleenmedia specializes in a wide range of advertising services including digital marketing, branding, social media management, creative content development, and media planning. They tailor strategies to meet diverse client needs, aiming to enhance brand visibility and engagement effectively.
     </div>
   </div>
 </div>   
-</div>
+
 <!-- ----------------------------------------------------3rd -->
-<div class="col-md-6 col-sm-6 mb-4 ">
-                <p>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
-  What services does Baleenmedia offer as an advertising agency in Chennai?
+
+<div class="faqbtn-div">              
+  <button class="faqbtn" type="button" data-toggle="collapse" data-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+  How can Baleenmedia help my business grow?
   </button>
-</p>
-<div >
-  <div class="collapse width" id="collapseWidthExample3">
-    <div class="card card-body" >
-    Baleenmedia specializes in a wide range of advertising services including digital marketing, branding, social media management, creative content development, and media planning. They tailor strategies to meet diverse client needs, aiming to enhance brand visibility and engagement effectively.
+</div>
+
+<div class="faqcard-div">
+  <div class="collapse " id="collapseWidthExample3">
+    <div class="faq-card" >
+    Baleenmedia leverages its expertise in digital and traditional advertising to enhance your brand visibility, attract more customers, and increase your market reach. They focus on driving measurable results through strategic campaigns and creative solutions.
     </div>
   </div>
 </div>   
 </div>
 <!-- -------------------------------------------------4th -->
-<div class="col-md-6 col-sm-6 mb-4 ">
-                <p>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample">
-  What services does Baleenmedia offer as an advertising agency in Chennai?
-  </button>
-</p>
-<div >
-  <div class="collapse width" id="collapseWidthExample4">
-    <div class="card card-body" >
-    Baleenmedia specializes in a wide range of advertising services including digital marketing, branding, social media management, creative content development, and media planning. They tailor strategies to meet diverse client needs, aiming to enhance brand visibility and engagement effectively.
-    </div>
-  </div>
-</div>   
-</div>
+
+         
+
 <!--  -->
-        </div>
-    </div>
+      
+    
 	<!-- --------------------------------xxx-------------------------------------- -->
-	<div class="container">
+	<!-- <div class="container">
         <div class="row">
-            <div class="col-md-12 ">
+            <div class="col-md-12 "> -->
 
             
                             <!--<div class="col-md-12 offset-md-1">-->
                             
-                <div id="accordion-1" class="accordion">
+                <!-- <div id="accordion-1" class="accordion">
                     <div class="card">
                         <div class="card-header" id="heading-1-1">
                             <h5 style="font-size:20px;" data-toggle="collapse" data-target="#collapse-1-1" aria-controls="collapse-1-1" aria-expanded="false">Why should I choose Baleenmedia over other advertising companies in Chennai?<span class="fa fa-chevron-down"></span>
                             </h5>
                         </div>
-                        <div id="collapse-1-1" class="collapse show" aria-labelledby="heading-1-1" data-parent="#accordion-1">
+                        <div id="collapse-1-1" class="collapse" aria-labelledby="heading-1-1" data-parent="#accordion-1">
                             <div style="font-size:16px;" class="card-body">Baleenmedia stands out for its innovative approach, dedicated client service, and proven track record of delivering impactful advertising agency in Chennai. With a team of experienced professionals and a commitment to excellence, they strive to exceed client expectations and achieve measurable results in advertising effectiveness.</div>
                         </div>
                     </div>
@@ -1438,12 +1518,29 @@ Media display.</p>
     </div>
     
 </div>
-
+</section> -->
     <!-- <img src="assets/images/wave1.png" class="img-fluid pt-5 ">  -->
     
-    </section>
-    <!-- ---------------------------------------------------FAQ demo -->
     
+    <!-- ---------------------------------------------------FAQ demo -->
+   <section class="faq-bg">
+        <div class="container">
+            <div class="row">
+                <!-- faq-card1 -->
+                 <div class="col-md-4">
+                    <div class="">
+                        <div class="faq-card-top">
+                            <img src="" alt="">
+                        </div>
+                        <div class="faq-card-body">
+                            <p></p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- xxx -->
+            </div>
+        </div>
+    </section>
      <!-- -------------------------xxxx----------------- -->
     
 

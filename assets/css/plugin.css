@@ -273,15 +273,12 @@ sup {
 }
 
 a {
-    color: #2a2a2a;
+    color: #ffffff;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
-a:hover {
-    color:#06a806;
-    text-decoration: underline
-}
+
 
 a:not([href]):not([tabindex]),
 a:not([href]):not([tabindex]):focus,
@@ -339,10 +336,7 @@ button {
     border-radius: 0
 }
 
-button:focus {
-    outline: dotted 1px;
-    outline: -webkit-focus-ring-color auto 5px
-}
+
 
 button,
 input,

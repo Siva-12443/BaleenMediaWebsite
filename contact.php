@@ -1,23 +1,92 @@
 <?php
-include('include/top_contact.php');
+include('include/top.php');
 ?>
+<style>
+    @media screen and (min-width:1204px) {
+       body .about-section_about h1 {
+        font-family: "poppins", sans-serif;
+         
+            text-align:left;
+            font-size: 60px;
+            font-weight:400;
+            /* text-align:right; */
+            border-bottom:2px solid black;
+            /* text-wrap:wrap; */  
+      }
+      body .about-section_about p {
+        font-weight:500;
+        font-size: 18.5px;
+            
+        }
+       body  .about-section_about span{
+            font-family: "Gloria Hallelujah", cursive;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 35.5px;
+            text-wrap:nowrap;   
+        }
+        body .about-section_about .about-img{
+            margin-top:70px;
+            margin-left:50px;
+        }
+        body .vmt{
+            margin-top:80px;
+        }
+        
+}
+.about-section_about {
+          /* background-attachment: fixed; */
+          
+         padding-top:50px;
+          /* box-shadow: 0px 0px 5px #4d4c4c7a; */
+          background-color:#F1EAFF;
+      }
+      .about-section_about h1 {
+        font-family: "poppins", sans-serif;
+            /* font-family: "Cormorant Upright", serif; */
+            text-align:center;
+            font-size: 50px;
+            font-weight:500;
+            /* text-align:right; */
+            border-bottom:1px solid black;
+            /* text-wrap:wrap; */
+          
+      }
+      .about-section_about p {
+        font-family:"poppins";
+            font-size: 12.5px;
+              
+        }
+        
+        .about-section_about .about-img{
+            margin-top:40px;
+        }
+      .wave{
+            width: 100%;
+        }
+</style>
     <!-- breadcrumb -->
-    <section class="breadcrumb-banner breadcrumb-bnr-shadow">
+    <section class="about-section_about">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="breadcrumb-title">
-                        <h1>Contact</h1>
-                        <div class="breadcrumbs">
-                            <div id="crumbs">
-                                <a href="index-4.php">Home</a> <i>»</i> <span class="active">Contact</span><br>
-We are the best advertising company/agency in Chennai and we are more than delighted to assist you and connect with you for this journey of growth.  
-                            </div>
-                        </div>
-                    </div>
+                
+                <div class="col-md-6 col-sm-12 ">
+                    <h1>Contact Us</h1><br>
+                    <p class="justify">We are the best advertising company/agency in Chennai and we are more than delighted to assist you and connect with you for this journey of growth.  </p>
+
+                    
+
+        
+                </div><br>
+
+                <div class="col-md-6 col-sm-12 ">
+                    <img class="about-img" src="assets/images/contactus.png" style="width:100%;"  alt="img" >
+                    
                 </div>
             </div>
         </div>
+        <div class="empty-space" style="height:80px;"></div>
+    <img src="assets/images/wave1.png" class="wave ">
     </section>
     <!-- /.breadcrumb -->
 

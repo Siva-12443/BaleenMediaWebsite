@@ -1,32 +1,26 @@
 
-   <!--  <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title">
-                    <div class="title">
-                        <h3 style="font-weight: 700">Few of Our Designs</h3>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-    </div>
+<style>
+	.site-footer a:hover {
+color:#F1aAFF;
+	}
+	marquee a:hover{
+		color:#F1aAFF;
+		}
+	.menu li a:hover{
+		color:#F1aAFF;
+	}
+	.list-inline li a:hover{
+		color:#F1aAFF;
+	}
+	.wave{
+		width: 100%;
+	}	
+</style>
 	
-	<section class="section-padding" style="padding: 20px;">
-		<div class="container">		  
-		   <section class="customer-logos slider">
-			  <div class="slide"><img src="assets\images\portfolio\work\work1.jpg"></div>	
-              <div class="slide"><img src="assets\images\portfolio\work\work3.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\work\work4.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\work\work5.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\work\work2.jpg"></div>	
-		   </section>		
-		</div>
-    </section> -->
-	
-	    <div class="empty-space" style="height: 120px"></div>
+	    
 
 		<footer id="colophon" class="site-footer"> 
-	<img src="assets/images/wave2.png" class="wave ">        
+	<img src="assets/images/wave2.png" class="wave">        
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">

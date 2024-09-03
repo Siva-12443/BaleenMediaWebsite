@@ -95,76 +95,43 @@ include('include/top.php');
     }
     /*---------------------------------------------------------------------------------- groups-------- */
 
-.faq-container button{
-    border:0px  solid black;
-    
-    background-color:whitesmoke;
-    font-size:20px;
-    
+/* --------------------------------------------------groups-new */
+.groups{
+    background-color:#FAF3F0;
+            padding:20px 0px;
 }
-.faqbtn-div{
+.grp-card{
+    background-color:white;
     padding:20px;
-    margin-bottom:10px;
-    background-color:whitesmoke;
-    border-bottom:5px  solid #B99470;
-    border-radius:15px;
-    
+    text-align:center;
 }
-.faqcard-div{
-    
-    font-size:16px;
-    text-wrap:wrap;
-    margin:0px 20px;
-    margin-bottom:10px;
+.grp-card h1{
+    font-size:30px;
+    margin-bottom:20px;
+    border-bottom:1px solid;
+    padding-bottom:10px;
 }
-.faqbtn-div button{
+.grp-card p{
+    font-size:18px;
+}
+/* --------------------------------------------------leadercard */
+.profile-card-content span{
     font-size:20px;
-    border:0px;
-    background-color:whitesmoke;
- }
-.faqbtn-div:hover{
-   
-    
 }
-.faq-card{
-    padding:20px;
-    border-radius:1px 20px 20px 20px;
-    border-bottom:5px  solid #B99470;
-    /* background-color:#874430; */
-    background-color:#F7EFE5;
+.profile-card-content h5{
+    font-size:30px;
+}
+.profile-card-content a {
+    font-size:20px;
+    color:gray; 
+}
+.profile-card-content .list-inline li a:hover{
     color:black;
+    font-size:22px;
 }
-@media screen and (min-width:1025px){
-body{
- .faqbtn-div{
-    padding:20px;
-    margin-bottom:10px;
-    background-color:whitesmoke;
-    border-bottom:5px  solid #B99470;
-    border-radius:15px;
-    
- }
- .faqbtn-div button{
-    font-size:30px;
-    border:0px;
-    background-color:whitesmoke;
- }
- .faqbtn-div:hover{
-    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 1);
-    
- }
- .faqcard-div{
-   
-    font-size:30px;
-    text-wrap:wrap;
-    margin:0px 20px;
-    margin-bottom:10px;
- }
-
-
-}
-}
-    
+.portfolio{
+    background-color:#f8f9fa;
+}    
 </style>
     <!-- breadcrumb -->
     <section class="about-section_about">
@@ -229,223 +196,42 @@ By providing its customers high quality services, Baleen Media is one of the bes
     <!-- vmt cards -->
     
 
+    <div class="empty-space" style="height: 40px"></div>
+<!-- -----------------------------------------------------------------------------------groups -->
+ <!-- ------------------------------------------------------------------------------------------ -->
     
-
-    <section class="faq-bg ">
- <h2 style="font-size: 50px; font-family:Montserrat;">GROUPS</h2><br>
- <div class="container ">
-	 
- <!-- ------------------------------------- 1st -->
-            <div class="col-md-4">
-           <div class="faqbtn-div">   
-        <button class="faqbtn " type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-        Business Development Group
-         </button>
-         </div>
-        
- <div class="faqcard-div">
-  <div class="collapse " id="collapseWidthExample">
-    <div class="faq-card" >
-    Provides On-door service for explaining the offered services & schemes provided by various publications.
-    </div>
-  </div>
-</div>   
-</div>
-<!-- ------------------------------------------------2nd -->
-<div class="col-md-4">
-<div class="faqbtn-div">              
-  <button class="faqbtn" type="button" data-toggle="collapse" data-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
-  Client Servicing Group
-  </button>
-</div>
-
-<div class="faqcard-div" >
-  <div class="collapse " id="collapseWidthExample2">
-    <div class="faq-card" >
-    Coordinates between Client & Publications for Media Planning & Execution.
-    </div>
-  </div>
-</div>   
-</div>
-<!-- ----------------------------------------------------3rd -->
-<div class="col-md-4">
-<div class="faqbtn-div">              
-  <button class="faqbtn" type="button" data-toggle="collapse" data-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
-  Quality Assurance Group
-  </button>
-</div>
-
-<div class="faqcard-div">
-  <div class="collapse " id="collapseWidthExample3">
-    <div class="faq-card" >
-    Seeks for Customer and publications feedback & Satisfactory level.
-    </div>
-  </div>
-</div>   
-</div>
-</div>
-   
-    <!-- .empty-soace -->
-    <div class="empty-space" style="height: 125px"></div>
-    <!-- /.empty-soace -->
-    <!-- section title starts -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title">
-                    <div class="title">
-                        <h3 style="font-weight: 700">What We Do</h3>
-                    </div>
-				</div>
-                <!-- section_title starts -->
-            </div>
-        </div>
-    </div>
-    <!-- /.section title -->
-    <!-- .empty-soace -->
-    <div class="empty-space" style="height: 50px"></div>
-    <!-- /.empty-soace -->
-    <!-- service -->
+<!-- ----------------------------------------------------------------------------------- -->
+<!---------------------------------------------------------------------------- groups-new -->
+<section class="groups">
+<h2 style="font-size: 50px; font-family:Montserrat;">GROUPS</h2><br>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="newspaper-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-newspaper-o fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="newspaper-advertisement-agency-in-chennai.php">
-                        <h4>News Paper and Magazine Ads</h4>
-                        <p>Print Media is one of the strongest ways to reach</p>
-						</a>
-                    </div>                    
+            <div class="col-md-4 mb-4">
+                <div class="grp-card">
+                    <h1>Business Development Group</h1>
+                    <p>Provides On-door service for explaining the offered services & schemes provided by various publications.</p>
                 </div>
             </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="paperinsert-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-book fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="paperinsert-advertisement-agency-in-chennai.php">
-                        <h4>Paper Inserts</h4>
-                        <p>This Tool creates an effective way of approaching News Paper Readers.</p>
-						</a>
-                    </div>                    
+            <!--  -->
+            <div class="col-md-4 mb-4">
+                <div class="grp-card">
+                    <h1>Client Servicing Group</h1>
+                    <p>Coordinates between Client & Publications for Media Planning & Execution.</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="bus-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-bus fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="bus-advertisement-agency-in-chennai.php">
-							<h4>Bus and Auto Back Panel Ads</h4>
-							<p>It provides a Mass-Media Coverage where the Advertiser can ...</p>
-						</a>
-                    </div>                    
+            <!--  -->
+            <div class="col-md-4 mb-4">
+                <div class="grp-card">
+                    <h1>Quality Assurance Group</h1>
+                    <p>Seeks for Customer and publications feedback & Satisfactory level.</p>
                 </div>
             </div>
-			<!-- <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="lamppost.php">
-                            <i class="fa fa-fw fa-shower fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="lamppost.php">
-                        <h4>Lamp Post Banner</h4>
-                        <p>This Road-side marketing tool is effective for pulling</p>
-						</a>
-                    </div>                    
-                </div>
-            </div>
-			 -->
-             <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="noparking-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-ban fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="noparking-advertisement-agency-in-chennai.php">
-                        <h4>No Parking Board</h4>
-                        <p>An effective tool to target the local audience & register</p>
-						</a>
-                    </div>                    
-                </div>
-            </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="tv-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-television fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="tv-advertisement-agency-in-chennai.php">
-							<h4>Television Ads</h4>
-							<p>Provides a prestigious reach with the help of attractives Video Shoots or Graphics..</p>
-						</a>
-                    </div>                    
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="radio-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-microphone fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="radio-advertisement-agency-in-chennai.php">
-							<h4>Radio Ads</h4>
-							<p>Provides a grand reach through attractive voice-Jingles at the right time...</p>
-						</a>
-                    </div>                    
-                </div>
-            </div>            
-            <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <a href="theatre-advertisement-agency-in-chennai.php">
-                            <i class="fa fa-fw fa-film fa-spin-hover"></i>
-                        </a>
-                    </div>
-                    <div class="service-item-content">
-						<a href="theatre-advertisement-agency-in-chennai.php">
-							<h4>Cinema Theatres Ads</h4>
-							<p>To attract the crowd belong to specific locality with the help ...</p>
-						</a>
-                    </div>                    
-                </div>
-            </div>            
-			<!--<div class="col-lg-3 col-sm-6">-->
-   <!--             <div class="service-item">-->
-   <!--                 <div class="service-icon">-->
-   <!--                     <a href="digitalmarketing-advertisement-agency-in-chennai.php">-->
-   <!--                         <i class="fa fa-fw fa-facebook-official fa-spin-hover"></i>-->
-   <!--                     </a>-->
-   <!--                 </div>-->
-   <!--                 <div class="service-item-content">-->
-			<!--			<a href="digitalmarketing-advertisement-agency-in-chennai.php">-->
-			<!--				<h4>Digital Marketing</h4>-->
-			<!--				<p>To promote your Business through Online Media / Social..</p>-->
-			<!--			</a>-->
-   <!--                 </div>                    -->
-   <!--             </div>-->
-   <!--         </div>						-->
         </div>
     </div>
+</section>
+
+
+    
     <!-- /.service -->
     <!-- .empty-soace -->
     <div class="empty-space" style="height: 40px"></div>
@@ -455,9 +241,9 @@ By providing its customers high quality services, Baleen Media is one of the bes
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="section-title">
+                <div class="">
                     <div class="title">
-                        <h3 style="font-weight: 700">Meet Our Leader</h3>
+                    <h2 style="font-size: 50px; font-family:Montserrat;">Meet Our Leader </h2><br>
                     </div>                    
                 </div>
                 <!-- section_title starts -->
@@ -466,14 +252,15 @@ By providing its customers high quality services, Baleen Media is one of the bes
     </div>
     <!-- /.section title -->
     <!-- .empty-soace -->
-    <div class="empty-space" style="height: 50px"></div>
+   
     <!-- /.empty-soace -->
     <!-- team -->
+     <section class="portfolio">
+     <div class="empty-space" style="height: 60px"></div>
     <div class="container">
         <div class="row">
-			<div class="col-sm-4 col-sm-4">                
-            </div>            
-            <div class="col-sm-4 col-sm-4">
+			           <div class="col-md-4"></div>
+            <div class="col-md-4 col-sm-4">
                 <div class="profile-card">
                     <img class="img-fluid" src="assets/images/Leenah.jpg" alt="img">
                     <div class="profile-card-content">
@@ -493,63 +280,15 @@ By providing its customers high quality services, Baleen Media is one of the bes
             </div>            
         </div>
     </div>
+    </section>
     <!-- /.team -->
 	<!-- .empty-soace -->
     <!-- /.empty-soace -->
-     <div class="empty-space" style="height: 120px"></div>
+    
 
 <!-- section title starts -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title">
-                    <div class="title">
-                        <h3 style="font-weight: 700">Few of Our Clients</h3>
-                    </div>                    
-                </div>
-                <!-- section_title starts -->
-            </div>
-        </div>
-    </div>
-    <!-- /.section title --> 
     
-    <section class="section-padding" style="padding: 20px;">
-        <div class="container">       
-           <section class="customer-logos slider">
-              <div class="slide"><img src="assets\images\portfolio\client\CanaraBank.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\ACEEngineering.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\Afton.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\AssetTreeHomes.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\BIG3.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\Venper.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\StarBiriyani.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\UBER.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\HandloomKing.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\MNEyeHospital.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\Mahsa.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\PINK.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\PrasanthHospitals.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\RepcoBank.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\sivetCollege.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\Sky pix.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\SRM.jpg"></div>  
-           </section>   
-           <section class="section-padding" style="padding: 20px;">
-        <div class="container">       
-           <section class="customer-logos slider">
-              <div class="slide"><img src="assets\images\portfolio\client\Wootunutrition.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\AaradyaaGold.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\CrescentHeights.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\UBEREATS.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\Vetri Home Appliance.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\MGP.jpg"></div>
-          
-           </section>       
-        </div>
-    </section>  
-        </div>
-    </section>
-        <div class="empty-space" style="height: 120px"></div>
+       
 	
 
 <?php

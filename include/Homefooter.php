@@ -62,7 +62,7 @@ color:#F1aAFF;
             <div class="container ">
                 <div class="row">
                     <div class=" col-lg-12   ">
-                        <h1 style="font-size: 30px; font-family:Montserrat; "> One Click to Get Quotation today!</h1>
+                        <h1 style="font-size: 40px; font-family:Montserrat; "> One Click to Get Quotation today!</h1><br>
 						
 						
 						<a href="rfq.php" >

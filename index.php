@@ -404,14 +404,18 @@ color:blue;
 .testitop .name{
     display:flex;
     justify-content:center;
-   
     flex-direction:column;
     margin-left:10px;
 }
 .rating{
     margin:0px;
-    
+    max-width:150px;
+    display:flex;
+    overflow:hidden;
+    padding:20px;
+    padding-top:10px;
 }
+
 .testi  a {
     color:black;
     font-family: "Poppins";
@@ -574,15 +578,13 @@ color:blue;
                     <h4>Google ratings</h4>
                     <div class="rating">
                              
-                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>    
-                            <i class="fa-solid fa-star-half fa-beat" style="color: #FFD43B;"></i>
-                            <br>
-                            <h6>4.7/5</h6>
+                            <i class="fa-solid fa-star " style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star " style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star " style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star " style="color: #FFD43B;"></i>    
+                            <i class="fa-solid fa-star " style="color: #FFD43B;"></i>
                             </div>
-                            
+                            <h6>4.7/5</h6>
                         </div>
                             
                     </div> 
@@ -758,7 +760,7 @@ Media display.</p>
 <a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank" style="font-size: 15px;"><i class=" fa-lg fa fa-whatsapp"></i>  Chat With Baleen </a>
                     
 <div class="cover text-center">
-    <img src="assets/images/no parking.png"  alt="">
+    <img src="assets/images/noparking-board.png"  alt="">
     <h4>No Parking Board</h4>
 </div>
 </div> 

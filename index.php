@@ -412,8 +412,16 @@ color:blue;
     margin:0px;
     
 }
-
-
+.testi  a {
+    color:black;
+    font-family: "Poppins";
+    font-style:Sans-serif;
+    font-size:12px;
+   
+}
+.testi  a:hover{
+    color:;
+}
 
 /*---------------------------------------------------------------------------------- faq-------- */
 .faq-container{
@@ -541,6 +549,9 @@ color:blue;
  transform: scaleX(1.4) scaleY(1.6);
  opacity: 0;
 }
+.customer-logos {
+    zoom:50%;
+}
      
 </style>
 
@@ -557,7 +568,7 @@ color:blue;
                        
                             <h1>Massive Advertising At <span>Minimal cost</span></h1>
                             <p>
-                                Finally, You Have Reached Chennai's Best Advertising Agency.
+                                Finally, you Have Reached Chennai's Best Advertising Agency.
                             </p> 
                  <div class="gl-review">
                     <h4>Google ratings</h4>
@@ -919,13 +930,7 @@ Media display.</p>
 </div>
 </div> 
 </div>
-
-
-
-
-
-
-
+</section>
 
     <!-- ----------------------------------------------------testimonials--------------------------------- -->
      <section class="testi">
@@ -939,16 +944,15 @@ Media display.</p>
                            <i class="testiava fa-solid fa-user fa-2xl"></i>
                         </div>
                         <div class="name">
-                        <h2>Arafath M</h2>
-                        <div class="rating">
-                       
+                         <h2>Arafath M</h2>
+                         <div class="rating">
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
-                            </div>
-                            <a href="https://www.google.com/search?sca_esv=77d6260ac296d3e1&rlz=1C1UEAD_enIN1051IN1051&sxsrf=ADLYWIICpDAjWOgomqr4tfGFP1GjEnSLdw:1725362750961&kgmid=/g/11f29_rrzr&q=Baleen+Media+%7C+Best+Advertising+Agency+in+Chennai&shndl=30&shem=lrnole,lsde,vslcca&source=sh/x/loc/act/m1/1&kgs=cb62c4912d0b247f#lrd=0x3a5267104b2e6ab9:0x50d624131e47e020,1,,,," target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm">Check reviews</i></a>
+                         </div>
+                            <a href="https://www.google.com/maps/contrib/110479178167914406605/reviews/@12.9906667,80.2171388,10118m/data=!3m2!1e3!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i> Check reviews</a>
                         </div>
                         
                      </div>
@@ -977,7 +981,7 @@ Media display.</p>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
                             </div>
-                            <a href="https://www.google.com/search?sca_esv=77d6260ac296d3e1&rlz=1C1UEAD_enIN1051IN1051&sxsrf=ADLYWIICpDAjWOgomqr4tfGFP1GjEnSLdw:1725362750961&kgmid=/g/11f29_rrzr&q=Baleen+Media+%7C+Best+Advertising+Agency+in+Chennai&shndl=30&shem=lrnole,lsde,vslcca&source=sh/x/loc/act/m1/1&kgs=cb62c4912d0b247f#lrd=0x3a5267104b2e6ab9:0x50d624131e47e020,1,,,," target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm">Check reviews</i></a>
+                            <a href="https://www.google.com/maps/contrib/115850134444791830042/reviews/@12.9849126,79.7023857,80946m/data=!3m2!1e3!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i> Check reviews</a>
                         </div>
                         
                      </div>
@@ -1005,7 +1009,7 @@ Media display.</p>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
                             </div>
-                            <a href="https://www.google.com/search?sca_esv=77d6260ac296d3e1&rlz=1C1UEAD_enIN1051IN1051&sxsrf=ADLYWIICpDAjWOgomqr4tfGFP1GjEnSLdw:1725362750961&kgmid=/g/11f29_rrzr&q=Baleen+Media+%7C+Best+Advertising+Agency+in+Chennai&shndl=30&shem=lrnole,lsde,vslcca&source=sh/x/loc/act/m1/1&kgs=cb62c4912d0b247f#lrd=0x3a5267104b2e6ab9:0x50d624131e47e020,1,,,," target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm">Check reviews</i></a>
+                            <a href="https://www.google.com/maps/contrib/112834749340488372980/reviews/@12.9979498,80.2174743,10118m/data=!3m2!1e3!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i> Check reviews</a>
                         </div>
                         
                      </div>
@@ -1033,7 +1037,7 @@ Media display.</p>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star fa-beat fa-sm" style="color: #FFD43B;"></i>
                             </div>
-                            <a href="https://www.google.com/search?sca_esv=77d6260ac296d3e1&rlz=1C1UEAD_enIN1051IN1051&sxsrf=ADLYWIICpDAjWOgomqr4tfGFP1GjEnSLdw:1725362750961&kgmid=/g/11f29_rrzr&q=Baleen+Media+%7C+Best+Advertising+Agency+in+Chennai&shndl=30&shem=lrnole,lsde,vslcca&source=sh/x/loc/act/m1/1&kgs=cb62c4912d0b247f#lrd=0x3a5267104b2e6ab9:0x50d624131e47e020,1,,,," target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm">Check reviews</i></a>
+                            <a href="https://www.google.com/maps/contrib/111399086303415220129/reviews/@13.010418,80.2290056,5059m/data=!3m2!1e3!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="blank"><i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i> Check reviews</a>
                         </div>
                         
                      </div>

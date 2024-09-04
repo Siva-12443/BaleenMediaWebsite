@@ -264,35 +264,454 @@
 			font-weight: normal;
             font-style: normal;
 		}
+#bs4navbar .menu-item .dropdown-menu a{
+		background-color:gray;
+		color:whitesmoke;
+	}
+	#bs4navbar .menu-item .dropdown-menu a:hover{
+		background-color:black;
+		color:white;
+	}
+	/* ---------------------------------------------------------------loadings */
+	.main-preloader-inner{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		
+
+	}
+/* From Uiverse.io by Nawsome */ 
+
+.loader {
+  position: relative;
+  left:90px;
+  width: 250px;
+  height: 100px;
+
+}
+
+.loader__bar {
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 50%;
+  background: black;
+  transform-origin: center bottom;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.loader__bar:nth-child(1) {
+  left: 0px;
+  transform: scale(1, 0.2);
+  -webkit-animation: barUp1 4s infinite;
+  animation: barUp1 4s infinite;
+}
+
+.loader__bar:nth-child(2) {
+  left: 15px;
+  transform: scale(1, 0.4);
+  -webkit-animation: barUp2 4s infinite;
+  animation: barUp2 4s infinite;
+}
+
+.loader__bar:nth-child(3) {
+  left: 30px;
+  transform: scale(1, 0.6);
+  -webkit-animation: barUp3 4s infinite;
+  animation: barUp3 4s infinite;
+}
+
+.loader__bar:nth-child(4) {
+  left: 45px;
+  transform: scale(1, 0.8);
+  -webkit-animation: barUp4 4s infinite;
+  animation: barUp4 4s infinite;
+}
+
+.loader__bar:nth-child(5) {
+  left: 60px;
+  transform: scale(1, 1);
+  -webkit-animation: barUp5 4s infinite;
+  animation: barUp5 4s infinite;
+}
+
+.loader__ball {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: rgb(44, 143, 255);
+  border-radius: 50%;
+  -webkit-animation: ball624 4s infinite;
+  animation: ball624 4s infinite;
+}
+
+@keyframes ball624 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  5% {
+    transform: translate(8px, -14px);
+  }
+
+  10% {
+    transform: translate(15px, -10px);
+  }
+
+  17% {
+    transform: translate(23px, -24px);
+  }
+
+  20% {
+    transform: translate(30px, -20px);
+  }
+
+  27% {
+    transform: translate(38px, -34px);
+  }
+
+  30% {
+    transform: translate(45px, -30px);
+  }
+
+  37% {
+    transform: translate(53px, -44px);
+  }
+
+  40% {
+    transform: translate(60px, -40px);
+  }
+
+  50% {
+    transform: translate(60px, 0);
+  }
+
+  57% {
+    transform: translate(53px, -14px);
+  }
+
+  60% {
+    transform: translate(45px, -10px);
+  }
+
+  67% {
+    transform: translate(37px, -24px);
+  }
+
+  70% {
+    transform: translate(30px, -20px);
+  }
+
+  77% {
+    transform: translate(22px, -34px);
+  }
+
+  80% {
+    transform: translate(15px, -30px);
+  }
+
+  87% {
+    transform: translate(7px, -44px);
+  }
+
+  90% {
+    transform: translate(0, -40px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+
+  40% {
+    transform: scale(1, 0.2);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+@keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+
+  40% {
+    transform: scale(1, 0.2);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+@-webkit-keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+
+  40% {
+    transform: scale(1, 0.4);
+  }
+
+  50% {
+    transform: scale(1, 0.8);
+  }
+
+  90% {
+    transform: scale(1, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+
+@keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+
+  40% {
+    transform: scale(1, 0.4);
+  }
+
+  50% {
+    transform: scale(1, 0.8);
+  }
+
+  90% {
+    transform: scale(1, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+
+@-webkit-keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+
+@keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+
+@-webkit-keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+
+  40% {
+    transform: scale(1, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 0.4);
+  }
+
+  90% {
+    transform: scale(1, 0.4);
+  }
+
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+
+  40% {
+    transform: scale(1, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 0.4);
+  }
+
+  90% {
+    transform: scale(1, 0.4);
+  }
+
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@-webkit-keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.2);
+  }
+
+  90% {
+    transform: scale(1, 0.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.2);
+  }
+
+  90% {
+    transform: scale(1, 0.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+#navbar {
+ 
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+	/* -----------------------------------------------xxxx----------------------- */
 		
 </style>
+<!-- ---------------------------------js scripts -->
+<script>
+// Navbar toggle function for mobile screens
+function menuFunction() {
+    document.getElementById("bs4navbar").classList.toggle("show");
+}
+
+// Service dropdown toggle function
+function myFunction() {
+    document.getElementById("service").classList.toggle("show");
+}
+
+// Close dropdowns and navbar when clicking outside
+window.onclick = function(event) {
+    // Close dropdowns
+    if (!event.target.matches('.nav-link')) {
+        var dropdowns = document.getElementsByClassName("dropdown-menu");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+    
+    // Close navbar menu if clicked outside on mobile screens
+    var navbarMenu = document.getElementById("bs4navbar");
+    if (navbarMenu.classList.contains('show') && !event.target.closest('.navbar')) {
+        navbarMenu.classList.remove('show');
+    }
+}
+
+// Navbar scroll behavior
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    var navbar = document.getElementById("navbar");
+    if (prevScrollpos > currentScrollPos) {
+        navbar.style.top = "0";
+    } else {
+        navbar.style.top = "-500px"; // Hides the navbar when scrolling down
+    }
+    prevScrollpos = currentScrollPos;
+}
+</script>
 
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar-default" data-offset="50">
+<body data-spy="scroll" data-target="navbar-default" data-offset="50">
     <!--=======PRELOADER=======-->
+	
     <div id="main-preloader" class="main-preloader semi-dark-background">
+	
         <div class="main-preloader-inner center">
-            <h2 class="preloader-percentage center">
-                <span class="preloader-percentage-text">0</span>
-                <span class="percentage">%</span>
-            </h2>
+		<!---------------------------------uiverse ---------------  -->
+		 
+		<div class="loader">
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__ball"></div>
+</div>
+		<!----------------------------- xxx----------------------------- -->
             <div class="preloader-bar-outer">
-                <div class="preloader-bar"></div>
+				
+                <div class="preloader-bar">
+					
+				</div>
             </div>
         </div>
     </div>
+	
    
-	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;">
+	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;" id="navbar">
 	<div class="container ">
     <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="ConsultYou"></a>
-            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler float-right" type="button"  onclick="menuFunction()"  ><span class="navbar-toggler-icon"></span>
             </button>
 			<!-- <div class="baleen-logo ">
 				<h1 style=" ">Baleen <span>Media</span></h1>
 			</div> -->
-            <div id="bs4navbar" class="collapse navbar-collapse">
+            <div id="bs4navbar" class="bar-menu collapse navbar-collapse">
                 <ul id="menu-primary" class="navbar-nav ml-auto">
                     <!-- Dropdown -->
                     <li class="menu-item">
@@ -302,17 +721,16 @@
                         <a href="about.php" class="nav-link">About Us</a>
                     </li>
                     <!-- Dropdown -->
-                    <li class="menu-item dropdown">                         
-						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu bg-secondary  ">
-                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Newspaper and Magazine Ad</a>
-							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Paper Insert</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Bus Back Ad</a>
-							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item text-light">NoParking Board</a>							
-							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Television Ad</a>
-							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Radio Ad</a>							
-							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Theatre Ad</a>							
-							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item text-light">Auto Back Ads</a>							
+                    <li class="menu-item dropdown" >                         
+						<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
+                        <div class="dropdown-menu" id="service">
+                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ad</a>
+							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>
+                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Back Ad</a>
+							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>							
+							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ad</a>
+							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ad</a>													
+							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Back Ads</a>							
                         </div>
                     </li>
                     <!-- Dropdown -->

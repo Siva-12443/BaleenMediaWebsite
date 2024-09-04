@@ -574,11 +574,11 @@ color:blue;
                     <h4>Google ratings</h4>
                     <div class="rating">
                              
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>    
-                            <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>    
+                            <i class="fa-solid fa-star-half fa-beat" style="color: #FFD43B;"></i>
                             <br>
                             <h6>4.7/5</h6>
                             </div>

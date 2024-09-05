@@ -6,6 +6,10 @@ include('include/top.php');
         margin-right:0px;
         
     } */
+    .faqbtn-div button:focus{
+    outline:none;
+
+}
     @media screen and (min-width:1304px){
         body{
             zoom:130%;
@@ -72,6 +76,17 @@ include('include/top.php');
             color:gray;
             padding-bottom:50px; 
         }
+        .rating{
+    margin:0px;
+    max-width:150px;
+    display:flex;
+    overflow:hidden;
+    padding:20px;
+    padding-top:10px;
+}
+
+
+
         @keyframes spanclr {
   0%{color:white;}
   50%{color:gray;}
@@ -377,7 +392,7 @@ color:blue;
 }
 .avatar{
    background-color:#F1EAFF;
-   padding:15px;
+   padding:17px;
    border-radius:50%;
    box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24);
 }
@@ -407,13 +422,9 @@ color:blue;
     flex-direction:column;
     margin-left:10px;
 }
-.rating{
-    margin:0px;
-    max-width:150px;
-    display:flex;
-    overflow:hidden;
-    padding:20px;
-    padding-top:10px;
+
+.testi-rating{
+font-size:15px;
 }
 
 .testi  a {
@@ -947,7 +958,7 @@ Media display.</p>
                         </div>
                         <div class="name">
                          <h2>Arafath M</h2>
-                         <div class="rating">
+                         <div class="testi-rating">
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -975,7 +986,7 @@ Media display.</p>
                         </div>
                         <div class="name">
                         <h2> Sundar M</h2>
-                        <div class="rating">
+                        <div class="testi-rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -1003,7 +1014,7 @@ Media display.</p>
                         </div>
                         <div class="name">
                         <h2> Mano Desilva</h2>
-                        <div class="rating">
+                        <div class="testi-rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
@@ -1031,7 +1042,7 @@ Media display.</p>
                         </div>
                         <div class="name">
                         <h2>Aravind don</h2>
-                        <div class="rating">
+                        <div class="testi-rating">
                        
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>
                             <i class="fa-solid fa-star  fa-sm" style="color: #FFD43B;"></i>

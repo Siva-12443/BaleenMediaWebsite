@@ -53,8 +53,13 @@ include('include/top.php');
           
       }
       .about-section_about p {
-        font-family:"poppins";
-            font-size: 12.5px;
+        font-size:15.5px;
+            font-weight:bold;
+            margin-bottom:20px;
+            font-family: "Nunito", sans-serif;
+            text-align:justify;
+            line-height:1.4;
+            color:#3d3d3d;
               
         }
         .about-section_about span{
@@ -97,13 +102,14 @@ include('include/top.php');
 
 /* --------------------------------------------------groups-new */
 .groups{
-    background-color:#FAF3F0;
+    background-color:   #ccc9e3;
             padding:20px 0px;
 }
 .grp-card{
     background-color:white;
     padding:20px;
     text-align:center;
+    border-radius:20px;
 }
 .grp-card h1{
     font-size:30px;
@@ -131,7 +137,92 @@ include('include/top.php');
 }
 .portfolio{
     background-color:#f8f9fa;
-}    
+}  
+  /*-----------------------------------------WWD--------------------------------------  */
+/* Container for the section */
+.wwd {
+    background-color: #F0ECE3;
+    padding: 50px 0;
+}
+
+/* Heading Style */
+.wwd h2 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Card Styling */
+.wwd-card2 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.wwd-card2:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.wwd-card2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight:bold;
+    padding: 20px;
+    margin: 0;
+    background-color: #d8cadf;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.wwd-card2 p {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #666;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.wwd-card-in {
+    background-color: #d8cadf;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.wwd-card-in h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.wwd-card-in ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wwd-card-in ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.wwd-card-in ul li a {
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s;
+}
+
+.wwd-card-in ul li a:hover {
+    color: #0056b3;
+}
 </style>
     <!-- breadcrumb -->
     <section class="about-section_about">
@@ -230,14 +321,87 @@ By providing its customers high quality services, Baleen Media is one of the bes
     </div>
 </section>
 
-
+<!-- -----------------------------------------------------------WWD----------------------- -->
     
-    <!-- /.service -->
-    <!-- .empty-soace -->
-    <div class="empty-space" style="height: 40px"></div>
-    <!-- /.empty-soace -->
-	
+<section class="wwd">
+<h2 style="font-size: 50px; font-family:Montserrat;">OUR TERRITORIES </h2><br>
+    <div class="container">
+        <div class="row">
+            <!-- --------------------------------1st -->
+            <div class="col-md-4 mb-4">
+           
+             <div class="wwd-card2">
+                <h2>Pan-India services </h2>
+                
+                <p>  
+             Pan-India services provide large-scale coverage, from metropolitan cities to rural areas, ensuring widespread impact. 
+            </p>
+            <div class="wwd-card-in">
+                <h4>Services</h4>   
+            <ul>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Newspapers & Magazines</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Radio Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Telivision Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Ad flims </a></li>
+            </ul>
+             </div>
+            </div>
+            </div>
+            <!-- --------------------------------------2nd -->
+            <div class="col-md-4 mb-4">
+             <div class="wwd-card2">
+                <h2>Across Tamil Nadu </h2>
+                <p>
+                This approach maximizes visibility by targeting urban and rural populations, ideal for businesses expanding statewide. 
+            </p>
+            <div class="wwd-card-in">
+                <h4>Services</h4> 
+            <ul>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Newspapers & Magazines</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Radio Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Telivision Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Paper insert</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> No parking boards</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Mobile van advertisement</a></li>
+                
+            </ul>
+             </div>
+            </div>
+            </div>
+            <!-- --------------------------------------------3rd -->
+            <div class="col-md-4 mb-4">
+             <div class="wwd-card2">
+                <h2>Across Chennai  </h2>
+                <p>
+                Citywide advertisements in Chennai target local neighborhoods and commercial hubs. 
+            </p>
+            <div class="wwd-card-in">
+                <h4>Services</h4> 
+            <ul>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Pamplets</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Paper insertion</a></li>                  
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Radio Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Local channel Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Bus back panel (Also bangalore)</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Full bus branding (Also bangalore)</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Lamp post boards</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Bus shelters</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Traffic awareness boards</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Apartment screen advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Lamp post boards</a></li>
+                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Auto Rickshaw full/back</a></li>
+
+            </ul>
+             </div>
+            </div>
+            </div>
+            <!--  -->
+         </div>
+   </div>
+</section>
+<!--------------------------------------------------------XXXX----------------------------  -->
 	<!-- section title starts -->
+    <section class="portfolio">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -250,12 +414,8 @@ By providing its customers high quality services, Baleen Media is one of the bes
             </div>
         </div>
     </div>
-    <!-- /.section title -->
-    <!-- .empty-soace -->
-   
-    <!-- /.empty-soace -->
-    <!-- team -->
-     <section class="portfolio">
+    
+    
      <div class="empty-space" style="height: 60px"></div>
     <div class="container">
         <div class="row">

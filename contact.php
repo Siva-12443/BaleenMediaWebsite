@@ -64,6 +64,17 @@ include('include/top.php');
       .wave{
             width: 100%;
         }
+        .contact-detials{
+         
+        }
+        .contact-card{
+        background-color:beige;
+          border-radius:20px;
+          padding:10px;
+          text-align:center;
+          margin-bottom:10px;   
+        }
+        
 </style>
     <!-- breadcrumb -->
     <section class="about-section_about">
@@ -92,113 +103,93 @@ include('include/top.php');
 
 
     <!-- .empty-soace -->
-    <div class="empty-space" style="height: 130px"></div>
-    <!-- /.empty-soace -->
-    <!-- contact_form -->
-    <div class="container">
+   
+        <!-- ----------------------contact-detials ------------------------------->
+        <section class="contact-detials">
+     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-sm-12">
-                <div class="quick-contact">
-                    <div class="quick-contact-border">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-3 text-center  align-self-center">
-                                <i class="fa fa-3x fa-phone"></i>
-                            </div>
-                            <div class="col-sm-12 col-lg-9">
-                                <ul>
-                                    <li> Mobile : 95660 31113</li>                                                                        
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="quick-contact">
-                    <div class="quick-contact-border">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-3 text-center  align-self-center">
-                                <i class="fa fa-3x fa-envelope"></i>
-                            </div>
-                            <div class="col-sm-12 col-lg-9">
-                                <ul>
-                                    <li>leenah.grace@baleenmedia.com</li>                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="quick-contact">
-                    <div class="quick-contact-border">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-3 text-center  align-self-center">
-                                <i class="fa fa-3x fa-map-marker"></i>
-                            </div>
-                            <div class="col-sm-12 col-lg-9">
-                                <ul>
-									<li><strong>OFFICE ADDRESS</strong></li>
-                                    <li>No.32, Kasthuribai Nagar,</li>
-                                    <li>3rd cross street, Adyar, </li>
-                                    <li>Chennai - 600020.</li>
-                                    <li>(Nalli Silks Opposite)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				<!-- <div class="quick-contact">
-                    <div class="quick-contact-border">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-3 text-center  align-self-center">
-                                <i class="fa fa-3x fa-map-marker"></i>
-                            </div>
-                            <div class="col-sm-12 col-lg-9">
-                                <ul>
-									<li><strong>Branch Office</strong></li>
-                                    <li>No: 5,Bharathi Street,</li>
-                                    <li>Radha Nagar,Chromepet, </li>
-                                    <li>Chennai-600 044</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-           
-        </div>
-    </div>
-     <div class="col-lg-4 offset-lg-3 col-sm-12 contact-form">
-                <div class="row">
-					<form id="contactform_new" method="post" action="send-form-email.php">
-						<div class="col-sm-12 form-group">
-							<input type="text" id="name" name="name" onchange="Allowname()" class="form-control" placeholder="Your Name*" required="yes">
-						</div>
-						<div class="col-sm-12 form-group">
-							<input type="email" id="email" name="email" onchange="Allowemail()" class="form-control" placeholder="Your Mail*" required="yes">
-						</div>
-						<div class="col-sm-12 form-group">
-							<input type="text" id="mobile" name="mobile" onchange="Allowmobile()" class="form-control" placeholder="Your Mobile*" required="yes">
-						</div>
-						<div class="col-sm-12 form-group">
-							<textarea name="message" id="message" onchange="Allowmessage()" cols="40" rows="10" class="form-control" placeholder="Message" required="yes"></textarea>
-						</div>
-						<div class="col-sm-12 form-group">
-							<button type="submit" name="submit" class="contact-form-btn">Send Message</button>
-						</div>
-					</form>
+            <!--------------------------------------------------- card1 -->
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <h1>MOBILE</h1>
+                    <img class="img-fluid" src="" alt="">
+                    <p>Mobile : 95660 31113</p>
                 </div>
             </div>
-    <!-- /contact_form -->
-    <!-- .empty-soace -->
- <div class="empty-space" style="height: 120px"></div>
-
-<!-- section title starts -->
-
-    <!-- /.section title -->   
-    </section>  
+            <!-- -------------------------------------------------------card2 -->
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <h1>E-MAIL</h1>
+                    <img class="img-fluid" src="" alt="">
+                    <p>Mail address: leenah.grace@baleenmedia.com</p>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------------card-3 -->
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <h1>OFFICE ADDRESS</h1>
+                    <img class="img-fluid" src="" alt="">
+                    <p>Address : No.32, Kasthuribai Nagar,
+3rd cross street, Adyar,
+Chennai - 600020.
+(Nalli Silks Opposite)</p>
+                </div>
+            </div>
+            <!-- ---------------------------------xx -->
         </div>
-    </section>
-        
-    <!-- /.empty-soace -->
+     </div>
+     </section>
+     <!-- ---------------------------------------xxxxxx---------------------- -->
+    <!-- -----------------------------------contact-form-------------------- -->
+  
+     <!-- -------------------------------------xxxxxx -->
+      <!-------------------------------------demo -->
+      <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 form-container">
+        <h2 class="form-heading">INTERACT WITH EMAIL</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address<span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile<span class="text-danger">*</span></label>
+            <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message<span class="text-danger">*</span></label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+      <!-- -------------------------------xxxxxx -->
+    <!------------------------------------------- script -->
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
 
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const mobile = document.getElementById('mobile').value;
+      const message = document.getElementById('message').value;
+
+      // Mailto link construction
+      const mailtoLink = `mailto:leenah.grace@baleenmedia.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0AMobile: ${mobile}%0AMessage: ${message}`;
+
+      // Open the mail client with the form data
+      window.location.href = mailtoLink;
+    });
+  </script>
+    <!-- ---------------xxxxxx----------------------- -->
 <?php
 include('include/footer.php');
 ?>

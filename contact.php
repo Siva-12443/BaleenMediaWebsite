@@ -68,13 +68,19 @@ include('include/top.php');
          
         }
         .contact-card{
-        background-color:beige;
+        background-color:#DFD3C3;
           border-radius:20px;
           padding:10px;
           text-align:center;
           margin-bottom:10px;   
         }
-        
+        .contact-card h1 {
+            font-family:"poppins";
+        }
+
+        .contact-form{
+            background-color:; 
+        }
 </style>
     <!-- breadcrumb -->
     <section class="about-section_about">
@@ -85,9 +91,6 @@ include('include/top.php');
                     <h1>Contact Us</h1><br>
                     <p class="justify">We are the best advertising company/agency in Chennai and we are more than delighted to assist you and connect with you for this journey of growth.  </p>
 
-                    
-
-        
                 </div><br>
 
                 <div class="col-md-6 col-sm-12 ">
@@ -111,7 +114,7 @@ include('include/top.php');
             <!--------------------------------------------------- card1 -->
             <div class="col-md-4">
                 <div class="contact-card">
-                    <h1>MOBILE</h1>
+                    <h1>Mobile</h1>
                     <img class="img-fluid" src="" alt="">
                     <p>Mobile : 95660 31113</p>
                 </div>
@@ -119,7 +122,7 @@ include('include/top.php');
             <!-- -------------------------------------------------------card2 -->
             <div class="col-md-4">
                 <div class="contact-card">
-                    <h1>E-MAIL</h1>
+                    <h1>E-Mail</h1>
                     <img class="img-fluid" src="" alt="">
                     <p>Mail address: leenah.grace@baleenmedia.com</p>
                 </div>
@@ -127,12 +130,13 @@ include('include/top.php');
             <!-- ---------------------------------------------------------card-3 -->
             <div class="col-md-4">
                 <div class="contact-card">
-                    <h1>OFFICE ADDRESS</h1>
+                    <h1>Office Address</h1>
                     <img class="img-fluid" src="" alt="">
                     <p>Address : No.32, Kasthuribai Nagar,
 3rd cross street, Adyar,
 Chennai - 600020.
-(Nalli Silks Opposite)</p>
+(Nalli Silks Opposite)
+</p>
                 </div>
             </div>
             <!-- ---------------------------------xx -->
@@ -144,6 +148,7 @@ Chennai - 600020.
   
      <!-- -------------------------------------xxxxxx -->
       <!-------------------------------------demo -->
+      <section class="contact-form">
       <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-6 form-container">
@@ -170,6 +175,7 @@ Chennai - 600020.
       </div>
     </div>
   </div>
+  </section>
       <!-- -------------------------------xxxxxx -->
     <!------------------------------------------- script -->
     <script>

@@ -583,7 +583,7 @@ font-size:15px;
                        
                             <h1>Massive Advertising At <span>Minimal cost</span></h1>
                             <p>
-                                Finally, you Have Reached Chennai's Best Advertising Agency.
+                                Finally, you have reached Chennai's Best Advertising Agency.    
                             </p> 
                  <div class="gl-review">
                     <h4>Google ratings</h4>
@@ -743,7 +743,7 @@ font-size:15px;
                         
     <div class="cover text-center">
         <img src="assets/images/bus.png"  alt="">
-        <h4>Bus Back Panel Ads</h4>
+        <h4>Bus Advertising</h4>
     </div>
    </div> 
    </div>
@@ -758,7 +758,7 @@ Media display.</p>
                     
 <div class="cover text-center">
     <img src="assets/images/auto.png"  alt="">
-    <h4>Auto Back Panel Ads</h4>
+    <h4>Auto Rickshaw Advertising</h4>
 </div>
 </div> 
 </div>
@@ -786,7 +786,7 @@ Media display.</p>
                     
 <div class="cover text-center">
     <img src="assets/images/software.png"  alt="">
-    <h4>Software development</h4>
+    <h4>Software product development</h4>
 </div>
 </div> 
 </div>

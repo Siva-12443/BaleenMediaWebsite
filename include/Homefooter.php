@@ -20,6 +20,9 @@ color:white;
 	.site-footer a:hover {
 color:#F1aAFF;
 	}
+	marquee a{
+		color:white;
+	}
 	marquee a:hover{
 		color:#F1aAFF;
 		}

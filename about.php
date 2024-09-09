@@ -414,9 +414,7 @@ By providing its customers high quality services, Baleen Media is one of the bes
             </div>
         </div>
     </div>
-    
-    
-     <div class="empty-space" style="height: 60px"></div>
+     <div class="empty-space" style="height: 30px"></div>
     <div class="container">
         <div class="row">
 			           <div class="col-md-4"></div>

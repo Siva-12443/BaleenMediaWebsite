@@ -1,175 +1,135 @@
 <?php
-include('include/top_blog.php');
+include('include/top.php');
 ?>
 <style>
-/* *, *::after, *::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  outline: none;
+/* .blog-card{
+  background:whitesmoke;
+  padding:20px;
+}
+.blog-card h1{
+  
 } */
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #e8e8e8;
+/* Styling the blog cards */
+/* General container styling */
+.blog_bg{
+  background:#f1eafe;
 }
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
-} */
-h1 {
-  text-align: center;
-  margin: 20px 0;
-  color: #363636;
-  font-size: 40px;
-}
-.inner-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.card {
-  flex-basis: 33.33333%;
-  padding: 15px;
-}
-.inner-card  {
-  background-color: #fff;
-  padding: 15px;
-  box-shadow: 0 1px 2px rgba(0,0,0,.1)
-}
-.img-wrapper {
-  width: 100%;
-  height: 250px;
-  margin-bottom: 10px;
-}
-.img-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.content {
-  margin-bottom: 20px;
-}
-.content h1 {
-  font-weight: 900;
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #444;
-}
-.content p {
-  font-size: 14px;
-  line-height: 1.5;
-  color: #555;
-}
-.btn-wrapper {
-  display: block;
-  text-align: center;
-}
-.view-btn {
-  width: 70%;
-  height: 40px;
-  border: none;
-  background-color: steelblue;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-}
-.view-btn:hover {
-  box-shadow: 0 3px 6px rgba(0,0,0,.4);
+    margin-top: 30px;
 }
 
-.light-box {
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: rgba(0,0,0,.6);
-  width: 100%;
-  height: 100vh;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 200ms ease-out;
-}
-.box {
-  width: 600px;
-  height: 400px;
-  background-color: #fff;
-  transform: scale(0);
-  transition: all 200ms ease-in-out;
-  padding: 10px;
-  box-shadow: 0 3px 9px rgba(0,0,0,.1);
-  position: relative;
-}
-.box-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  padding: 15px;
-}
-.box .light-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.box .close-btn {
-  position: absolute;
-  z-index: 100;
-  font-size: 30px;
-  color: #ccc;
-  left: 100%;
-  top: 0;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  display: block;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 35px;
-  margin-left: 10px;
-  cursor: pointer;
-  transition: all 200ms linear;
-}
-/* Effect */
-.effect .light-box {
-  opacity: 1;
-  visibility: visible;
-}
-.effect .light-box .box {
-  transform: scale(1);
+/* Blog card styling */
+.blog-card {
+    background-color: #b7dfefab;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
 }
 
-@media (max-width: 780px) {
-  .card {
-    flex-basis: 50%;
-  }
-  .title {
-    font-size: 30px;
-  }
+/* Image styling */
+
+
+/* Title (h1) styling */
+.blog-card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+   
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 500px) {
-  .card {
-    flex-basis: 5100%;
-  }
-  .box .close-btn {
-    margin-left: 0;
-    left: 80%;
-    top: -12%;
-  }
+/* Paragraph styling */
+.blog-card p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    line-height: 1.6;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 25px;
 }
-.credit {
-  font-size: 14px;
+
+/* Button styling */
+.blog-card a .btn {
+  font-size:25px;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 15px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease;
+    width:50%;
 }
+
+.blog-card a .btn:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Card hover effect */
+
+
+
+
+/* Adjustments for screen size */
+
+
+
+
+
 </style>
+<section class="blog_bg">
+<h2 style="font-size: 40px; font-family:Montserrat;">Blogs</h2><br>
+<!-- -------------------------------------- blog cards -->
+<div class="container">
+  <div class="row">
+    <!-- ------------------------------------card-1 -->
+    <div class="col-md-6">
+      <div class="blog-card">
+        <img src="assets/images/building brand.png" alt="" class="img-fluid">
+        <h1>Building Brand: The Role of Advertising Agencies in Creating Iconic Brands</h1>
+        <p>In the bustling city of Chennai, the need for exceptional advertising agencies has become more crucial than ever.</p>
+        <a href="https://www.baleenmedia.com/building-brand-the-role-of-advertising-agencies-in-creating-iconic-brands.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <!-- -------------------------------------card-2 -->
+    <div class="col-md-6">
+      <div class="blog-card" style="background:white;">
+        <img src="assets/images/creative.png" alt="" class="img-fluid">
+        <h1>The Future of Advertising Agencies: Predictions and Insights for 2025 and Beyond</h1>
+        <p>In today's fast-paced world, the advertising industry is continuously evolving.</p>
+        <a href="https://www.baleenmedia.com/the-future-of-advertising-agencies-predictions-and-insights-for-2025-and-beyond.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------card-3 -->
+    <div class="col-md-6">
+      <div class="blog-card" style="background:white;">
+        <img src="assets/images/tips.png" alt="" class="img-fluid">
+        <h1>Tips For Creative Advertising Campaigns That Will Capture Chennai’s Attention</h1>
+        <p>When we think of an advertisement, we all think of something creative, attractive, and a bit catchy so that it stays with us.</p>
+        <a href="https://www.baleenmedia.com/tips-for-creative-advertising-campaigns-that-will-capture-chennai-attention.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <!--------------------------------------------card-4 -->
+    <div class="col-md-6">
+      <div class="blog-card" style="background:white;">
+        <img src="assets/images/confused.png" alt="" class="img-fluid">
+        <h1>How to Choose The Best Advertising Agency in Chennai?</h1>
+        <p>In the growing Fast-Paced world, grabbing the audience's attention and making a long-lasting impression is nearly impossible.</p>
+        <a href="https://www.baleenmedia.com/how-to-choose-the-best-advertising-agency-in-chennai.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div class="wrapper">
-    <div class="container">
-      <h1 class="title">Blogs</h1>
-      <div class="inner-wrapper">
-
+ <!-- -------------------------------------------xxxx -->
+</section>
 <div class="card">
           <div class="inner-card">
             <div class="img-wrapper">

@@ -8,14 +8,14 @@ include('include/top.php');
          
             text-align:left;
             font-size: 60px;
-            font-weight:400;
+            font-weight:500;
             /* text-align:right; */
             border-bottom:2px solid black;
             /* text-wrap:wrap; */  
       }
       body .about-section_about p {
         font-weight:500;
-        font-size: 18.5px;
+        font-size: 20.5px;
             
         }
        body  .about-section_about span{
@@ -54,8 +54,9 @@ include('include/top.php');
       }
       .about-section_about p {
         font-family:"poppins";
-            font-size: 12.5px;
-              
+            font-size: 14px;
+            font-weight:600;
+            text-align:justify;
         }
         
         .about-section_about .about-img{
@@ -65,21 +66,86 @@ include('include/top.php');
             width: 100%;
         }
         .contact-detials{
-         
+         padding:50px 0px;
         }
         .contact-card{
-        background-color:#DFD3C3;
-          border-radius:20px;
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+            align-items:center;
+            /* background-color: #a783ed; */
+          border-radius:30px;
           padding:10px;
           text-align:center;
-          margin-bottom:10px;   
+          margin-bottom:20px;   
         }
         .contact-card h1 {
             font-family:"poppins";
+            font-size:30px;
+            font-weight:bold;
+            margin-top:10px;
+        }
+        .contact-card p{
+            font-size:18px;
+            font-weight:600;
+            color:#454343;    
+        }
+        .faback{
+            background-color:white;
+            padding:35px;
+            width:150px;
+            height:150px;
+            border-radius:80px;
+            margin:20px 0px;
+            
         }
 
         .contact-form{
-            background-color:; 
+            
+            
+            background-color:#ccc9e3; 
+        }
+        .contact-form h2{
+            font-family:Montserrat;
+            font-size:30px;
+            font-weight:600;
+            border-bottom:1px solid; 
+            margin-bottom:20px;
+        }
+        .form-group{
+            width:100%;
+            font-size:20px;
+        }
+        .form-group input {
+            font-size:15px;
+            font-weight:600;
+            border-radius:10px;
+            padding:20px 12px;
+        }
+        .form-group textarea{
+            font-size:17px;
+            font-weight:600;
+            border-radius:10px;
+            margin-bottom:20px;
+        }
+        #contactForm{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            
+        }
+        #contactForm button{
+            font-size:20px;
+            font-weight:bold;
+            padding:15px;
+            width:50%;
+            background:#7d50d3;
+        }
+        #contactForm button:hover{
+            background:#905ef1;
+            color:white;
+            box-shadow:0 2px 10px gray;
         }
 </style>
     <!-- breadcrumb -->
@@ -113,25 +179,34 @@ include('include/top.php');
         <div class="row">
             <!--------------------------------------------------- card1 -->
             <div class="col-md-4">
-                <div class="contact-card">
+                <div class="contact-card" style=" background-color: #db88e866;">
                     <h1>Mobile</h1>
-                    <img class="img-fluid" src="" alt="">
+                    <img src="assets/images/mobile.png" alt="" class="img-fluid">
+                    <!-- <div class="faback">
+                    <i class="fa-solid fa-phone " style="color: #8161bf; font-size:70px; "></i>
+                    </div> -->
                     <p>Mobile : 95660 31113</p>
                 </div>
             </div>
             <!-- -------------------------------------------------------card2 -->
             <div class="col-md-4">
-                <div class="contact-card">
+                <div class="contact-card" style=" background-color: #a5f5ec78;">
                     <h1>E-Mail</h1>
-                    <img class="img-fluid" src="" alt="">
+                    <img src="assets/images/email.png" alt="" class="img-fluid">
+                    <!-- <div class="faback">
+                    <i class="fa-solid fa-envelope " style="color: #8161bf; font-size:70px; "></i>
+                    </div> -->
                     <p>Mail address: leenah.grace@baleenmedia.com</p>
                 </div>
             </div>
             <!-- ---------------------------------------------------------card-3 -->
             <div class="col-md-4">
-                <div class="contact-card">
+                <div class="contact-card" style=" background-color: #f7505e52;">
                     <h1>Office Address</h1>
-                    <img class="img-fluid" src="" alt="">
+                    <img src="assets/images/Address.png" alt="" class="img-fluid">
+                    <!-- <div class="faback">
+                    <i class="fa-solid fa-map-location-dot " style="color: #8161bf; font-size:70px; "></i>
+                    </div> -->
                     <p>Address : No.32, Kasthuribai Nagar,
 3rd cross street, Adyar,
 Chennai - 600020.
@@ -170,12 +245,14 @@ Chennai - 600020.
             <label for="message">Message<span class="text-danger">*</span></label>
             <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+          <button type="submit" class="btn  btn-block mb-4">Submit</button>
         </form>
       </div>
     </div>
   </div>
   </section>
+
+  <div class="empty-space" style="height:100px; background-image: linear-gradient(#ccc9e3, #f8f9fa););"></div>
       <!-- -------------------------------xxxxxx -->
     <!------------------------------------------- script -->
     <script>

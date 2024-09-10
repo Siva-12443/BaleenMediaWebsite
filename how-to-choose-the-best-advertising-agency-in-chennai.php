@@ -10,56 +10,191 @@ include('include/blogtp.php');
     <meta name="description" content="Choose Baleen Media for reliable and result-driven newspaper advertising in Chennai. Contact us today to learn how our expertise can elevate your brand.">
     <meta name="author" content="Baleen Media"></head>
 
+    <style>
+      /* General Styling */
+.section {
+    padding: 30px;
+    background-color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+/* Main Heading (h2) */
+.container .h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph Styling */
+.container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Image Styling */
+.container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subsection Div Styling */
+.subsection {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fef6e4; /* Light Yellow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subheading (h3) Styling */
+.subsection h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Paragraph inside subsections */
+.subsection p {
+    font-size: 18px;
+    color: #444;
+    padding: 10px 0;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+    list-style: disc;
+}
+
+/* Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Bold text for emphasis */
+b {
+    color: #333;
+}
+
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 768px) {
+    /* Adjust padding for mobile view */
+    .section {
+        padding: 15px;
+    }
+
+    /* Center-align the main heading on mobile */
+    .container .h2 {
+        font-size: 28px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    /* Reduce padding and font size in subsections for mobile */
+    .subsection {
+        padding: 15px;
+    }
+
+    /* Adjust heading and paragraph font sizes for smaller screens */
+    .subsection h3 {
+        font-size: 22px;
+    }
+
+    .subsection p {
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    /* Reduce spacing between paragraphs */
+    .container p,
+    .subsection p {
+        margin-bottom: 15px;
+    }
+}
+
+/* Additional Media Queries for Extra Small Screens (Phones in portrait mode) */
+@media (max-width: 576px) {
+    /* Reduce padding further for extra small screens */
+    .section {
+        padding: 10px;
+    }
+
+    /* Further reduce font size for main heading */
+    .container .h2 {
+        font-size: 24px;
+    }
+
+    /* Subsection heading and paragraph font size adjustments */
+    .subsection h3 {
+        font-size: 20px;
+    }
+
+    .subsection p {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
+
+    </style>
 <div class="section">
-	<div class="container">
-		<div class="h2">How to Choose The Best Advertising Agency in Chennai?</div>
-		<p>In the growing Fast-Paced world, grabbing the audience's attention and making a long-lasting impression is nearly impossible. To make them stay, look back at your advertisement once again to get them to think about it, to let that thought take over them, and to make them buy the respective product or service we intended to showcase through our advertisement!  </p>
-		<img style="height: 500px; width: 800px;" src="/assets/images/20845.jpg " alt="">
-		<p>Advertising agencies don’t need to be simple and plain; they need to be as creative as possible. Any advertisement aims to be as impressive and long-lasting as possible so that the respective audience can generate successful leads for the particular brand.  </p>
+    <div class="container">
+        <div class="h2">How to Choose The Best Advertising Agency in Chennai?</div>
+        <p>In the growing Fast-Paced world, grabbing the audience's attention and making a long-lasting impression is nearly impossible. To make them stay, look back at your advertisement once again to get them to think about it, to let that thought take over them, and to make them buy the respective product or service we intended to showcase through our advertisement!</p>
+        <img style="height: 500px; width: 800px;" src="/assets/images/20845.jpg" alt="">
+        <p>Advertising agencies don’t need to be simple and plain; they need to be as creative as possible. Any advertisement aims to be as impressive and long-lasting as possible so that the respective audience can generate successful leads for the particular brand.</p>
 
-			 <h3>Advertising Agency in Chennai!  </h3>
-	 <p>Chennai, with a population of 12.1 million people, presents a huge opportunity for various industries. 
-    To reach such a vast audience for different products and services, <a href="https://www.baleenmedia.com/"> one needs ad agencies in Chennai </a> to
-     target a specific group of audience. To entertain such a huge audience, target potential ones, and make a
-      long-lasting impression, it is essential to achieve leads and make the brand a success. 
-      <br><br>
-      For such results,<a href="https://www.baleenmedia.com/"> Baleen Media,</a> an advertising agency in Chennai, plays a crucial role.
-       It creatively crafts an ad and displays it throughout the city so that it reaches the masses and
-        leaves an impression that stays in their minds. It makes them pursue it, in turn, making the ad for the respective 
-        brand or company a success! 
-    </p>
+        <div class="subsection">
+            <h3>Advertising Agency in Chennai!</h3>
+            <p>Chennai, with a population of 12.1 million people, presents a huge opportunity for various industries. To reach such a vast audience for different products and services, <a href="https://www.baleenmedia.com/"> one needs ad agencies in Chennai </a> to target a specific group of audience. 
+            </p>
+        </div>
 
-<h3>Baleen Media is your Ad Agency!</h3>
-<p>With Baleen Media, you start your journey of crafting an ad campaign that is creative,
-     innovative, and, most importantly, reachable to the masses. 
-     It is essential to make your advertisement reach your targeted potential audience to make an impressive impression
-      so that you can cash them in and turn them into your future users. 
-    <br><br>
-    To reach a specific audience in a huge populated city like Chennai is undoubtedly a challenging task,
-     so what can one do to achieve it? Well, <b> Baleen Media </b> takes care of that for you. They make such creatively
-      curated ads and then portray them throughout the city with the help of all modern digital as well as non-digital means; 
-      such means of their campaigns are: </p>
-      <ul>
-        <li>. TV Advertising  </li>
-        <li>. Radio Advertising </li>
-        <li>. Newspaper Advertising </li>
-        <li>. Bus Advertising </li>
-        <li>. Auto Advertising </li>
-     </ul>
+        <div class="subsection">
+            <h3>Baleen Media is your Ad Agency!</h3>
+            <p>With Baleen Media, you start your journey of crafting an ad campaign that is creative, innovative, and, most importantly, reachable to the masses.</p>
+            <ul>
+                <li>TV Advertising</li>
+                <li>Radio Advertising</li>
+                <li>Newspaper Advertising</li>
+                <li>Bus Advertising</li>
+                <li>Auto Advertising</li>
+            </ul>
+            <p>Various other means of advertising campaigns to make your creative ad reach the masses...</p>
+        </div>
 
-     <p>
-        Various other means of advertising campaigns to make your creative ad reach the masses, 
-        with digital and non-digital means it reaches a whole lot of people in multiple age groups and with different
-         criteria Also by using the transport means as an advertising means of campaign it goes all the peoples 
-         who travel daily for work, education or any other sort of means and thus on a day to day basis impacts
-          on a person and make an impression that lasts and in turn helps turnout vast numbers of leads. 
-        </p>
-        <h3>Conclusion </h3>
-        <p>In conclusion, in a city like Chennai, if you are looking to run an advertising campaign 
-            that should turn out leads and profits should make an impression and bring out a considerable
-             name for your Brand and the service it provides, Baleen Media is the answer for all your queries,
-              with <b> Baleen Media </b> you can rest assured and let your advertisement reach your audience quickly.</p>
-	</div>
+        <div class="subsection">
+            <h3>Conclusion</h3>
+            <p>In conclusion, in a city like Chennai, if you are looking to run an advertising campaign that should turn out leads and profits...</p>
+        </div>
+    </div>
 </div>
 
 

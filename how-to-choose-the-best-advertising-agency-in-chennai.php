@@ -1,5 +1,5 @@
 <?php
-include('include/blogtp.php');
+include('include/top.php');
 ?>
 <head>  <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -11,175 +11,139 @@ include('include/blogtp.php');
     <meta name="author" content="Baleen Media"></head>
 
     <style>
-      /* General Styling */
-.section {
-    padding: 30px;
-    background-color: #f7f7f7;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-}
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f8fc;
+            color: #333;
+        }
 
-/* Main Heading (h2) */
-.container .h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
+        .section {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #FFD194, #70e1f5);
+        }
 
-/* Paragraph Styling */
-.container p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            gap: 40px;
+        }
 
-/* Image Styling */
-.container img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
 
-/* Subsection Div Styling */
-.subsection {
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background-color: #fef6e4; /* Light Yellow */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333;
+        }
 
-/* Subheading (h3) Styling */
-.subsection h3 {
-    font-size: 24px;
-    color: #007bff;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
 
-/* Paragraph inside subsections */
-.subsection p {
-    font-size: 18px;
-    color: #444;
-    padding: 10px 0;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-/* List Styling */
-ul {
-    padding-left: 20px;
-    margin-bottom: 20px;
-}
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #222;
+        }
 
-ul li {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 8px;
-    list-style: disc;
-}
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
 
-/* Link Styling */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
+        ul li {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            margin-bottom: 10px;
+            font-size: 1.15rem;
+            color: #333;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
+        ul li:hover {
+            background-color: #e1f5fe;
+        }
 
-/* Bold text for emphasis */
-b {
-    color: #333;
-}
+        .subsection {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-/* Responsive Styling for Mobile Devices */
-@media (max-width: 768px) {
-    /* Adjust padding for mobile view */
-    .section {
-        padding: 15px;
-    }
+        .subsection h3 {
+            margin-top: 0;
+        }
 
-    /* Center-align the main heading on mobile */
-    .container .h2 {
-        font-size: 28px;
-        text-align: left;
-        margin-bottom: 15px;
-    }
+        .subsection p {
+            color: #555;
+        }
 
-    /* Reduce padding and font size in subsections for mobile */
-    .subsection {
-        padding: 15px;
-    }
+        /* Responsive Grid Layout */
+        @media (min-width: 992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
 
-    /* Adjust heading and paragraph font sizes for smaller screens */
-    .subsection h3 {
-        font-size: 22px;
-    }
+        /* Mobile Adjustments */
+        @media (max-width: 991px) {
+            h2 {
+                font-size: 2rem;
+            }
 
-    .subsection p {
-        font-size: 16px;
-    }
+            h3 {
+                font-size: 1.5rem;
+            }
 
-    ul li {
-        font-size: 16px;
-    }
+            p {
+                font-size: 1rem;
+            }
 
-    /* Reduce spacing between paragraphs */
-    .container p,
-    .subsection p {
-        margin-bottom: 15px;
-    }
-}
+            ul li {
+                font-size: 1rem;
+            }
 
-/* Additional Media Queries for Extra Small Screens (Phones in portrait mode) */
-@media (max-width: 576px) {
-    /* Reduce padding further for extra small screens */
-    .section {
-        padding: 10px;
-    }
-
-    /* Further reduce font size for main heading */
-    .container .h2 {
-        font-size: 24px;
-    }
-
-    /* Subsection heading and paragraph font size adjustments */
-    .subsection h3 {
-        font-size: 20px;
-    }
-
-    .subsection p {
-        font-size: 14px;
-    }
-
-    ul li {
-        font-size: 14px;
-    }
-}
-
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
+
 <div class="section">
     <div class="container">
-        <div class="h2">How to Choose The Best Advertising Agency in Chennai?</div>
-        <p>In the growing Fast-Paced world, grabbing the audience's attention and making a long-lasting impression is nearly impossible. To make them stay, look back at your advertisement once again to get them to think about it, to let that thought take over them, and to make them buy the respective product or service we intended to showcase through our advertisement!</p>
-        <img style="height: 500px; width: 800px;" src="/assets/images/20845.jpg" alt="">
-        <p>Advertising agencies don’t need to be simple and plain; they need to be as creative as possible. Any advertisement aims to be as impressive and long-lasting as possible so that the respective audience can generate successful leads for the particular brand.</p>
+        <h2>How to Choose The Best Advertising Agency in Chennai?</h2>
+        <p>In the fast-paced world we live in, grabbing the audience's attention and making a long-lasting impression is nearly impossible. To make them pause, revisit your advertisement, and consider your product or service, your campaign must be crafted to capture attention instantly and leave an impact. Ultimately, advertising is about creating that memorable connection that translates into successful leads for your brand.</p>
+        
+        <p>An advertising agency shouldn’t be simple and plain—it should be as creative and engaging as possible. The goal is to leave a long-lasting impression that resonates with the audience and turns into successful leads for the brand or product.</p>
 
         <div class="subsection">
-            <h3>Advertising Agency in Chennai!</h3>
-            <p>Chennai, with a population of 12.1 million people, presents a huge opportunity for various industries. To reach such a vast audience for different products and services, <a href="https://www.baleenmedia.com/"> one needs ad agencies in Chennai </a> to target a specific group of audience. 
-            </p>
+            <h3>Advertising Agency in Chennai</h3>
+            <p>Chennai, with a population of 12.1 million people, presents a huge opportunity for various industries. Reaching such a vast audience requires a targeted approach, and that’s where <a href="https://www.baleenmedia.com/"> ad agencies in Chennai </a> come into play. They can help you target specific groups, ensuring that your advertisement speaks directly to the people who matter most.</p>
         </div>
 
         <div class="subsection">
             <h3>Baleen Media is your Ad Agency!</h3>
-            <p>With Baleen Media, you start your journey of crafting an ad campaign that is creative, innovative, and, most importantly, reachable to the masses.</p>
+            <p>Baleen Media guides you through the journey of creating ad campaigns that are not only creative and innovative but also reach the masses effectively. Whether you’re looking for:</p>
             <ul>
                 <li>TV Advertising</li>
                 <li>Radio Advertising</li>
@@ -187,16 +151,15 @@ b {
                 <li>Bus Advertising</li>
                 <li>Auto Advertising</li>
             </ul>
-            <p>Various other means of advertising campaigns to make your creative ad reach the masses...</p>
+            <p>Baleen Media covers it all, offering a wide range of advertising solutions designed to make your message impactful and accessible to a broad audience.</p>
         </div>
 
         <div class="subsection">
             <h3>Conclusion</h3>
-            <p>In conclusion, in a city like Chennai, if you are looking to run an advertising campaign that should turn out leads and profits...</p>
+            <p>In conclusion, in a city like Chennai, if you're looking to run an advertising campaign that generates leads and drives profits, Baleen Media is your go-to agency. With creative campaigns, targeted audience reach, and innovative strategies, they’ll help your brand succeed in a competitive market.</p>
         </div>
     </div>
 </div>
-
 
 <?php
 include('include/footer.php');

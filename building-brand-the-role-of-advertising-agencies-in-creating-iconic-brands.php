@@ -11,164 +11,125 @@ include('include/top.php');
     <meta name="author" content="Baleen Media"></head>
 
     <!-- ============================================================================================================================] -->
-<style>
-/* General Styling */
-.section {
-    padding: 30px;
-    background-color: #f7f7f7;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-}
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
 
-/* Main Heading (h2) */
-.container .h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
+        .section {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #ffe259, #ffa751);
+        }
 
-/* Paragraph Styling */
-.container p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
-}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-/* Subsection Div Styling */
-.subsection {
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background-color: #fef6e4; /* Light Yellow */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
 
-/* Subheading (h3) Styling */
-.subsection h3 {
-    font-size: 24px;
-    color: #007bff;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333;
+        }
 
-/* Paragraph inside subsections */
-.subsection p {
-    font-size: 18px;
-    color: #444;
-    padding: 10px 0;
-}
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
 
-/* Link Styling */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: black;
+        }
 
-/* Bold text for emphasis */
-b {
-    color: #333;
-}
+        .subsection {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom:20px;
+        }
 
-/* Responsive Styling for Mobile Devices */
-@media (max-width: 768px) {
-    /* Adjust padding for mobile view */
-    .section {
-        padding: 15px;
-    }
+        .subsection h3 {
+            margin-top: 0;
+        }
 
-    /* Center-align the main heading on mobile */
-    .container .h2 {
-        font-size: 28px;
-        text-align: left;
-        margin-bottom: 15px;
-    }
+        .subsection p {
+            color: #555;
+        }
 
-    /* Reduce padding and font size in subsections for mobile */
-    .subsection {
-        padding: 15px;
-    }
+        /* Responsive Design */
+        @media (min-width: 992px) {
+            .container {
+                display: grid;
+                gap: 40px;
+            }
+        }
 
-    /* Adjust heading and paragraph font sizes for smaller screens */
-    .subsection h3 {
-        font-size: 22px;
-    }
+        @media (max-width: 991px) {
+            h2 {
+                font-size: 2rem;
+            }
 
-    .subsection p {
-        font-size: 16px;
-    }
+            h3 {
+                font-size: 1.5rem;
+            }
 
-    /* Reduce spacing between paragraphs */
-    .container p,
-    .subsection p {
-        margin-bottom: 15px;
-    }
-}
+            p {
+                font-size: 1rem;
+            }
 
-/* Additional Media Queries for Extra Small Screens (Phones in portrait mode) */
-@media (max-width: 576px) {
-    /* Reduce padding further for extra small screens */
-    .section {
-        padding: 10px;
-    }
-
-    /* Further reduce font size for main heading */
-    .container .h2 {
-        font-size: 24px;
-    }
-
-    /* Subsection heading and paragraph font size adjustments */
-    .subsection h3 {
-        font-size: 20px;
-    }
-
-    .subsection p {
-        font-size: 14px;
-    }
-}
-
-
-</style>
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 <!-- =========================================================================================== -->
 <div class="section">
     <div class="container">
-        <div class="h2">Building Brand: The Role of Advertising Agencies in Creating Iconic Brands</div>
-        <p> In the bustling city of Chennai, the need for exceptional advertising agencies has become more crucial than ever. 
-            As businesses strive to establish themselves in competitive markets, the power of effective advertising cannot be underestimated.
-            For individuals and companies looking for an advertising agency in Chennai, finding the right partner to build their brand is of utmost importance.
-        </p>
+        <h2>Building Brand: The Role of Advertising Agencies in Creating Iconic Brands</h2>
+        <p>In the bustling city of Chennai, the need for exceptional advertising agencies has become more crucial than ever. As businesses strive to establish themselves in competitive markets, the power of effective advertising cannot be underestimated. For individuals and companies looking for an advertising agency in Chennai, finding the right partner to build their brand is of utmost importance.</p>
 
         <div class="subsection">
             <h3>Baleen Media</h3>
-            <p>Baleen Media stands out as an exemplary <a href="https://www.baleenmedia.com/">advertising agency in Chennai,</a> offering a wide range of services designed to elevate brands to iconic status. 
-                With a deep understanding of the local market and a track record of successful campaigns, Baleen Media has become synonymous with creativity, innovation, and results.
-                <br><br>
-                The role of advertising agencies in building brands cannot be overstated. A reputable advertising agency in Chennai is a strategic partner for businesses, working collaboratively to craft narratives that echo with the target audience.
-            </p>
+            <p>Baleen Media stands out as an exemplary <a href="https://www.baleenmedia.com/">advertising agency in Chennai</a>, offering a wide range of services designed to elevate brands to iconic status. With a deep understanding of the local market and a track record of successful campaigns, Baleen Media has become synonymous with creativity, innovation, and results.</p>
+            <p>The role of advertising agencies in building brands cannot be overstated. A reputable advertising agency in Chennai is a strategic partner for businesses, working collaboratively to craft narratives that resonate with the target audience.</p>
         </div>
 
         <div class="subsection">
             <h3>Ad Agency in Chennai</h3>
-            <p>One advantage of partnering with an advertising agency in Chennai is the access to a diverse skill set. From designers and copywriters to marketing experts and media planners, these agencies bring together a multidisciplinary team capable of executing integrated campaigns that leave a lasting impression.
-                <br><br>
-                In a city as dynamic as Chennai, the competition is fierce, making it essential for brands to have a distinct identity that sets them apart. This is where advertising agencies play a pivotal role, helping businesses carve out a unique space in the market and promote meaningful connections with their audience.
-            </p>
+            <p>One advantage of partnering with an advertising agency in Chennai is the access to a diverse skill set. From designers and copywriters to marketing experts and media planners, these agencies bring together a multidisciplinary team capable of executing integrated campaigns that leave a lasting impression.</p>
+            <p>In a city as dynamic as Chennai, the competition is fierce, making it essential for brands to have a distinct identity that sets them apart. This is where advertising agencies play a pivotal role, helping businesses carve out a unique space in the market and promote meaningful connections with their audience.</p>
         </div>
 
         <div class="subsection">
             <h3>Conclusion</h3>
-            <p>In conclusion, for individuals and businesses seeking an advertising agency in Chennai, the partnership with <b>Baleen Media</b> offers a gateway to building an iconic brand. 
-                Through a fusion of creativity, market insights, and technical expertise, Baleen Media has established itself as a driving force behind numerous successful brands in Chennai.
-                As the city continues to evolve, the role of advertising agencies in shaping the narrative of brands will only grow in significance, making the choice of the right agency a critical decision for those looking to leave a lasting mark in Chennai's vibrant market.
-            </p>
+            <p>In conclusion, for individuals and businesses seeking an advertising agency in Chennai, the partnership with <b>Baleen Media</b> offers a gateway to building an iconic brand. Through a fusion of creativity, market insights, and technical expertise, Baleen Media has established itself as a driving force behind numerous successful brands in Chennai. As the city continues to evolve, the role of advertising agencies in shaping the narrative of brands will only grow in significance, making the choice of the right agency a critical decision for those looking to leave a lasting mark in Chennai's vibrant market.</p>
         </div>
     </div>
 </div>
+
 
 
 <?php

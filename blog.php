@@ -365,8 +365,8 @@ include('include/top.php');
 </div> -->
 
 
-<div class="container mt-5 ">
-    <div class="pricing-table">
+<div class="container  p-0">
+    <div class="pricing-table p-3">
         <h4 class="text-center mb-4">Advertising Medium Pricing</h4>
         <table class="table table-bordered table-hover">
             <thead>

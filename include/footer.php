@@ -6,6 +6,9 @@ color:#F1aAFF;
 	marquee a:hover{
 		color:#F1aAFF;
 		}
+		marquee a{
+			color:white;
+		}
 	.menu li a:hover{
 		color:#F1aAFF;
 	}
@@ -14,7 +17,8 @@ color:#F1aAFF;
 	}
 	.wave{
 		width: 100%;
-	}	
+	}
+		
 </style>
 	
 	    
@@ -31,7 +35,7 @@ color:#F1aAFF;
                     <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
                         <h6 class="widget-title">Services</h6>
                         <div>
-                            <ul class="menu">
+                            <ul class="menu ">
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper Ads</a></li>
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Magazine Ads</a></li>
                                 <li><a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;">Paper Inserts</a></li>
@@ -98,7 +102,6 @@ color:#F1aAFF;
 		<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Digital Marketing, </a>
 		<a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;"> NoParking Board, </a>
 		<a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Paper Inserts, </a> 
-		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Theatre Ads, </a>
 		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Auto Back Ads, </a>
 	  </marquee>
 	  </div>

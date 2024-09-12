@@ -11,6 +11,9 @@ include('include/top.php');
 } */
 /* Styling the blog cards */
 /* General container styling */
+.blog_bg{
+  background-color: whitesmoke;
+}
 .blog-card {
     background-color: #FFF2CC; /* Light background for cards */
     border-radius: 15px;
@@ -53,6 +56,10 @@ include('include/top.php');
 }
 
 .blog-card a .btn:hover {
+    background-color: #AD49E1;
+    color: #ffffff;
+}
+.blog-card a .btn:focus {
     background-color: #AD49E1;
     color: #ffffff;
 }
@@ -126,7 +133,7 @@ include('include/top.php');
 }
 
 .table th {
-    background-color: #007bff;
+    background-color: gray;
     color: white;
     text-align: center;
     font-size:22px;
@@ -151,7 +158,7 @@ include('include/top.php');
 
 @media (max-width: 991px) {
   .table th {
-    background-color: #007bff;
+    background-color: gray;
     color: white;
     text-align: center;
     font-size:14px;
@@ -295,7 +302,7 @@ include('include/top.php');
 
 <div class="container mt-5">
     <!-- First Q&A Section -->
-    <section class="qa-section p-4 mb-4">
+    <!-- <section class="qa-section p-4 mb-4">
         <h4>How Do Top Brands Make Traditional Marketing Methods Work?</h4>
         <p>We have witnessed many start-ups from the FMCG and E-Commerce sectors emerging victorious, battling their way to enter the market with a bang. The question that haunts newly launched start-ups is how these companies managed to survive the cutthroat competition.
         </p>
@@ -306,10 +313,10 @@ include('include/top.php');
         <p>Companies like Amazon and Big Basket continue to advertise in newspapers. Dominos and Pizza Hut distribute discount coupons through pamphlets. Traditional marketing helps companies connect with the local audience and allows face-to-face interaction with potential buyers. It also enables product testing, where consumers can check the quality firsthand.
         </p>
         <p>Chennai has become a hub for start-ups, and to reach a wide audience, every company needs a strategist to promote their products and services effectively. <a href="https://www.baleenmedia.com">Baleen Media</a>, a renowned advertising agency in Chennai, offers a range of services from traditional to digital marketing, helping brands create a transparent image and reach their target audience.</p>
-    </section>
+    </section> -->
 
     <!-- Second Q&A Section -->
-    <section class="qa-section p-4 mb-4">
+    <!-- <section class="qa-section p-4 mb-4">
         <h4>Should Your Small Business Hire an Advertising Agency?</h4>
         <p>Advertising is essential for businesses of all sizes. As your business grows, you’ll eventually need to take your marketing strategy to the next level. Hiring an advertising agency can help you expand your reach and increase your impact. Here are a few factors to consider:</p>
 
@@ -330,10 +337,10 @@ include('include/top.php');
 
         <strong>Conclusion:</strong>
         <p>Whether small or big, every business desires growth, and advertising is one of the best ways to achieve that. A good agency will guide you through the steps and deliver results in due time. If you’re looking for a budget-friendly agency, <a href="https://www.baleenmedia.com">Baleen Media</a> is the best advertising company in Chennai and can help you achieve your business goals.</p>
-    </section>
+    </section> -->
 
     <!-- Third Q&A Section -->
-    <section class="qa-section p-4 mb-4">
+    <!-- <section class="qa-section p-4 mb-4">
         <h4>How to Choose the Right Advertising Agency?</h4>
         <p>Choosing the right ad agency is crucial for your brand's development. Having the right agency partner can help you meet all your expectations. Here are five things to consider:</p>
 
@@ -355,17 +362,17 @@ include('include/top.php');
         <strong>Outcome:</strong>
         <p>By following these factors, you can find the best agency for your brand development. <a href="https://www.baleenmedia.com">Baleen Media</a> is the best advertising agency in Chennai, known for modernized campaigns and delivering results worth the investment.</p>
     </section>
-</div>
+</div> -->
 
 
 <div class="container mt-5 ">
     <div class="pricing-table">
-        <h4 class="text-center mb-4">Ad Medium Pricing</h4>
+        <h4 class="text-center mb-4">Advertising Medium Pricing</h4>
         <table class="table table-bordered table-hover">
             <thead>
                 <tr>
                     <th>Ad Medium</th>
-                    <th>Price Range*</th>
+                    <th>Price Range <span class="text-danger">*</span></th>
                     <th>Unit</th>
                 </tr>
             </thead>
@@ -417,7 +424,7 @@ include('include/top.php');
     </div>
 </div>
 </section>
-
+<div class="empty-space" style="height:150px; background-image: linear-gradient(#e0d0fd, #f8f9fa););"></div>
 
 
 

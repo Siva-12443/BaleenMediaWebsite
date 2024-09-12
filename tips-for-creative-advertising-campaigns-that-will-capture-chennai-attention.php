@@ -23,55 +23,56 @@ include('include/top.php');
             background: linear-gradient(135deg, #84fab0, #8fd3f4);
             color: black;
             padding: 60px 20px;
+            text-align: left;
         }
 
-        .container {
+        .containers {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
             gap: 40px;
-            text-align: center;
+            text-align: left;
         }
 
-        h2 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            letter-spacing: 1px;
+        .containers h2 {
+            font-size: 30px;
+            text-align: left; 
+            padding:0px;
         }
 
-        h3 {
-            font-size: 1.75rem;
+        .containers  h3 {
+            font-size: 20px;
             color: black;
             margin: 30px 0;
         }
 
-        p {
-            font-size: 1.15rem;
-            margin-bottom: 20px;
-            color: black;
+        .containers  p {
+            font-size: 16.5px;
+            color:black;
+            font-weight:500;
         }
 
-        p b {
+        .containers p b {
             color: gray;
             font-weight: 600;
         }
 
-        p a {
+        .containers p a {
             color: gray;
             text-decoration: underline;
         }
 
-        p a:hover {
+        .containers p a:hover {
             color: #bdf0e7;
         }
 
-        ul {
+        .containers  ul {
             list-style-type: none;
             padding-left: 0;
             margin: 20px 0;
         }
 
-        ul li {
+        .containers ul li {
             background-color: rgba(255, 255, 255, 0.1);
             padding: 10px;
             font-size: 1.2rem;
@@ -82,53 +83,64 @@ include('include/top.php');
 
         /* Grid layout for desktop */
         @media (min-width: 992px) {
-            .container {
+            .containers {
                 grid-template-columns: 1fr;
             }
 
-            h2 {
-                font-size: 3rem;
+            .containers h2 {
+                font-size: 20px;
             }
 
-            h3 {
-                font-size: 2rem;
+            .containers h3 {
+                font-size: 18px;
             }
 
-            p {
-                font-size: 1.2rem;
+            .containers p {
+                font-size: 16px;
             }
         }
 
         /* Mobile view adjustments */
         @media (max-width: 991px) {
-            .container {
+            .containers {
                 grid-template-columns: 1fr;
-                text-align: center;
+                
             }
 
-            h2 {
-                font-size: 2.2rem;
+            .containers h2 {
+                font-size: 25px;
+            text-align: left; 
+            font-weight:800;
             }
 
-            h3 {
-                font-size: 1.5rem;
+            .containers h3 {
+                font-size: 18px;
             }
 
-            p {
-                font-size: 1.1rem;
+            .containers p {
+                font-size: 13.5px;
+            color:black;
+            font-weight:600;
             }
 
-            ul li {
-                font-size: 1.15rem;
+            .containers ul li {
+                font-size: 13px;
             }
+        }
+        .subsection {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         /* Accent button styles */
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #fff;
-            color: #84fab0;
+            background-color: #84fab0;
+            color: black;
+            font-size:18px;
             font-weight: 600;
             border-radius: 5px;
             margin-top: 20px;
@@ -137,18 +149,18 @@ include('include/top.php');
         }
 
         .button:hover {
-            background-color: #bdf0e7;
+            background-color: black;
             color: #84fab0;
         }
     </style>
 
 	<div class="section">
-    <div class="container">
+    <div class="containers">
         <h2>Tips For Creative Advertising Campaigns That Will Capture Chennai’s Attention</h2>
         <p>When we think of an advertisement, we all think of something creative, attractive, and a bit catchy so that it stays with us. Advertisements should be as innovative and catchy as possible and displayed in a place where they are easily viewed, attract a large audience, and have a huge viewership.</p>
         
         <p>Advertisement is ultimately about reaching a mass audience and making an impact worth their while, benefiting both parties. Creative campaigns leave a lasting impression, increasing the chances of a company or brand gaining leads. For example, the most famous type of advertisement is <a href="https://www.baleenmedia.com/tv-advertisement-agency-in-chennai.php">TV advertising</a>. An <b>ad agency in Chennai</b> like <b>Baleen Media</b> has extensive experience in crafting various advertising campaigns and leveraging multiple platforms to reach a broad audience and deliver results for clients.</p>
-
+        <div class="subsection">
         <h3>Ways to Advertise Creatively</h3>
         <p>The advertising industry is a competitive space where reaching and impacting the audience is challenging. To stand out, consider these types of advertising campaigns in Chennai:</p>
         <ul>
@@ -158,19 +170,21 @@ include('include/top.php');
             <li>Radio Advertising Agency in Chennai</li>
             <li>Auto Advertising Agency in Chennai</li>
         </ul>
-        
+        </div>
         <p>While many agencies offer advertising services, <a href="https://www.baleenmedia.com/">Baleen Media</a> in Chennai covers all these forms of advertising. Their tailored campaigns are designed to meet individual client needs and reach a wider audience, turning out measurable results.</p>
-
+        <div class="subsection">
         <h3>Baleen Media, Chennai!</h3>
         <p>In this fast-paced world, grabbing the audience's attention in a short span and leaving a lasting impact is essential. Baleen Media excels in creating campaigns that stand out and appeal to a broad audience through platforms like buses, autos, newspapers, radio, and television. By utilizing public spaces and transit options, they ensure that their advertisements reach a wide range of people, generating substantial leads for their clients.</p>
-
+        </div>
+        <div class="subsection">
         <h3>Conclusion</h3>
         <p>In conclusion, <b>Baleen Media</b> is your go-to advertising campaign company, helping you stay ahead in the competitive advertising industry. Their creative campaigns enhance visibility, making your brand more appealing and impactful to your target audience!</p>
         
         <a href="https://www.baleenmedia.com/" class="button">Explore More</a>
+        </div>
     </div>
 </div>
-
+<div class="empty-space" style="height:100px; background-image: linear-gradient(#90d6ee, #f8f9fa););"></div>
 
 <?php
 include('include/footer.php');

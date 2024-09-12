@@ -22,41 +22,43 @@ include('include/top.php');
 
         .section {
             padding: 60px 20px;
-            background: linear-gradient(135deg, #ffe259, #ffa751);
+            background: linear-gradient( #ffe259, #ffa751);
         }
 
-        .container {
+        .containers {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0px;
+            text-align: left;
         }
 
-        h2 {
-            font-size: 2.5rem;
+        .containers h2 {
+            font-size: 40px;
             font-weight: 600;
-            text-align: center;
-            color: #fff;
+            padding: 0px;
+            
+            color: black;
             margin-bottom: 20px;
         }
 
-        p {
-            font-size: 1.1rem;
+        .containers p {
+            font-size: 18px;
             line-height: 1.6;
             margin-bottom: 20px;
             color: #333;
         }
 
-        a {
+        .containers a {
             color: #007bff;
             text-decoration: none;
         }
 
-        a:hover {
+        .containers a:hover {
             text-decoration: underline;
         }
 
-        h3 {
-            font-size: 1.8rem;
+        .containers h3 {
+            font-size: 20px;
             font-weight: 500;
             margin-top: 40px;
             margin-bottom: 20px;
@@ -81,33 +83,36 @@ include('include/top.php');
 
         /* Responsive Design */
         @media (min-width: 992px) {
-            .container {
+            .containers {
                 display: grid;
                 gap: 40px;
+                text-align:left;
             }
         }
 
         @media (max-width: 991px) {
-            h2 {
-                font-size: 2rem;
+            .containers  h2 {
+                font-size: 20px;
+                padding:0px;
+                text-align:left;
             }
 
-            h3 {
-                font-size: 1.5rem;
+            .containers h3 {
+                font-size: 20px;
             }
 
-            p {
-                font-size: 1rem;
+            .containers p {
+                font-size: 14px;
             }
 
-            .container {
+            .containers {
                 grid-template-columns: 1fr;
             }
         }
     </style>
 <!-- =========================================================================================== -->
 <div class="section">
-    <div class="container">
+    <div class="containers">
         <h2>Building Brand: The Role of Advertising Agencies in Creating Iconic Brands</h2>
         <p>In the bustling city of Chennai, the need for exceptional advertising agencies has become more crucial than ever. As businesses strive to establish themselves in competitive markets, the power of effective advertising cannot be underestimated. For individuals and companies looking for an advertising agency in Chennai, finding the right partner to build their brand is of utmost importance.</p>
 
@@ -131,7 +136,7 @@ include('include/top.php');
 </div>
 
 
-
+<div class="empty-space" style="height:150px; background-image: linear-gradient(#fea85b, #f8f9fa););"></div>
 <?php
 include('include/footer.php');
 ?>

@@ -16,85 +16,87 @@ include('include/top.php');
             background: linear-gradient(135deg, #ff7e5f, #feb47b);
             color: white;
             padding: 60px 20px;
+            text-align: left;
         }
 
-        .container {
+        .containers {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
             gap: 40px;
         }
 
-        .container h2 {
-            text-align: center;
-            font-size: 2.5rem;
+        .containers h2 {
+            
+            font-size: 40px;
             font-weight: 600;
             margin-bottom: 20px;
             letter-spacing: 1px;
         }
 
-        .container h3 {
-            font-size: 1.75rem;
+        .containers h3 {
+            font-size: 25px;
             color: #fffcf7;
             border-left: 4px solid white;
             padding-left: 10px;
             margin-top: 20px;
         }
 
-        .container p {
-            font-size: 1.15rem;
+        .containers p {
+            font-size: 20px;
             margin-bottom: 20px;
             color: #f9f9f9;
         }
 
         /* Styling for emphasis */
-        .container p b {
+        .containers p b {
             color: #fff;
             font-weight: 600;
         }
 
-        .container p a {
+        .containers p a {
             color: #fff;
             text-decoration: underline;
         }
 
-        .container p a:hover {
+        .containers p a:hover {
             color: #ffdfba;
         }
 
         /* Grid layout for desktop */
         @media (min-width: 992px) {
-            .container {
+            .containers {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 60px;
             }
 
-            .container p {
-                font-size: 1.2rem;
+            .containers p {
+                font-size: 18px;
             }
 
-            .container h2 {
-                font-size: 3rem;
+            .containers h2 {
+                font-size: 25px;
             }
         }
 
         /* Mobile view adjustments */
         @media (max-width: 991px) {
-            .container {
+            .containers {
                 grid-template-columns: 1fr;
-                text-align: center;
+                text-align: left;
             }
 
-            .container h2 {
-                font-size: 2.2rem;
+            .containers h2 {
+                font-size: 20px;
+                text-align:left;
             }
 
-            .container h3 {
-                font-size: 1.5rem;
+            .containers h3 {
+                font-size: 20px;
             }
 
-            .container p {
-                font-size: 1.1rem;
+            .containers p {
+                font-size: 15px;
             }
         }
 
@@ -102,23 +104,25 @@ include('include/top.php');
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #fff;
-            color: #ff7e5f;
+            background-color: #ff7e5f;
+            color: black;
+            font-size:20px;
+            text-align:center;
             font-weight: 600;
             border-radius: 5px;
             margin-top: 20px;
             text-decoration: none;
-            transition: background-color 0.3s ease;
+           
         }
 
         .button:hover {
             background-color: #ffdfba;
-            color: #ff7e5f;
+            color: white;
         }
     </style>
 
 <div class="section">
-    <div class="container">
+    <div class="containers">
         <h2>The Future of Advertising Agencies: Predictions and Insights for 2025 and Beyond</h2>
         <p>In today's fast-paced world, the advertising industry is continuously evolving. As we look towards 2025 and beyond, the role of advertising agencies is expected to undergo significant transformation. For those in Chennai seeking advertising solutions, <b>Baleen Media</b> stands at the forefront of these changes, ready to innovate the ever-changing landscape.</p>
 
@@ -150,7 +154,7 @@ include('include/top.php');
         <a href="https://www.baleenmedia.com/" class="button">Learn More</a>
     </div>
 </div>
-
+<div class="empty-space" style="height:100px; background-image: linear-gradient(#fdb17e, #f8f9fa););"></div>
 
 <?php
 include('include/footer.php');

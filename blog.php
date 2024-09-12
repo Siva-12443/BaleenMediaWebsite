@@ -57,259 +57,60 @@ include('include/top.php');
     color: #ffffff;
 }
 /* =============================================faq-blog */
-.faqcontainer {
-    width: 80%;
-    margin: 0 auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+.faq-bg{
+  background:#e0d0ff;
+  padding-bottom:20px;
 }
 
-.faqcontainer h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 40px;
-}
-
-.collapsible {
-    background-color: #AD49E1;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    font-size: 18px;
-    margin-top: 10px;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.collapsible:hover, .collapsible:focus {
-    background-color: #AD49E1;
-    border-radius: 5px 5px 0 0;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #EBD3F8;
-    margin-top: 10px;
-    border-radius: 0 0 5px 5px;
-}
-
-.content p {
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-    padding-top: 10px;
-}
 /* ===============================================xxxxx========================== */
-/* ----------------------------------------------------slider cards */
- /* Card styling */
- .qa-card {
-            background-color: #ffffff;
-            border-radius: 15px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            text-align: left;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            height: 100%;
-        }
 
-        /* Hover effect for cards */
-        .qa-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Question styling */
-        .qa-card h2 {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #007bff;
-        }
-
-        /* Answer styling */
-        .qa-card p {
-            font-size: 16px;
-            color: #555555;
-        }
-
-        /* Add space between the cards */
-        .row > div {
-            margin-bottom: 30px;
-        }
-/* ============================================slider faqs================== */
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 /* ========================================================== */
 
-.faqcontainer {
-            width: 80%;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
 
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 40px;
-        }
-
-        .collapsible {
-            background-color: #4CAF50;
-            color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 18px;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-
-        .collapsible:hover {
-            background-color: #45a049;
-        }
-
-        .content {
-            padding: 0 18px;
-            display: none;
-            overflow: hidden;
-            background-color: #f1f1f1;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-
-        .content p {
-            padding: 20px;
-            margin: 0;
-        }
 /* ================================== */
 /* Custom styles for each Q&A section */
-.qa-section-1 {
+.qa-section {
   background-color: #f8f9fa; /* Light grey */
+  border-radius:5px;
+}
+.qa-section h4 {
+  font-size:22px;
+  font-weight:550;
+  padding-bottom:10px;
+  border-bottom:1px solid;
+  margin-bottom:10px;
+}
+.qa-section p,.qa-section ul li{
+  font-size:20px;
+}
+.qa-section strong{
+  font-size:20px;
+  font-weight:550;
+}
+.qa-section a{
+  color:blue;
+  border-bottom:1px solid;
 }
 
-.qa-section-2 {
-  background-color: #e9ecef; /* Slightly darker grey */
+@media (max-width: 991px) {
+  .qa-section h4{
+  font-size:18px;
+  font-weight:650;
+  padding-bottom:10px;
+  border-bottom:1px solid;
+  margin-bottom:10px;
+}
+.qa-section p,.qa-section ul li{
+  font-size:13px;
+  font-weight:550;
+  line-height:1.4;
+}
+.qa-section strong{
+  font-size:16px;
+  font-weight:550;
 }
 
-.qa-section-3 {
-  background-color: #f1f3f5; /* Light grey */
-}
 
-.qa-section-4 {
-  background-color: #e9ecef; /* Slightly darker grey */
-}
-
-.qa-section-5 {
-  background-color: #f8f9fa; /* Light grey */
-}
-
-.qa-section-6 {
-  background-color: #f1f3f5; /* Slightly darker grey */
-}
-
-.qa-section-7 {
-  background-color: #e9ecef; /* Light grey */
-}
-
-.qa-section-8 {
-  background-color: #f8f9fa; /* Slightly darker grey */
-}
-
-.qa-section-9 {
-  background-color: #f1f3f5; /* Light grey */
-}
-
-.qa-section-10 {
-  background-color: #e9ecef; /* Slightly darker grey */
 }
 
 /* =====================table================= */
@@ -317,24 +118,57 @@ include('include/top.php');
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}
+.pricing-table h4{
+  font-size:30px;
+  font-weight:550;
 }
 
 .table th {
     background-color: #007bff;
     color: white;
     text-align: center;
+    font-size:22px;
 }
 
 .table td, .table th {
     padding: 12px;
     text-align: center;
 }
+.table td{
+  font-size:20px;
+}
+
 
 .note {
     font-style: italic;
     color: #6c757d;
     text-align: left;
+    font-size:16px;
+    color:red;
+}
+
+@media (max-width: 991px) {
+  .table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size:14px;
+    
+}
+.table td{
+  font-size:13px;
+}
+.note{
+  font-size:12px;
+  color:red;
+  
+}
+.pricing-table h4{
+  font-size:20px;
+  font-weight:550;
+}
 }
 </style>
 
@@ -390,65 +224,56 @@ include('include/top.php');
 <!-- =========================================================slider faqs -->
 <section class="faq-bg ">
  <h2 style="font-size: 40px; font-family:Montserrat;">FAQs</h2><br>
- <div class="container ">
-  <!-- ================================ -->
-
-<!-- ==================================================================xxxx========================================= -->
-</div>
-</section>
-
-
-
 
 <div class="container mt-5">
   <!-- First Q&A Section -->
-  <section class="qa-section-1 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>Why Choose an Advertisement Agency?</h4>
     <p>A full-service advertising agency doesn't just build a brand but creates demand for a client’s product or service through creative strategy and marketing. It takes feedback from both clients and customers and decides the further line of action.</p>
   </section>
 
   <!-- Second Q&A Section -->
-  <section class="qa-section-2 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>What is Branding?</h4>
     <p>Branding is a marketing practice in which a company creates a recognizable name, symbol, or design that belongs to the company. It helps to distinguish a product from other products and services in the market.</p>
   </section>
 
   <!-- Third Q&A Section -->
-  <section class="qa-section-3 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>Why Should I Choose Baleen Media?</h4>
     <p>Baleen Media is a well-known advertising agency in Chennai that has been offering services like print media, bus back panel ads, radio ads, television ads, and internet/social media promotions for more than 16 years. Known for its creative content and innovative ideas, Baleen Media stands as one of the best advertising agencies in Chennai, offering high-quality services and understanding client needs to deliver satisfactory results. They serve all over India.</p>
   </section>
 
   <!-- Fourth Q&A Section -->
-  <section class="qa-section-4 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>Who is Your Ideal Client, and Why?</h4>
     <p>Our ideal client is anyone who wants to advertise in Newspapers, TV, Radio, or Outdoor Mediums like buses, autos, and cinema theaters.</p>
   </section>
 
   <!-- Fifth Q&A Section -->
-  <section class="qa-section-5 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>What Are the Core Capabilities of Your Agency? Where Do You Shine?</h4>
     <ul>
-      <li>Well-defined processes: From lead to cash, we follow a streamlined execution process.</li>
-      <li>Quick turnaround time: We pride ourselves on fast service.</li>
-      <li>Clear communication: Every step we take is communicated transparently.</li>
+      <li>1. Well-defined processes: From lead to cash, we follow a streamlined execution process.</li>
+      <li>2. Quick turnaround time: We pride ourselves on fast service.</li>
+      <li>3. Clear communication: Every step we take is communicated transparently.</li>
     </ul>
   </section>
 
   <!-- Sixth Q&A Section -->
-  <section class="qa-section-6 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>How Would You Describe Your Company Culture?</h4>
     <p>Customer Satisfaction: Our focus is on making more happy customers.<br>Teamwork: Collaboration between client servicing executives, graphic designers, and business development executives ensures the best results.</p>
   </section>
 
   <!-- Additional Q&A Sections -->
 
-  <section class="qa-section-7 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>How Long Have You Been in Business?</h4>
     <p>We have been in the advertising industry for over 16 years.</p>
   </section>
 
-  <section class="qa-section-8 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>How Is Your Pricing Structured?</h4>
     <p>We offer two types of pricing models:<br>
       1. Media Partnership Pricing: A simple agreement lasting 12 months or beyond, where a percentage of margins for advertisement costs is agreed upon.<br>
@@ -456,12 +281,12 @@ include('include/top.php');
     </p>
   </section>
 
-  <section class="qa-section-9 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>How Would We Interface with Your Agency? Describe a Typical Account Team.</h4>
     <p>Each client is assigned a Client Servicing Executive (CSE) who handles their requirements, recommends the right ad-medium, provides quotes, and ensures the release of ads as scheduled. The CSE also shares proofs like newspaper samples, broadcast certificates, and snapshots.</p>
   </section>
 
-  <section class="qa-section-10 p-4 mb-4">
+  <section class="qa-section p-4 mb-4">
     <h4>What is Your Process for Addressing Issues? How Do You Handle Cancellations?</h4>
     <p>We have well-defined terms and conditions regarding ad cancellations. Each order is executed through a work order that specifies the ad medium, release date, charges, and cancellation policy.</p>
   </section>
@@ -470,7 +295,7 @@ include('include/top.php');
 
 <div class="container mt-5">
     <!-- First Q&A Section -->
-    <section class="qa-section-1 p-4 mb-4">
+    <section class="qa-section p-4 mb-4">
         <h4>How Do Top Brands Make Traditional Marketing Methods Work?</h4>
         <p>We have witnessed many start-ups from the FMCG and E-Commerce sectors emerging victorious, battling their way to enter the market with a bang. The question that haunts newly launched start-ups is how these companies managed to survive the cutthroat competition.
         </p>
@@ -484,7 +309,7 @@ include('include/top.php');
     </section>
 
     <!-- Second Q&A Section -->
-    <section class="qa-section-2 p-4 mb-4">
+    <section class="qa-section p-4 mb-4">
         <h4>Should Your Small Business Hire an Advertising Agency?</h4>
         <p>Advertising is essential for businesses of all sizes. As your business grows, you’ll eventually need to take your marketing strategy to the next level. Hiring an advertising agency can help you expand your reach and increase your impact. Here are a few factors to consider:</p>
 
@@ -508,7 +333,7 @@ include('include/top.php');
     </section>
 
     <!-- Third Q&A Section -->
-    <section class="qa-section-3 p-4 mb-4">
+    <section class="qa-section p-4 mb-4">
         <h4>How to Choose the Right Advertising Agency?</h4>
         <p>Choosing the right ad agency is crucial for your brand's development. Having the right agency partner can help you meet all your expectations. Here are five things to consider:</p>
 
@@ -533,7 +358,7 @@ include('include/top.php');
 </div>
 
 
-<div class="container mt-5">
+<div class="container mt-5 ">
     <div class="pricing-table">
         <h4 class="text-center mb-4">Ad Medium Pricing</h4>
         <table class="table table-bordered table-hover">
@@ -575,11 +400,7 @@ include('include/top.php');
                     <td>Rs. 950 - 3,500</td>
                     <td>Per Auto (or Bus)</td>
                 </tr>
-                <tr>
-                    <td>Theater Ad</td>
-                    <td>Rs. 495 - 8,675</td>
-                    <td>Per SEC</td>
-                </tr>
+                
                 <tr>
                     <td>Digital Marketing</td>
                     <td>Rs. 500 - 5,000</td>
@@ -595,7 +416,7 @@ include('include/top.php');
         <p class="note">* The above pricing is indicative and only for reference. It may vary from time to time according to market conditions.</p>
     </div>
 </div>
-
+</section>
 
 
 

@@ -11,75 +11,84 @@ include('include/top.php');
     <meta name="author" content="Baleen Media"></head>
 
     <style>
-        body {
+       
+
+        .section {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f7f8fc;
             color: #333;
-        }
-
-        .section {
             padding: 60px 20px;
             background: linear-gradient(135deg, #FFD194, #70e1f5);
         }
 
-        .container {
+        .containers {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            gap: 40px;
+            gap: 20px;
+        }
+        .containers h2{
+            font-size: 30px;
+            text-align: left; 
+            padding:0px;
+        }
+        .containers p{
+            font-size: 16.5px;
+            color:black;
+            font-weight:500;
         }
 
-        h2 {
-            font-size: 2.5rem;
+        .containers .subsection h2 {
+            font-size: 30px;
             font-weight: 600;
-            text-align: center;
+            text-align: left;
             color: #333;
             margin-bottom: 20px;
         }
 
-        p {
-            font-size: 1.1rem;
+        .containers .subsection p {
+            font-size: 16px;
             line-height: 1.6;
             margin-bottom: 20px;
             color: #333;
         }
 
-        a {
+        .containers .subsection a {
             color: #007bff;
             text-decoration: none;
         }
 
-        a:hover {
+        .containers .subsection a:hover {
             text-decoration: underline;
         }
 
-        h3 {
-            font-size: 1.8rem;
+        .containers .subsection h3 {
+            font-size: 20px;
             font-weight: 500;
             margin-top: 40px;
             margin-bottom: 20px;
             color: #222;
         }
 
-        ul {
+        .containers .subsection ul {
             list-style-type: none;
             padding-left: 0;
         }
 
-        ul li {
+        .containers .subsection ul li {
             background: rgba(255, 255, 255, 0.8);
             padding: 15px;
             margin-bottom: 10px;
-            font-size: 1.15rem;
+            font-size: 16px;
             color: #333;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s ease;
         }
 
-        ul li:hover {
+        .containers .subsection ul li:hover {
             background-color: #e1f5fe;
         }
 
@@ -100,37 +109,47 @@ include('include/top.php');
 
         /* Responsive Grid Layout */
         @media (min-width: 992px) {
-            .container {
+            .containers {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
 
         /* Mobile Adjustments */
         @media (max-width: 991px) {
-            h2 {
-                font-size: 2rem;
+            .containers h2{
+            font-size: 25px;
+            text-align: left; 
+            font-weight:800;
+        }
+        .containers p{
+            font-size: 13.5px;
+            color:black;
+            font-weight:600;
+        }
+            .containers .subsection h2 {
+                font-size: 20px;
             }
 
-            h3 {
-                font-size: 1.5rem;
+            .containers .subsection h3 {
+                font-size: 18px;
             }
 
-            p {
-                font-size: 1rem;
+            .containers .subsection p {
+                font-size:13px;
             }
 
-            ul li {
-                font-size: 1rem;
+            .containers .subsection ul li {
+                font-size: 13px;
             }
 
-            .container {
+            .containers {
                 grid-template-columns: 1fr;
             }
         }
     </style>
 
 <div class="section">
-    <div class="container">
+    <div class="containers">
         <h2>How to Choose The Best Advertising Agency in Chennai?</h2>
         <p>In the fast-paced world we live in, grabbing the audience's attention and making a long-lasting impression is nearly impossible. To make them pause, revisit your advertisement, and consider your product or service, your campaign must be crafted to capture attention instantly and leave an impact. Ultimately, advertising is about creating that memorable connection that translates into successful leads for your brand.</p>
         
@@ -160,7 +179,7 @@ include('include/top.php');
         </div>
     </div>
 </div>
-
+<div class="empty-space" style="height:100px; background-image: linear-gradient(#76e0f0, #f8f9fa););"></div>
 <?php
 include('include/footer.php');
 ?>

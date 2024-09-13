@@ -20,7 +20,7 @@ include('include/top.php');
             background-color: #f7f8fc;
             color: #333;
             padding: 60px 20px;
-            background: linear-gradient(135deg, #FFD194, #70e1f5);
+            background: linear-gradient( #FFD194, #70e1f5);
         }
 
         .containers {

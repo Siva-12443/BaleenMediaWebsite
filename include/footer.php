@@ -18,6 +18,14 @@ color:#F1aAFF;
 	.wave{
 		width: 100%;
 	}
+	#backtotop i {
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+	background:#063b57;;
+	padding:25px 15px;
+    transition: .3s;
+}	
 		
 </style>
 	

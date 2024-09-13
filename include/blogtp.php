@@ -49,8 +49,14 @@
   ]
 }
 </script>
-
-
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Read our insightful Blogs  - Baleenmedia  ">
+    <meta name="keywords" content="Advertising agency in chennai ">
+    <meta name="description" content="Read our insightful blog. Baleenmedia is the best advertising agency in Chennai, we are offer services Including -Television ads, Radio ads, Auto back ads.">
+    <meta name="author" content="Baleen Media">
   
     <!-- Site Title-->
     <title>Read our insightful Blogs  - Baleenmedia  
@@ -59,8 +65,14 @@
     <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <link rel="icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloria+Hallelujah&family=Raleway:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800,900" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!-- Plugins -->
     <link href="assets/css/plugin.css" rel="stylesheet">
     <!-- Style CSS -->
@@ -112,7 +124,7 @@
 			display: block;
 			overflow: hidden;
 			margin: 0;
-			padding: 0;
+			padding: 0;		
 		}
 		.slick-list:focus
 		{
@@ -205,84 +217,508 @@
 			}
 		.justify {
 			text-align: justify;	
-		}		
-	</style>
+		}
+		
+/* -------------------new changes */
+.navbar-nav{
+  background-image:inherit;
+
+}
+
+#bs4navbar .menu-item .dropdown-menu a{
+		background-color:gray;
+		color:whitesmoke;
+	}
+	#bs4navbar .menu-item .dropdown-menu a:hover{
+		background-color:black;
+		color:white;
+	}
+	/* ---------------------------------------------------------------loadings */
+	.main-preloader-inner{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+
+	}
+  /* ------------------------------------eye */
+  .eye {
+  display: inline-flex;
+  gap: 10px;
+}
+.eye:before,
+.eye:after {
+  content: "";
+  height: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    linear-gradient(#222 0 0) top/100% 0% no-repeat,
+    radial-gradient(farthest-side,#000 95%,#0000) 50%/8px 8px no-repeat
+    #fff;
+  animation: l9 4s infinite ease-in;
+}
+@keyframes l9 {
+  0%  {background-size:100% 0%,8px 8px;background-position:top, 50% 50%}
+  80% {background-size:100% 70%,8px 8px;background-position:top, 50% 70%}
+  84%,
+  100%{background-size:100% 0%,8px 8px;background-position:top, 50% 50%}
+}
+/* From Uiverse.io by Nawsome */ 
+
+.loader {
+  position: relative;
+  left:90px;
+  width: 250px;
+  height: 100px;
+  margin-bottom:20px;
+}
+
+.loader__bar {
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 50%;
+  background: black;
+  transform-origin: center bottom;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.loader__bar:nth-child(1) {
+  left: 0px;
+  transform: scale(1, 0.2);
+  -webkit-animation: barUp1 4s infinite;
+  animation: barUp1 4s infinite;
+}
+
+.loader__bar:nth-child(2) {
+  left: 15px;
+  transform: scale(1, 0.4);
+  -webkit-animation: barUp2 4s infinite;
+  animation: barUp2 4s infinite;
+}
+
+.loader__bar:nth-child(3) {
+  left: 30px;
+  transform: scale(1, 0.6);
+  -webkit-animation: barUp3 4s infinite;
+  animation: barUp3 4s infinite;
+}
+
+.loader__bar:nth-child(4) {
+  left: 45px;
+  transform: scale(1, 0.8);
+  -webkit-animation: barUp4 4s infinite;
+  animation: barUp4 4s infinite;
+}
+
+.loader__bar:nth-child(5) {
+  left: 60px;
+  transform: scale(1, 1);
+  -webkit-animation: barUp5 4s infinite;
+  animation: barUp5 4s infinite;
+}
+
+.loader__ball {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: rgb(44, 143, 255);
+  border-radius: 50%;
+  -webkit-animation: ball624 4s infinite;
+  animation: ball624 4s infinite;
+}
+
+@keyframes ball624 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  5% {
+    transform: translate(8px, -14px);
+  }
+
+  10% {
+    transform: translate(15px, -10px);
+  }
+
+  17% {
+    transform: translate(23px, -24px);
+  }
+
+  20% {
+    transform: translate(30px, -20px);
+  }
+
+  27% {
+    transform: translate(38px, -34px);
+  }
+
+  30% {
+    transform: translate(45px, -30px);
+  }
+
+  37% {
+    transform: translate(53px, -44px);
+  }
+
+  40% {
+    transform: translate(60px, -40px);
+  }
+
+  50% {
+    transform: translate(60px, 0);
+  }
+
+  57% {
+    transform: translate(53px, -14px);
+  }
+
+  60% {
+    transform: translate(45px, -10px);
+  }
+
+  67% {
+    transform: translate(37px, -24px);
+  }
+
+  70% {
+    transform: translate(30px, -20px);
+  }
+
+  77% {
+    transform: translate(22px, -34px);
+  }
+
+  80% {
+    transform: translate(15px, -30px);
+  }
+
+  87% {
+    transform: translate(7px, -44px);
+  }
+
+  90% {
+    transform: translate(0, -40px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+
+  40% {
+    transform: scale(1, 0.2);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+@keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+
+  40% {
+    transform: scale(1, 0.2);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+@-webkit-keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+
+  40% {
+    transform: scale(1, 0.4);
+  }
+
+  50% {
+    transform: scale(1, 0.8);
+  }
+
+  90% {
+    transform: scale(1, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+
+@keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+
+  40% {
+    transform: scale(1, 0.4);
+  }
+
+  50% {
+    transform: scale(1, 0.8);
+  }
+
+  90% {
+    transform: scale(1, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+
+@-webkit-keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+
+@keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+
+@-webkit-keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+
+  40% {
+    transform: scale(1, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 0.4);
+  }
+
+  90% {
+    transform: scale(1, 0.4);
+  }
+
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+
+  40% {
+    transform: scale(1, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 0.4);
+  }
+
+  90% {
+    transform: scale(1, 0.4);
+  }
+
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@-webkit-keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.2);
+  }
+
+  90% {
+    transform: scale(1, 0.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.2);
+  }
+
+  90% {
+    transform: scale(1, 0.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+#navbar {
+
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+	/* -----------------------------------------------xxxx----------------------- */
+		
+</style>
+<!-- ---------------------------------js scripts -->
+<script>
+// Navbar toggle function for mobile screens
+function menuFunction() {
+    document.getElementById("bs4navbar").classList.toggle("show");
+}
+
+// Service dropdown toggle function
+function myFunction() {
+    document.getElementById("service").classList.toggle("show");
+}
+
+// Close dropdowns and navbar when clicking outside
+window.onclick = function(event) {
+    // Close dropdowns
+    if (!event.target.matches('.nav-link')) {
+        var dropdowns = document.getElementsByClassName("dropdown-menu");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+    
+    // Close navbar menu if clicked outside on mobile screens
+    var navbarMenu = document.getElementById("bs4navbar");
+    if (navbarMenu.classList.contains('show') && !event.target.closest('.navbar')) {
+        navbarMenu.classList.remove('show');
+    }
+}
+
+// Navbar scroll behavior
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var navbarMenu = document.getElementById("bs4navbar");
+    var currentScrollPos = window.pageYOffset;
+    var navbar = document.getElementById("navbar");
+    if (prevScrollpos > currentScrollPos) {
+        navbar.style.top = "0";
+        navbarMenu.style.top = "0";
+    } else {
+        navbar.style.top = "-60px"; // Hides the navbar when scrolling down
+       
+    }
+    prevScrollpos = currentScrollPos;
+}
+</script>
 
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar-default" data-offset="50">
+<body data-spy="scroll" data-target="navbar-default" data-offset="50">
     <!--=======PRELOADER=======-->
+	
     <div id="main-preloader" class="main-preloader semi-dark-background">
+	
         <div class="main-preloader-inner center">
-            <h2 class="preloader-percentage center">
-                <span class="preloader-percentage-text">0</span>
-                <span class="percentage">%</span>
-            </h2>
+		<!---------------------------------uiverse ---------------  -->
+		 
+		<div class="loader">
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__ball"></div>
+</div>
+		<!----------------------------- xxx----------------------------- -->
             <div class="preloader-bar-outer">
-                <div class="preloader-bar"></div>
+           <div class="eye"></div> 
+
+                <div class="preloader-bar">
+					
+				</div>
             </div>
         </div>
     </div>
-    <!-- Navbar -->
-	<div class="container">
-		<div class="row" style="height:auto">
-			<div class="col-md-8">
-			</div>
-			<div class="col-md-2">
-				<ul class="list-inline" style="text-align:center;padding-top:12px">
-					<li class="list-inline-item">
-						<a class="facebook social-icon" href="https://www.facebook.com/baleenmediaa/?ref=br_rs" title="Facebook" target="_blank"><i class=" fa-lg fa fa-facebook"></i></a>
-					</li>
-					<!-- <li class="list-inline-item">
-						<a class="twitter social-icon" href="https://twitter.com/" title="Twitter" target="_blank"><i class=" fa-lg fa fa-twitter"></i>
-						</a>
-					</li> -->
-					<li class="list-inline-item">
-						<a class="Youtube social-icon" href="https://www.youtube.com/channel/UCxlf0FlA1FvxPNaL08dCivA" title="Youtube" target="_blank"><i class=" fa-lg fa fa-youtube"></i>
-						</a>
-					</li> 
-					<li class="list-inline-item">
-						<a class="instagram social-icon" href="https://www.instagram.com/baleenmediaofficial/" title="Instagram" target="_blank"><i class=" fa-lg fa fa-instagram"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="Whatsapp social-icon" href="https://wa.me/919566031113" title="Whatsapp" target="_blank"><i class=" fa-lg fa fa-whatsapp"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-2" >			
-				<h4 style="text-align:center;padding-top:12px"><i class=" fa fa-phone fa-spin-hover"></i>  95660 31113</h4>			
-			</div>
-		</div>
-	</div>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/baleenmedia_logo.png" alt="ConsultYou"></a>
-            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#bs4navbar"><span class="navbar-toggler-icon"></span>
+	
+   
+	<nav class="navbar navbar-expand-lg navbar-light  mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;" id="navbar">
+	<div class="container ">
+    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="ConsultYou"></a>
+            <button class="navbar-toggler float-right" type="button"  onclick="menuFunction()"  ><span class="navbar-toggler-icon"></span>
             </button>
-            <div id="bs4navbar" class="collapse navbar-collapse">
+			<!-- <div class="baleen-logo ">
+				<h1 style=" ">Baleen <span>Media</span></h1>
+			</div> -->
+            <div id="bs4navbar" class="bar-menu collapse navbar-collapse">
                 <ul id="menu-primary" class="navbar-nav ml-auto">
                     <!-- Dropdown -->
                     <li class="menu-item">
-                        <a class="nav-link" href="https://www.baleenmedia.com">Home</a>                        
+                        <a class="nav-link " href="https://www.baleenmedia.com">Home</a>                        
                     </li>
                     <li class="menu-item ">
                         <a href="about.php" class="nav-link">About Us</a>
                     </li>
                     <!-- Dropdown -->
-                    <li class="menu-item dropdown">                         
-						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu">
-                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item">Newspaper and Magazine Ad</a>
-							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item">Paper Insert</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item">Bus Back Ad</a>
-							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item">NoParking Board</a>							
-							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item">Television Ad</a>
-							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item">Radio Ad</a>							
-							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item">Theatre Ad</a>							
-							<!--<a href="digitalmarketing-advertisement-agency-in-chennai.php" class="dropdown-item">Digital Marketing</a>							-->
+                    <li class="menu-item dropdown" >                         
+						<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
+                        <div class="dropdown-menu" id="service">
+                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ad</a>
+							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>
+                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Back Ad</a>
+							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>							
+							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ad</a>
+							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ad</a>													
+							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Back Ads</a>							
                         </div>
                     </li>
                     <!-- Dropdown -->
@@ -297,5 +733,5 @@
                     </li>
                 </ul>
             </div>
-        </div>
+            </div>
     </nav>

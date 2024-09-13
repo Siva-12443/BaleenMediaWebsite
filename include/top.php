@@ -662,12 +662,15 @@ window.onclick = function(event) {
 // Navbar scroll behavior
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
+  var navbarMenu = document.getElementById("bs4navbar");
     var currentScrollPos = window.pageYOffset;
     var navbar = document.getElementById("navbar");
     if (prevScrollpos > currentScrollPos) {
         navbar.style.top = "0";
+        navbarMenu.style.top = "0";
     } else {
-        navbar.style.top = "-500px"; // Hides the navbar when scrolling down
+        navbar.style.top = "-60px"; // Hides the navbar when scrolling down
+       
     }
     prevScrollpos = currentScrollPos;
 }

@@ -46,11 +46,11 @@ include('include/top.php');
 								<option>Select Service</option>								
 								<option>Newspaper Advertisement</option>
 								<option>Paper Insert</option>								
-								<option>Busback Advertisement</option>
+								<option>Bus Advertisement</option>
 								<option>Noparking Board</option>
 								<option>Television Advertisement</option>								
 								<option>Radio Advertisement</option>																
-								<option>Theatre Advertisement</option>																
+								<option></option>																
 								<!--<option>Digital Marketing</option>								-->
 							</select>
 						</div>
@@ -68,55 +68,9 @@ include('include/top.php');
     <!-- .empty-soace -->
  <div class="empty-space" style="height: 120px"></div>
 
-<!-- section title starts -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title">
-                    <div class="title">
-                        <h3 style="font-weight: 700">Few of Our Clients</h3>
-                    </div>                    
-                </div>
-                <!-- section_title starts -->
-            </div>
-        </div>
-    </div>
-    <!-- /.section title --> 
+
     
-    <section class="section-padding" style="padding: 20px;">
-        <div class="container">       
-           <section class="customer-logos slider">
-              <div class="slide"><img src="assets\images\portfolio\client\CanaraBank.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\ACEEngineering.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\Afton.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\AssetTreeHomes.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\BIG3.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\Venper.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\StarBiriyani.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\UBER.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\HandloomKing.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\MNEyeHospital.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\Mahsa.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\PINK.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\PrasanthHospitals.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\RepcoBank.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\sivetCollege.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\Sky pix.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\SRM.jpg"></div>  
-           </section>   
-           <section class="section-padding" style="padding: 20px;">
-        <div class="container">       
-           <section class="customer-logos slider">
-              <div class="slide"><img src="assets\images\portfolio\client\Wootunutrition.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\AaradyaaGold.jpg"></div>   
-              <div class="slide"><img src="assets\images\portfolio\client\CrescentHeights.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\UBEREATS.jpg"></div>  
-              <div class="slide"><img src="assets\images\portfolio\client\Vetri Home Appliance.jpg"></div>
-              <div class="slide"><img src="assets\images\portfolio\client\MGP.jpg"></div>
-          
-           </section>       
-        </div>
-    </section>  
+   
         </div>
     </section>
         <div class="empty-space" style="height: 120px"></div>

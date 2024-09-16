@@ -431,12 +431,7 @@ We are as excited to have you as you are for your brand growth.<br>
         transition: transform 0.3s ease, filter 0.3s ease;
     }
 
-    .gallery-item:hover img {
-        transform: scale(1.1);
-        filter: brightness(0.8);
-        filter: contrast(1);
-        filter: saturate(1.5);
-    }
+
 
     /* Mobile Two Column Layout */
     @media (max-width: 768px) {
@@ -488,7 +483,8 @@ We are as excited to have you as you are for your brand growth.<br>
         document.getElementById('our-works').classList.add('active');
     });
 </script>
-
+<!-- =======================================================content=================================== -->
+ 
 
 <section class="gallery-bg">
     <div class="gallery-container">
@@ -550,7 +546,7 @@ We are as excited to have you as you are for your brand growth.<br>
                 <h2>Our Team</h2>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="assets/images/demoimg.png" class="img-fluid bg-danger" alt="Team Member 1">
+                        <img src="assets/images/Leenah.jpg" class="img-fluid bg-danger" alt="Team Member 1">
                         <p><strong>Leenah Grace</strong><br>Proprietrix</p>
                     </div>
                     <div class="gallery-item">

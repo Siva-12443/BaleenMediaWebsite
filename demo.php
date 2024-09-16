@@ -1,3 +1,6 @@
+<?php
+include('include/top.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -235,3 +238,6 @@
 
 </body>
 </html>
+<?php
+include('include/footer.php');
+?>

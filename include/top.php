@@ -682,9 +682,9 @@ window.onscroll = function() {
 <body data-spy="scroll" data-target="navbar-default" data-offset="50">
     <!--=======PRELOADER=======-->
 	
-    <div id="main-preloader" class="main-preloader semi-dark-background">
+    <div id="main-preloader" class=" main-preloader semi-dark-background">
 	
-        <div class="main-preloader-inner center">
+        <div class=" main-preloader-inner center">
 		<!---------------------------------uiverse ---------------  -->
 		 
 		<div class="loader">
@@ -738,7 +738,7 @@ window.onscroll = function() {
                     </li>
                     <!-- Dropdown -->
                     <li class="menu-item">
-                        <a class="nav-link" href="gallery.php">PortFolio</a>                        
+                        <a class="nav-link" href="portfolio.php">PortFolio</a>                        
                     </li>                    
                     <li class="menu-item ">
                         <a href="contact.php" class="nav-link">Contact Us</a>

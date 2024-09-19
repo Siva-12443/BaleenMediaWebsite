@@ -19,13 +19,18 @@ color:#F1aAFF;
 		width: 100%;
 	}
 	#backtotop i {
-    cursor: pointer;
-    border-radius: 50px;
-    color: white;
-	background:#063b57;;
-	padding:25px 15px;
+		cursor: pointer;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #af82ff;
+    padding: 20px;
     transition: .3s;
+	font-size:20px;
 }	
+#backtotop{
+	width:50px;
+	height:30px;
+}
 		
 </style>
 	

@@ -265,12 +265,12 @@
             font-style: normal;
 		}
 #bs4navbar .menu-item .dropdown-menu a{
-		background-color:gray;
-		color:whitesmoke;
+  background-color: #fffaed;
+  color: #212121;
 	}
 	#bs4navbar .menu-item .dropdown-menu a:hover{
-		background-color:black;
-		color:white;
+    background-color:black;
+		color:whitesmoke;
 	}
 	/* ---------------------------------------------------------------loadings */
 	.main-preloader-inner{

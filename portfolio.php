@@ -169,13 +169,25 @@ include('include/top.php');
     border-radius:19px;
  }
  /*  =======================uiverse card ==========*/
+ .single-team{
+    background-color: #fffbf5;
+    padding-bottom:20px;
+ }
+ .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
  /* From Uiverse.io by eslam-hany */ 
 .teamcard {
   position: relative;
   width: 300px;
   height: 400px;
-  background: mediumturquoise;
+  background-color: #f1eafe;
+  /* background-image: linear-gradient(#f1eafe , #e0cefd, #c4a6fb); */
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
   font-size: 25px;
@@ -183,19 +195,31 @@ include('include/top.php');
   border-radius: 15px;
   cursor: pointer;
 }
+.teamcard h1{
+    font-size:30px;
+    font-weight:600;
+    font-family:poppins;
+    color:black;
+}
+.teamcard p{
+    color:black;
+    font-size:18px;
+    font-weight:600;
+    font-family:Nunito;
+}
 
 .teamcard::before,
 .teamcard::after {
   position: absolute;
   content: "";
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 25px;
   font-weight: bold;
-  background-color: lightblue;
+  background-image: linear-gradient( #e0cefd, #c4a6fb);
   transition: all 0.5s;
 }
 
@@ -218,10 +242,40 @@ include('include/top.php');
   border-radius: 15px;
   transition: all 0.5s;
 }
-
+ /* =========================single images nth child  division */
 .teamcard:hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
     background:url("assets/images/Leenah.jpg"); 
+    background-size:300px 400px;
+}
+.teamcard:nth-child(2):hover:after {
+    /* background-image:url("assets/images/Leenah.jpg"); */
+    background:url("assets/images/team.png"); 
+    background-size:300px 400px;
+}
+.teamcard:nth-child(3):hover:after {
+    /* background-image:url("assets/images/Leenah.jpg"); */
+    background:url("assets/images/team.png"); 
+    background-size:300px 400px;
+}
+.teamcard:nth-child(4):hover:after {
+    /* background-image:url("assets/images/Leenah.jpg"); */
+    background:url("assets/images/team.png"); 
+    background-size:300px 400px;
+}
+.teamcard:nth-child(5):hover:after {
+    /* background-image:url("assets/images/Leenah.jpg"); */
+    background:url("assets/images/team.png"); 
+    background-size:300px 400px;
+}
+.teamcard:nth-child(6):hover:after {
+    /* background-image:url("assets/images/Leenah.jpg"); */
+    background:url("assets/images/team.png"); 
+    background-size:300px 400px;
+}
+.teamcard:nth-child(7):hover:after {
+    /* background-image:url("assets/images/Leenah.jpg"); */
+    background:url("assets/images/team.png"); 
     background-size:300px 400px;
 }
   /* =========================fam */
@@ -234,76 +288,7 @@ include('include/top.php');
     object-fit: contain;
     border-radius:19px;
   }
-   /*  =================================*/
- .grp-card{
-    position: relative;
-            width: 100%;
-            
-            background: linear-gradient(135deg, #ff9a8b, #ff6a88);
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-            transition: transform 0.4s ease;
-            cursor: pointer;   
- }
-        .team-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            gap: 20px;
-        }
-        .team-card {
-            position: relative;
-            width: 100%;
-            max-width: 300px;
-            background: linear-gradient(135deg, #ff9a8b, #ff6a88);
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-            transition: transform 0.4s ease;
-            cursor: pointer;
-        }
-
-        .team-card:hover {
-            transform: translateY(-10px) scale(1.05);
-        }
-
-        .team-card img {
-            width: 100%;
-            border-radius: 15px 15px 0 0;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .team-card:hover img {
-            transform: scale(1.05);
-        }
-
-        .gallery-info {
-            padding: 20px;
-            background-color: #fff;
-            text-align: center;
-        }
-
-        .gallery-info h4 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        .gallery-info p {
-            font-size: 1rem;
-            color: #555;
-            margin-bottom: 0;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .gallery-grid {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
+   
 </style>
 <!-- ==========================stylesheet end ================================-->
 <!-- ==========================content ================================-->
@@ -476,7 +461,7 @@ include('include/top.php');
  
  <section class="our-team-bg">
 <!-- ============================group -->
-<h2 style="font-size: 30px; font-family:Montserrat;padding:20px 0px;">Fam of Baleen Media</h2>
+<h2 style="font-size: 40px; font-family:Montserrat;padding:20px 0px;">Fame of Baleen Media</h2>
 <div class="fam-contain">
     <div class="container-fluid">
         <div class="row">
@@ -494,7 +479,7 @@ include('include/top.php');
     </div>
 </div>
 <!-- ============================sliderteam -->
-<div class="container-fluid mb-5">
+<div class="container-fluid pb-5">
 <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -522,31 +507,30 @@ include('include/top.php');
   </button>
 </div>
 </div>
+</section>
  <!-- ============================single -->
- 
+ <section class="single-team">
  <h2 style="font-size: 50px; font-family:Montserrat;  padding:20px 0px;">Our Team</h2>
   <div class="team-grid">
-  
-  <div class="teamcard">Leenah Grace <br>Proprietrix</div>
-  <div class="team-card">
-                <img src="assets/images/Leenah.jpg" alt="Leenah Grace">
-                <div class="gallery-info">
-                    <h4>Leenah Grace</h4>
-                    <p>Proprietrix</p>
-                </div>
-            </div>
-            <div class="team-card">
-                <img src="https://via.placeholder.com/300x300?text=Team+Member+2" alt="Usha">
-                <div class="gallery-info">
-                    <h4>Usha</h4>
-                    <p>Marketing Manager</p>
-                </div>
-            </div>
-        </div>
-        </div>
-  </section>
+    <!-- card-1 -->
+  <div class="teamcard"><h1>Leenah Grace</h1>   <p>Proprietrix</p></div>
+  <!-- card-2 -->
+  <div class="teamcard"><h1>Usha Rani</h1>   <p>Procurement Manager</p></div>
+  <!-- card-3 -->
+  <div class="teamcard"><h1>Marry Monisha </h1>   <p>Client Support</p></div>
+  <!-- card-4 -->
+  <div class="teamcard"><h1>Sivaramakrishnan</h1>   <p>Full-stack developer</p></div>
+  <!-- card-5 -->
+  <div class="teamcard"><h1>Logeshwaran</h1>   <p>Full-stack developer</p></div>
+  <!-- card-6 -->
+  <div class="teamcard"><h1>Asath Kameel</h1>   <p>Full-stack developer</p></div>
+   <!-- card-7 -->
+   <div class="teamcard"><h1>Kumaravel</h1>   <p>Full-stack developer</p></div>
+</div>    
+</section> 
   <!-- ==========================our team end ================================-->
 <!-- ==========================content end================================-->
+<div class="empty-space" style="height:100px; background-image: linear-gradient(#fffbf5, #f8f9fa););"></div>
 <!-- =====================================script popup img -->
 
   <script>

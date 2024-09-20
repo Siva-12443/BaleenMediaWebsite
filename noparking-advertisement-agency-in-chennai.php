@@ -56,6 +56,62 @@ include('include/top_noparking.php');
     width:100%;
 }
 /* =================================================================================banner css end*/
+
+/* =================================================================================service-about css*/
+.service-about-bg{
+	background:#ede3fd;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding-bottom:20px;
+}
+.service-about-bg p{
+	font-size:18px;
+	font-weight:550;
+	padding:0px 20px;
+	font-family:nunito;
+	color:black;
+}
+.service-about-bg span{
+	font-family: "Gloria Hallelujah", cursive;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18.5px;
+	
+}
+
+.We-work-with-bg{
+	background:#fffbf5;
+}
+
+.section-padding{
+    zoom:40%;
+}
+.We-work-with-bg .smp {
+margin-bottom:20px;
+width:100%;
+border-radius:10px;
+border:1px solid;
+}
+.smp img{
+	border-radius:9px;
+	width:100%;
+}
+
+
+
+
+@media (min-width:1000px){
+    .section-padding{
+    zoom:150%;
+}  
+}
+@media (min-width: 580px) {
+    .section-padding{
+    zoom:160%;
+}  
+}
 </style>
 <!-- ==========================banner ================================-->
 <section class="service-banner"> 
@@ -72,97 +128,43 @@ include('include/top_noparking.php');
 </div>
 <img src="assets/images/wave1.png" class="wave"> 
  </section>
-
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title">
-                    <div class="title">
-                        <h2 style="font-weight: 700"> Types Of AD </h2>
-                    </div>                    
-                </div>
-                <!-- section_title starts -->
-            </div>
-        </div>
-    </div>
-    <!-- /.section title -->
-    <!-- .empty-soace -->
-    <div class="empty-space" style="height: 50px"></div>
-    <!-- /.empty-soace -->
-    <!-- service -->
-    <div class="container">
-        <div class="row">
-
-    <div class="col-lg-3 col-sm-6">
-                <div class="service-item">
-                    <div class="service-icon"> 
-                     <img class="img-fluid" src="assets\images\adtype\NoParkingInfrontOfGate.jpg" alt="img">
-                    </div>
-                    <div class="service-item-content">
-                        <h4> No Parking Board Ads - In Front of Gate </h4>
-<!--                         <p>Print Media is one of the strongest ways to reach</p>                       
- -->                    </div>                    
-                </div>
-            </div>
-        </div>
-    </div>   
- <div class="empty-space" style="height: 120px"></div>
-
-<!-- section title starts -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title">
-                    <div class="title">
-                        <h3 style="font-weight: 700">Few of Our Clients</h3>
-                    </div>                    
-                </div>
-                <!-- section_title starts -->
-            </div>
-        </div>
-    </div>
-    <!-- /.section title --> 
-	
-	<section class="section-padding" style="padding: 20px;">
-		<div class="container">		  
-		   <section class="customer-logos slider">
-			  <div class="slide"><img src="assets\images\portfolio\client\CanaraBank.jpg"></div>
-			  <div class="slide"><img src="assets\images\portfolio\client\ACEEngineering.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\Afton.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\AssetTreeHomes.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\BIG3.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\Venper.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\StarBiriyani.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\UBER.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\HandloomKing.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\MNEyeHospital.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\Mahsa.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\PINK.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\PrasanthHospitals.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\RepcoBank.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\sivetCollege.jpg"></div>
-			  <div class="slide"><img src="assets\images\portfolio\client\Sky pix.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\SRM.jpg"></div>	
-		   </section>	
-		   <section class="section-padding" style="padding: 20px;">
-		<div class="container">		  
-		   <section class="customer-logos slider">
-			  <div class="slide"><img src="assets\images\portfolio\client\Wootunutrition.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\AaradyaaGold.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\CrescentHeights.jpg"></div>
-			  <div class="slide"><img src="assets\images\portfolio\client\UBEREATS.jpg"></div>	
-			  <div class="slide"><img src="assets\images\portfolio\client\Vetri Home Appliance.jpg"></div>
-			  <div class="slide"><img src="assets\images\portfolio\client\MGP.jpg"></div>
-		  
-		   </section>		
+ <!-- ============================================================================================================================================= -->
+ <div class="empty-space" style="height:50px; background-image: linear-gradient(white,#ede3fd);"></div>
+<section class="service-about-bg">
+<h2 style="font-size: 40px; font-family:Montserrat;  padding:20px 0px;">Why No Parking Board Ads?</h2>
+<p>No parking board is an effective tool to target the local audience as it is noticed not only by the occupants of that building but also by the walkers passing by.Hence we are known for the best No parking advertisement company in Chennai. </p>
+<br>
+<p><span>Get your brand well known and remarkable by No parking advertisement.</span></p>
+</section>
+ <!-- =========================================================================================================================================== -->
+<section class="We-work-with-bg">
+<h2 style="font-size: 40px; font-family:Montserrat;  padding:30px 0px;">Sample Ads</h2> 
+<div class="container">
+	<div class="row">
+		<!-- card1 -->
+		<div class="col-md-4">
+			<div class="smp">
+				<img src="assets/images/no parking sample1.jpeg" alt="" class="img-fluid">
+			</div>
 		</div>
-    </section>	
+		<!-- card2 -->
+		<div class="col-md-4">
+			<div class="smp">
+				<img src="assets/images/no parking sample2.jpeg" alt="" class="img-fluid">
+			</div>
 		</div>
-    </section>
-        <div class="empty-space" style="height: 120px"></div>
+		<!-- card3 -->
+		<div class="col-md-4">
+			<div class="smp">
+				<img src="assets/images/no parking sample3.jpeg" alt="" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</div>
+</section>
 
 
+<div class="empty-space" style="height:100px; background-image: linear-gradient(#fffbf5, #f8f9fa);"></div>
 <?php
 include('include/footer.php');
 ?>

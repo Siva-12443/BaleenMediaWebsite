@@ -262,7 +262,7 @@
 			font-family: 'BathYork';
 			src: url('assets/fonts/BathYork-1j9qj.otf') format('opentype');
 			font-weight: normal;
-            font-style: normal;
+            font-style: normal; 
 		}
 #bs4navbar .menu-item .dropdown-menu a{
   background-color: #fffaed;

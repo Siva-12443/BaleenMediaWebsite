@@ -248,32 +248,32 @@ include('include/top.php');
 }
 .teamcard:nth-child(2):hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
-    background:url("assets/images/team.png"); 
+    background:url("assets/images/team/Usha mam.jpg"); 
     background-size:300px 400px;
 }
 .teamcard:nth-child(3):hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
-    background:url("assets/images/team.png"); 
+    background:url("assets/images/female.png"); 
     background-size:300px 400px;
 }
 .teamcard:nth-child(4):hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
-    background:url("assets/images/team.png"); 
+    background:url("assets/images/male.png"); 
     background-size:300px 400px;
 }
 .teamcard:nth-child(5):hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
-    background:url("assets/images/team.png"); 
+    background:url("assets/images/male.png"); 
     background-size:300px 400px;
 }
 .teamcard:nth-child(6):hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
-    background:url("assets/images/team.png"); 
+    background:url("assets/images/male.png"); 
     background-size:300px 400px;
 }
 .teamcard:nth-child(7):hover:after {
     /* background-image:url("assets/images/Leenah.jpg"); */
-    background:url("assets/images/team.png"); 
+    background:url("assets/images/male.png"); 
     background-size:300px 400px;
 }
   /* =========================fam */
@@ -320,40 +320,58 @@ include('include/top.php');
             </div>
             <!-- Card 2 -->
             <div class="gallery-card">
-                <img src="assets/images/portfolio/work/work2.jpg" alt="Image 2" class="gallery-image">
+                <img src="assets/images/portfolio/work/work11.jpg" alt="Image 2" class="gallery-image">
             </div>
             <!-- Card 3 -->
             <div class="gallery-card">
-                <img src="assets/images/portfolio/work/work3.jpg" alt="Image 3" class="gallery-image">
+                <img src="assets/images/portfolio/work/work12.jpg" alt="Image 3" class="gallery-image">
             </div>
             <!-- Card 4 -->
             <div class="gallery-card">
-                <img src="assets/images/portfolio/work/work4.jpg" alt="Image 4" class="gallery-image">
+                <img src="assets/images/portfolio/work/work14.jpg" alt="Image 4" class="gallery-image">
             </div>
-            <!-- Card 4 -->
+            <!-- Card 5 -->
             <div class="gallery-card">
-                <img src="assets/images/portfolio/work/work5.jpg" alt="Image 4" class="gallery-image">
+                <img src="assets/images/portfolio/work/work15.jpg" alt="Image 4" class="gallery-image">
             </div>
-            <!-- Card 4 -->
+            <!-- Card 6 -->
             <div class="gallery-card">
                 <img src="assets/images/portfolio/work/work6.jpg" alt="Image 4" class="gallery-image">
             </div>
-            <!-- Card 4 -->
+            <!-- Card 7 -->
             <div class="gallery-card">
                 <img src="assets/images/portfolio/work/work7.jpg" alt="Image 4" class="gallery-image">
             </div>
-            <!-- Card 4 -->
+            <!-- Card 8 -->
             <div class="gallery-card">
                 <img src="assets/images/portfolio/work/work8.jpg" alt="Image 4" class="gallery-image">
             </div>
-            <!-- Card 4 -->
+            <!-- Card 9 -->
             <div class="gallery-card">
                 <img src="assets/images/portfolio/work/work9.jpg" alt="Image 4" class="gallery-image">
             </div>
-            <!-- Card 4 -->
+            <!-- Card 10 -->
             <div class="gallery-card">
                 <img src="assets/images/portfolio/work/work10.jpg" alt="Image 4" class="gallery-image">
             </div>
+             <!-- Card 11 -->
+             <div class="gallery-card">
+                <img src="assets/images/portfolio/work/work16.jpg" alt="Image 4" class="gallery-image">
+            </div>
+             <!-- Card 12 -->
+             <div class="gallery-card">
+                <img src="assets/images/portfolio/work/work17.jpg" alt="Image 4" class="gallery-image">
+            </div>
+            <!-- Card 13 -->
+            <div class="gallery-card">
+                <img src="assets/images/portfolio/work/work18.jpg" alt="Image 4" class="gallery-image">
+            </div>
+            <!-- Card 14 -->
+            <div class="gallery-card">
+                <img src="assets/images/portfolio/work/work19.jpg" alt="Image 4" class="gallery-image">
+            </div>
+            
+            
             <!-- Add more cards as needed -->
         </div>
         

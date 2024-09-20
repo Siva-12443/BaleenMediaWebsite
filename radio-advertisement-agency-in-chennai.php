@@ -25,9 +25,7 @@ include('include/top_fm.php');
             line-height:1.4;
             color:#3d3d3d;
 }
-.service-banner img{
-    
-}
+
 @media (min-width: 1000px){
     .row1{
     display:flex;
@@ -145,7 +143,7 @@ include('include/top_fm.php');
 
 
 
- <div class="empty-space" style="height:100px; background-image: linear-gradient(#fffbf5, #f8f9fa););"></div>
+ <div class="empty-space" style="height:100px; background-image: linear-gradient(#fffbf5, #f8f9fa);"></div>
 
 <?php
 include('include/footer.php');

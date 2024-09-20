@@ -1,182 +1,79 @@
 <?php
 include('include/top_noparking.php');
 ?>
-    <!-- breadcrumb -->
-    <section class="breadcrumb-banner breadcrumb-bnr-shadow">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="breadcrumb-title">
-                        <h1>NoParking Advertisement</h1>
-                        <div class="breadcrumbs">
-                            <div id="crumbs">
-                                <a href="https://www.baleenmedia.com">Services</a> <i>>></i> <span class="active">NoParking Advertisement</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<style>
+	 /* =================================================================================banner css */
+.service-banner{
+    background-image: linear-gradient(#f1eafe, #e0cefd, #c4a6fb);
+    padding-top:30px;
+            border:0px;
+}
+.service-banner h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.service-banner p{
+    font-size:13px;
+            font-weight:bold;
+            font-family: "Nunito", sans-serif;
+            text-align:justify;
+            line-height:1.4;
+            color:#3d3d3d;
+}
+
+@media (min-width: 1000px){
+    .row1{
+    display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.service-banner h1{
+    font-family: "poppins", sans-serif;
+    text-align:left;
+    font-size: 60px;
+    font-weight:600;
+    border-bottom:2px solid black;
+    padding-bottom:10px;
+    margin-bottom:20px;
+}
+.service-banner p{
+    font-size:20px;
+            font-weight:bold;
+            font-family: "Nunito", sans-serif;
+            text-align:justify;
+            line-height:1.6;
+            color:#3d3d3d;
+}
+
+}
+
+.wave{
+    width:100%;
+}
+/* =================================================================================banner css end*/
+</style>
+<!-- ==========================banner ================================-->
+<section class="service-banner"> 
+<div class="container">
+    <div class="row1">
+        <div class="col-md-6">
+            <h1>No Parking Board Advertisement</h1>
+            <p>We are here to provide you the best No Parking Board Advertisement.</p>
         </div>
-    </section>
-    <!-- /.breadcrumb -->
-
-    <!-- single -->
-    <section class="section-padding">
-        <div class="container">
-            <div class="row single-post">
-                <div class="col-sm-8">
-                    <article class="post">
-                        <div class="post_thumbnail">
-                            <img src="assets/images/projects/NoParking.jpg" class="img-fluid" alt="Image"> </div>                       
-                        <!-- .entry-meta -->
-
-                        <div class="entry-content">                            
-                            <blockquote>
-                                <p class="justify"><i> 
-                                No parking board is an effective tool to target the local audience as it is noticed not only by the occupants of that building but also by the walkers passing by. It reads your product in their minds almost every time. It is an advertisement done on the society gate. It is not a very cost-effective kind of advertising. We recommend this tool for the customers who deal with the Business of providing day-to-day needs in general. If you want a regular reach of customers, `No Parking` Board Advertisements and No Parking Sign Board Creation are just best for you.
-It is a perfect tool if your business or brand is a day-to-day concern or need of your audience. We understand how this advertisement needs to be displayed under a certain locality, so we generally have a practice of taking an authorized person from our client's side to demonstrate the job carried out post-completion. Hence we are known for the best No parking advertisement company in Chennai. 
-<br>Get your brand well known and remarkable by No parking advertisement.
-
-</i></p>
-        <!--                        <p class="justify"><i>An effective tool to target the local audience & register your product -->
-								<!--in thier mind almost every day. We recommend this tool for the customers -->
-								<!--who deal with the Business of supplying day to day needs in general. -->
-								<!--However, We have customer who promotes thier Brand values by targeting -->
-								<!--specific Areas in the city around. We generally have a practice of -->
-								<!--taking an authorized person from our Client's side to demonstrate the -->
-								<!--Job carried out post completion.-->
-								<!--No parking board is an effective tool to target the local audience as -->
-								<!--it is noticed not only by the occupants of that building but also by -->
-								<!--the walkers passing by. It reads your product in their minds almost every time. -->
-								<!--It is an advertisement done on the society gate. It is not a very cost-effective -->
-								<!--kind of advertising. We recommend this tool for the customers who deal with the Business -->
-								<!--of providing day-to-day needs in general. If you want a regular reach of customers, -->
-								<!--`No Parking` Board Advertisements and No Parking Sign Board Creation are just best for you.-->
-        <!--                        It is a perfect tool if your business or brand is a day-to-day concern or need of your audience.-->
-        <!--                        We understand how this advertisement needs to be displayed under a certain locality, -->
-        <!--                        so we generally have a practice of taking an authorized person from our client's side -->
-        <!--                        to demonstrate the job carried out post-completion. </i></p>-->
-                            </blockquote>                            
-                        </div>
-                        <!-- .entry-content -->
-                    </article>                   
-                   
-                </div>
-
-                <div class="col-sm-4">
-                    <aside class="widget-area">                        
-                        <section class="widget widget_ConsultYou_recent_post">
-                            <h4 class="widget-title">Other Services</h4>
-                            <div class="recent-post-widget">
-
-                                <div class="row">
-									<div class="col-sm-3">
-										<div class="service-item-2">
-											<div class="service-icon">
-												<a href="bus-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">
-													<i class="fa fa-fw fa-bus fa-spin-hover" style="margin-top:7px;color:white"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-9" Style="margin-top: 16px;">
-										<p>Bus and Auto Back Advertisement</p>
-									</div>
-								</div>                                
-                                <div class="row">
-									<div class="col-sm-3">
-										<div class="service-item-2">
-											<div class="service-icon">
-												<a href="radio-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">
-													<i class="fa fa-fw fa-microphone fa-spin-hover" style="margin-top:7px;color:white"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-9" Style="margin-top: 16px;">
-										<p>Radio Advertisement</p>
-									</div>
-								</div>
-                                <div class="row">
-									<div class="col-sm-3">
-										<div class="service-item-2">
-											<div class="service-icon">
-												<a href="tv-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">
-													<i class="fa fa-fw fa-television fa-spin-hover" style="margin-top:7px;color:white"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-9" Style="margin-top: 16px;">
-										<p>Television Advertisement</p>
-									</div>
-								</div>
-                                <div class="row">
-									<div class="col-sm-3">
-										<div class="service-item-2">
-											<div class="service-icon">
-												<a href="newspaper-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">
-													<i class="fa fa-fw fa-newspaper-o fa-spin-hover" style="margin-top:7px;color:white"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-9" Style="margin-top: 16px;">
-										<p>NewsPaper and Magazine Advertisement</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-3">
-										<div class="service-item-2">
-											<div class="service-icon">
-												<a href="theatre-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">
-													<i class="fa fa-fw fa-film fa-spin-hover" style="margin-top:7px;color:white"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-9" Style="margin-top: 16px;">
-										<p>Theatre Advertisement</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-3">
-										<div class="service-item-2">
-											<div class="service-icon">
-												<a href="paperinsert-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">
-													<i class="fa fa-fw fa-book fa-spin-hover" style="margin-top:7px;color:white"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-9" Style="margin-top: 16px;">
-										<p>Paper Inserts</p>
-									</div>
-								</div>
-								<!--<div class="row">-->
-								<!--	<div class="col-sm-3">-->
-								<!--		<div class="service-item-2">-->
-								<!--			<div class="service-icon">-->
-								<!--				<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="background:linear-gradient(to right, #2c97d1, #e25b93);color:white">-->
-								<!--					<i class="fa fa-fw fa-facebook-official fa-spin-hover" style="margin-top:7px;color:white"></i>-->
-								<!--				</a>-->
-								<!--			</div>-->
-								<!--		</div>-->
-								<!--	</div>-->
-								<!--	<div class="col-sm-9" Style="margin-top: 16px;">-->
-								<!--		<p>Digital Marketing</p>-->
-								<!--	</div>-->
-								<!--</div>-->
-                            </div>
-
-                        </section>                        
-                    </aside>
-                </div>
-            </div>
-            <!-- /.row -->
+        <div class="col-md-6">
+            <img src="assets/images/service cards/no parking home (2).png" alt="" class="img-fluid pb-5 pt-5">
         </div>
-        <!-- /.container -->
-    </section>
+    </div>
+</div>
+<img src="assets/images/wave1.png" class="wave"> 
+ </section>
+
+    
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">

@@ -26,9 +26,7 @@ include('include/top.php');
             line-height:1.4;
             color:#3d3d3d;
 }
-.folio-banner img{
-    
-}
+
 @media (min-width: 1000px){
     .row1{
     display:flex;
@@ -132,7 +130,7 @@ include('include/top.php');
 .image-popup img {
     max-width: 90vw;
     max-height: 80vh;
-    filter:;
+    
 }
 .image-popup.open {
     transform: translate(-50%, -50%) scale(1);
@@ -530,7 +528,7 @@ include('include/top.php');
 </section> 
   <!-- ==========================our team end ================================-->
 <!-- ==========================content end================================-->
-<div class="empty-space" style="height:100px; background-image: linear-gradient(#fffbf5, #f8f9fa););"></div>
+<div class="empty-space" style="height:100px; background-image: linear-gradient(#fffbf5, #f8f9fa);"></div>
 <!-- =====================================script popup img -->
 
   <script>

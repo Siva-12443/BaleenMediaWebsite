@@ -1,5 +1,5 @@
 <?php
-include('include/top_noparking.php');
+include('include/top.php');
 ?>
 <style>
 	 /* =================================================================================banner css */
@@ -18,7 +18,7 @@ include('include/top_noparking.php');
     margin-bottom: 20px;
 }
 .service-banner p{
-    font-size:13px;
+    font-size:13px; 
             font-weight:bold;
             font-family: "Nunito", sans-serif;
             text-align:justify;

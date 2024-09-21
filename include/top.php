@@ -725,7 +725,7 @@ window.onscroll = function() {
                     </li>
                     <!-- Dropdown -->
                     <li class="menu-item dropdown" >                         
-						<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
+					<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
                         <div class="dropdown-menu" id="service">
                             <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ad</a>
 							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>
@@ -734,8 +734,7 @@ window.onscroll = function() {
 							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ad</a>
 							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ad</a>													
 							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
-              <a href="hoardings.php" class="dropdown-item ">Hoardings</a>							
-                        </div>
+                            <a href="hoardings.php" class="dropdown-item ">Hoardings</a>	
                     </li>
                     <!-- Dropdown -->
                     <li class="menu-item">

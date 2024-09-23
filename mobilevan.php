@@ -122,7 +122,7 @@ border:1px solid;
             <p>We are here to provide you the best Mobile Van Advertisement.</p>
         </div>
         <div class="col-md-6">
-            <img src="assets/images/traffic.png" alt="" class="img-fluid pb-5 pt-5">
+            <img src="assets/images/mobilevan pic.webp" alt="" class="img-fluid pb-5 pt-5 rounded-lg">
         </div>
     </div>
 </div>
@@ -132,7 +132,9 @@ border:1px solid;
  <div class="empty-space" style="height:50px; background-image: linear-gradient(white,#ede3fd);"></div>
 <section class="service-about-bg">
 <h2 style="font-size: 40px; font-family:Montserrat;  padding:20px 0px;">Why Mobile Van Ads?</h2>
-<p>Our team of creative professionals understands the importance of standing out in a crowded marketplace. We leverage the strategic placement of barricades in high-traffic areas to maximize your brand’s visibility.</p>
+<p>These types of advertisements are commonly used for promotional activities such as launching a program, the Inauguration of companies, advertisements of corporate companies etc.
+
+Successful BTL activities are all about creating engaging and memorable consumer experiences.</p>
 <br>
 <p><span>Get your brand well known and remarkable by Mobile Van Advertisement.</span></p>
 </section>
@@ -144,19 +146,19 @@ border:1px solid;
 		<!-- card1 -->
 		<div class="col-md-4">
 			<div class="smp">
-				<img src="assets/images/service cards/traffic-1.jpg" alt="" class="img-fluid">
+				<img src="assets/images/portfolio/work/work16.jpg" alt="" class="img-fluid">
 			</div>
 		</div>
         <!-- card2 -->
 		<div class="col-md-4">
 			<div class="smp">
-				<img src="assets/images/service cards/traffic-2.jpg" alt="" class="img-fluid">
+				<img src="assets/images/portfolio/work/work17.jpg" alt="" class="img-fluid">
 			</div>
 		</div>
         <!-- card3 -->
 		<div class="col-md-4">
 			<div class="smp">
-				<img src="assets/images/service cards/traffic-3.jpg" alt="" class="img-fluid">
+				<img src="assets/images/portfolio/work/work7.jpg" alt="" class="img-fluid">
 			</div>
 		</div>
 		

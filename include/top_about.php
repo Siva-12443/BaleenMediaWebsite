@@ -3,14 +3,14 @@
 <head>
 
  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,6 +52,13 @@
     <meta name="author" content="Baleen Media">
     <meta name="description" content="Best hoarding advertising in Chennai by Baleen Media. We Specialize in creating top hoardings. Our hoarding advertising solutions are best for your business.">
     <meta name="author" content="Baleen Media">
+	
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
+
     <!-- Site Title-->
     <title> Top Hoarding Advertising in Chennai | Advertising Company</title>
     <link rel="canonical" href="https://baleenmedia.com/about.php" />

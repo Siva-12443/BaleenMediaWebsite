@@ -4,14 +4,14 @@
 	<!-- <-----fontAwesome----------->
 <script src="https://kit.fontawesome.com/61526c3cb9.js" crossorigin="anonymous"></script>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
@@ -124,6 +124,11 @@ bus shelter ads, government bus stand advertising, and bus bay placements across
 Maximise local engagement and drive traffic to your business with strategic Chennai bus
 advertising.">
     <meta name="author" content="Baleen Media">
+    <!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
     <!-- Site Title-->
     <title> Effective Chennai Bus Stop Advertising | Bus Shelter & Bus Bay Ads
 </title>

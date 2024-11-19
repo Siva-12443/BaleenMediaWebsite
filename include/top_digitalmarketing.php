@@ -3,14 +3,14 @@
 <head>
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -18,6 +18,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Top digital marketing agency in chennai, Get ready for high business returns with Baleen Media, perfect salutions for taking your business online check with us .">
     <meta name="author" content="Baleen Media">
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
     <!-- Site Title-->
     <title> Digital Marketing Agency in Chennai | Get online sucess with Baleen Media
 

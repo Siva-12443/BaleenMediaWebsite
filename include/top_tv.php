@@ -3,14 +3,14 @@
 <head>
 
  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
@@ -33,6 +33,10 @@
     <meta name="keywords" content="TV Advertising Agency in Chennai">
     <meta name="description" content="We are experts at crafting interesting TV commercials that enthrall viewers and produce outcomes. Partner with Baleen Media for best TV advertising in Chennai.">
     <meta name="author" content="Baleen Media">
+	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
     <!-- Site Title-->
     <title>  Top-tier TV advertising in Chennai | Contact us today </title>
     <!-- Favicon-->

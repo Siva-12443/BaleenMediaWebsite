@@ -3,14 +3,14 @@
 <head>
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -20,6 +20,11 @@
     <meta name="keywords" content="Advertising agency in chennai ">
     <meta name="description" content="Find top advertising agency services in Chennai with a vast client portfolio, delivering creative and impactful campaigns for brands across industries. Call Now">
     <meta name="author" content="Baleen Media">
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
     <!-- Site Title-->
     <title> Advertising Agency in Chennai | Client Portfolio </title>
     <!-- Favicon-->

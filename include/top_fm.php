@@ -3,14 +3,14 @@
 <head>
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
@@ -32,6 +32,11 @@
     <meta name="keywords" content="fm radio advertising agency Chennai">
     <meta name="description" content="Boost your brand's visibility with the best Fm radio advertising in Chennai. Our unique ways and creativity ensure your message connect with all over the media.">
     <meta name="author" content="Baleen Media">
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
     <!-- Site Title-->
     <title> Fm Radio Advertising Agency in Chennai | Reach Your Brand 
  </title>

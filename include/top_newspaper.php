@@ -9,6 +9,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Increase brand visibility and reach a wide audience with effective newspaper advertising in Chennai. Partner with the best newspaper ad agency in Chennai to showcase your brand in leading newspapers across Tamil Nadu.">
 <meta name="author" content="Baleen Media">
+<!-- Google tag (gtag.js) --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
 <!-- Site Title-->
 <title>Best Newspaper Advertising in Chennai | Baleen Media</title>
 	<!-- <-----fontAwesome----------->

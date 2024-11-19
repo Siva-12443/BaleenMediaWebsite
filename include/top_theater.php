@@ -3,14 +3,14 @@
 <head>
 
  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -20,6 +20,11 @@
     <meta name="keywords" content="Theatre advertisement agency in Chennai ">
     <meta name="description" content="Get unique Ads, Chennai's best theatrical advertising agency. Increase your brand's awareness by unique and effective ad campaigns suited to your target group.">
     <meta name="author" content="Baleen Media">
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
     <!-- Site Title-->
     <title> Theatre Advertsiment Agency in Chennai | Boost By Unique Ads
 </title>

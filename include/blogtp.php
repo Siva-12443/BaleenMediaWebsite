@@ -3,14 +3,14 @@
 <head>
 
  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -57,7 +57,11 @@
     <meta name="keywords" content="Advertising agency in chennai ">
     <meta name="description" content="Read our insightful blog. Baleenmedia is the best advertising agency in Chennai, we are offer services Including -Television ads, Radio ads, Auto back ads.">
     <meta name="author" content="Baleen Media">
-
+    <!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16775319251"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16775319251'); 
+	</script>
   
     <!-- Site Title-->
     <title>Read our insightful Blogs  - Baleenmedia  

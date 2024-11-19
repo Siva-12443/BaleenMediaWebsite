@@ -16,11 +16,11 @@
 {
 "@context": "https://schema.org",
 "@type": "Service",
-"serviceType": "Bus Advertising",
+"serviceType": "Bus Shelter Advertising",
 "provider": {
 "@type": "Organization",
 "name": "Baleen Media",
-"url": "https://baleenmedia.com/bus-advertisement-agency-in-chennai.php",
+"url": “https://baleenmedia.com/busshelter.php",
 "logo": "https://www.baleenmedia.com/assets/images/thumbnail.png", // Replace with actual logo URL
 "sameAs": [
 "https://www.facebook.com/baleenmedia",
@@ -50,15 +50,14 @@
 "price": "[Advertising Cost]", // Replace with actual price
 "itemOffered": {
 "@type": "Service",
-"name": "Bus Advertising",
-"description": "Expert bus advertising and branding services in Chennai, including government bus
-ads and bus back advertising to maximise visibility and engagement."
+"name": "Bus Shelter Advertising",
+"description": “High-visibility hoarding advertisements in Chennai, including lit, non-lit, digital, and
+unipole options for maximum brand reach."
 }
 },
-"description": "Boost your brand’s reach in Chennai with MTC bus advertising and bus branding. Explore
-options for government bus ads and bus back advertising, designed for high visibility. As a trusted bus
-advertising agency, we offer cost-effective solutions for impactful campaigns across Chennai’s transit
-network."
+"description": "Professional bus stop advertising services in Chennai, including bus shelter advertising,
+government bus stand ads, and bus bay advertisements for maximum visibility and impact across the city.
+Ideal for businesses looking to reach daily commuters with strategically placed, high-traffic ads."
 }
 </script>
     <!-- <script type="application/ld+json">
@@ -117,15 +116,16 @@ network."
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="MTC Bus Advertising & Branding Agency in Chennai | Government Bus Ads & Costs | Baleen Media">
-    <meta name="keywords" content="mtc bus advertising in chennai, bus branding, government bus advertising, bus back advertising cost in chennai, bus advertising agency in chennai">
+    <meta name="title" content="Effective Chennai Bus Stop Advertising | Bus Shelter & Bus Bay Ads">
+    <meta name="keywords" content="Chennai bus stop advertising, Bus shelter Advertising in Chennai, Government Bus stand Advertising, bus bay advertisement in Chennai">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Discover MTC bus advertising solutions in Chennai with tailored options for
-bus branding, government bus ads, and bus back advertising. We are Chennai's top bus
-advertising agency for effective transit campaigns and transparent cost details !">
+    <meta name="description" content="Boost your brand visibility with bus stop advertising in Chennai. Reach thousands daily through
+bus shelter ads, government bus stand advertising, and bus bay placements across the city.
+Maximise local engagement and drive traffic to your business with strategic Chennai bus
+advertising.">
     <meta name="author" content="Baleen Media">
     <!-- Site Title-->
-    <title> MTC Bus Advertising & Branding Agency in Chennai | Government Bus Ads & Costs | Baleen Media
+    <title> Effective Chennai Bus Stop Advertising | Bus Shelter & Bus Bay Ads
 </title>
 <link rel="canonical" href="https://baleenmedia.com/" />
     <!-- Favicon-->

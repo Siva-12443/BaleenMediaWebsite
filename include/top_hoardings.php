@@ -16,11 +16,11 @@
 {
 "@context": "https://schema.org",
 "@type": "Service",
-"serviceType": "Bus Advertising",
+"serviceType": "Hoarding Advertising",
 "provider": {
 "@type": "Organization",
 "name": "Baleen Media",
-"url": "https://baleenmedia.com/bus-advertisement-agency-in-chennai.php",
+"url": "https://baleenmedia.com/hoardings.php",
 "logo": "https://www.baleenmedia.com/assets/images/thumbnail.png", // Replace with actual logo URL
 "sameAs": [
 "https://www.facebook.com/baleenmedia",
@@ -50,15 +50,14 @@
 "price": "[Advertising Cost]", // Replace with actual price
 "itemOffered": {
 "@type": "Service",
-"name": "Bus Advertising",
-"description": "Expert bus advertising and branding services in Chennai, including government bus
-ads and bus back advertising to maximise visibility and engagement."
+"name": "Hoarding Advertising",
+"description": "High-visibility hoarding advertisements in Chennai, including lit, non-lit, digital, and
+unipole options for maximum brand reach."
 }
 },
-"description": "Boost your brand’s reach in Chennai with MTC bus advertising and bus branding. Explore
-options for government bus ads and bus back advertising, designed for high visibility. As a trusted bus
-advertising agency, we offer cost-effective solutions for impactful campaigns across Chennai’s transit
-network."
+"description": "Discover impactful hoarding and billboard advertising solutions in Chennai. Explore
+options for digital billboards, hoarding ads, and competitive billboard advertising costs to elevate your
+brand visibility with maximum reach. Contact us for customised outdoor advertising strategies!"
 }
 </script>
     <!-- <script type="application/ld+json">
@@ -117,15 +116,16 @@ network."
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="MTC Bus Advertising & Branding Agency in Chennai | Government Bus Ads & Costs | Baleen Media">
-    <meta name="keywords" content="mtc bus advertising in chennai, bus branding, government bus advertising, bus back advertising cost in chennai, bus advertising agency in chennai">
+    <meta name="title" content="Hoarding & Billboard Advertising in Chennai | Baleen Media">
+    <meta name="keywords" content="digital billboard advertising in chennai, hoarding advertising, billboard advertising, billboard advertising cost, hoarding ads">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Discover MTC bus advertising solutions in Chennai with tailored options for
-bus branding, government bus ads, and bus back advertising. We are Chennai's top bus
-advertising agency for effective transit campaigns and transparent cost details !">
+    <meta name="description" content="Discover impactful hoarding and billboard advertising solutions in Chennai.
+Explore options for digital billboards, hoarding ads, and competitive billboard advertising costs
+to elevate your brand visibility with maximum reach. Contact us for customised outdoor
+advertising strategies !">
     <meta name="author" content="Baleen Media">
     <!-- Site Title-->
-    <title> MTC Bus Advertising & Branding Agency in Chennai | Government Bus Ads & Costs | Baleen Media
+    <title> Hoarding & Billboard Advertising in Chennai | Baleen Media
 </title>
 <link rel="canonical" href="https://baleenmedia.com/" />
     <!-- Favicon-->

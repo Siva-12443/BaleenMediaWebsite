@@ -39,7 +39,7 @@ include('include/top.php');
           
          padding-top:50px;
           /* box-shadow: 0px 0px 5px #4d4c4c7a; */
-          background-image: linear-gradient(#f1eafe, #e0cefd, #c4a6fb);
+          background-color:#F1EAFF;
       }
       .about-section_about h1 {
         font-family: "poppins", sans-serif;

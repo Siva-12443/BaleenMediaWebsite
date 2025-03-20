@@ -20,18 +20,18 @@ $databases = [
     ],
 ];
 
-$backup_dir = __DIR__ . '/DailyBackup';
+$backup_dir = __DIR__ . '/HourlyBackup';
 
 if (!is_dir($backup_dir)) {
     mkdir($backup_dir, 0755, true);
 }
 
 // Get the current day of the week (e.g., "Monday")
-$day_of_week = date('l');
+$current_time = date('His');
 
 foreach ($databases as $db) {
     // Create a backup filename with the format dbname_day
-    $backup_file = $backup_dir . '/backup_' . $db['name'] . '_' . $day_of_week . '.sql';
+    $backup_file = $backup_dir . '/backup_' . $db['name'] . '_' . $current_time . '.sql';
 
     // Execute the mysqldump command
     $command = "mysqldump --host={$db['host']} --user={$db['user']} --password={$db['pass']} {$db['name']} > $backup_file";

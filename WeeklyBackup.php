@@ -20,7 +20,7 @@ $databases = [
     ],
 ];
 
-$backup_dir = __DIR__ . '/DailyBackup';
+$backup_dir = __DIR__ . '/WeeklyBackup';
 
 if (!is_dir($backup_dir)) {
     mkdir($backup_dir, 0755, true);

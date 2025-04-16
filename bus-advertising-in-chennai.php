@@ -1,3 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <-----fontAwesome----------->
+  <script type="application/ld+json">
+    <?php echo file_get_contents(__DIR__ . '/json/bus-schema.json'); ?>
+  </script>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="title" content="Bus Advertising in Chennai | MTC Bus Branding Agency - Baleen Media">
+  <meta name="google-site-verification" content="ag4YAzKPy59TOGFFIbjzD8ihGHRgjSAAdz5eV52cJbg" />
+  <meta name="description" content="Discover high-impact Bus Advertising in Chennai with Baleen Media. From full bus wraps to back panel ads, our MTC bus branding services deliver maximum visibility at competitive prices.">
+  <meta name="keywords" content="bus advertising in chennai, mtc bus advertising in chennai, bus branding, government bus advertising, bus back advertising cost in chennai, bus advertising agency in chennai, best bus advertising in chennai, bus ads at lowest price, btl ads, Chennai City Bus Ads">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Baleen Media">
+
+  <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K47T5412CZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K47T5412CZ'); // Replace with your Measurement ID
+  </script>
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P7F32DSR');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Site Title-->
+  <title>Bus Advertising in Chennai | MTC Bus Branding Agency - Baleen Media</title>
+  <link rel="canonical" href="https://baleenmedia.com/bus-advertising-in-chennai" />
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
+  <link rel="icon" href="assets/images/thumbnail.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="index.css" rel="stylesheet">
+  <!-- Plugins  -->
+  <link href="assets/css/output.css" rel="stylesheet">
+
+
+</head>
+
 <?php
 include('include/top_bus.php');
 ?>
@@ -197,7 +261,7 @@ include('include/top_bus.php');
 </style>
 
 <!-- ==========================banner ================================-->
-<section class="service-banner"> 
+<section class="bg-gradient-animation bg-[length:400%_400%] animate-gradient"> 
         <div class="row1 justify-content-between">
             <div class="col-md-6">
                 <h1>Bus Advertising in Chennai - MTC Bus Branding by Baleen Media</h1>
@@ -323,3 +387,4 @@ include('include/top_bus.php');
 <?php
 include('include/footer.php');
 ?>
+</html>

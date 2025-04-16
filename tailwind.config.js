@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        merriweather: ['Merriweather', 'serif'],
+      },
       colors: {
         baleen: '#201f54',
       },
